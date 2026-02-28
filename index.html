@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>S.I.E.G. Global Radar</title>
+    <meta http-equiv="refresh" content="1800">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>body { background: #1a1a1a; color: #00ff00; font-family: monospace; text-align: center; }</style>
+</head>
+<body>
+    <h1>🛡️ S.I.E.G. GEOPOLITICAL RADAR</h1>
+    <div style="width: 50%; margin: auto;"><canvas id="radarChart"></canvas></div>
+    <script>
+        const ctx = document.getElementById('radarChart');
+        new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['ARGENTINA', 'ASIA PACIFICO', 'AUSTRALIA', 'BRASIL', 'CHINA', 'ESPANA', 'EUROPA CORE', 'IRAN M ORIENTE', 'LATAM', 'MEXICO', 'NORTH KOREA', 'RUSIA UCRANIA', 'SAHEL', 'USA'],
+                datasets: [{
+                    label: 'Risk Level %',
+                    data: [20, 20, 20, 20, 20, 40, 20, 75, 20, 21, 48, 80, 36, 29],
+                    backgroundColor: 'rgba(0, 255, 0, 0.2)',
+                    borderColor: '#00ff00'
+                }]
+            }
+        });
+    </script>
+</body>
+</html>

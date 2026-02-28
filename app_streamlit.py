@@ -39,6 +39,10 @@ else:
 
     df = pd.DataFrame(data_list)
 
+    # --- AÑADE ESTA LÍNEA JUSTO AQUÍ ---
+    df['ULT. ACTUALIZACIÓN'] = df['ULT. ACTUALIZACIÓN'].astype(str)
+    # ----------------------------------
+
     # Dashboard Layout
     col1, col2 = st.columns([1, 2])
 
