@@ -68,7 +68,10 @@ if data_list:
 
     if os.path.exists(history_path):
         df_hist = pd.read_csv(history_path)
-        df_hist['timestamp'] = pd.to_datetime(df_hist['timestamp'])
+        # --- CAMBIO AQUÍ: Limpieza de fechas robusta ---
+        df_hist['timestamp'] = pd.to_datetime(df_hist['timestamp'], errors='coerce')
+        df_hist = df_hist.dropna(subset=['timestamp']) # Borra las filas con fechas corruptas
+        # -----------------------------------------------
         
         # Selector de región para no saturar el gráfico
         regiones_disponibles = sorted(df_hist['region'].unique())
