@@ -1,4 +1,3 @@
-cat << 'EOF' > app_streamlit.py
 import streamlit as st
 import json
 import glob
@@ -66,4 +65,3 @@ else:
 
 st.divider()
 st.caption("SISTEMA DE INTELIGENCIA ESTRATÉGICA GLOBAL - V8.7")
-EOF
