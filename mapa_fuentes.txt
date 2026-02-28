@@ -1,0 +1,55 @@
+# REGION | URL | CF (Confianza 0.0-1.0) | SESGO
+Iran_M_Oriente | https://www.tehrantimes.com/rss | 0.4 | ESTATAL_IR
+Iran_M_Oriente | https://www.jpost.com/rss/rssfeeds.aspx?categoryid=1 | 0.6 | ISRAEL_B
+Iran_M_Oriente | https://www.aljazeera.com/xml/rss/all.xml | 0.7 | ARABE_INT
+Espana | https://www.elmundo.es/rss/index.xml | 0.8 | LOCAL_C
+Espana | https://servicios.larazon.es/rss/portada.xml | 0.8 | LOCAL_R
+Rusia_Ucrania | https://tass.com/rss/v2.xml | 0.3 | PROPAGANDA_RU
+Rusia_Ucrania | https://kyivindependent.com/feed/ | 0.7 | PRO_UA
+Rusia_Ucrania | https://www.reutersagency.com/feed/ | 1.0 | NEUTRAL_INT
+USA | https://rss.nytimes.com/services/xml/rss/nyt/World.xml | 0.9 | LIBERAL_US
+China | http://www.scmp.com/rss/2/feed | 0.6 | HK_SENSITIVE
+Latam | https://feeds.elpais.com/mrss-s/el_pais/seccion/america/ | 0.8 | REGIONAL_ES
+Mexico | https://www.reforma.com/rss/portada.xml | 0.8 | LOCAL_MX
+Argentina | https://www.lanacion.com.ar/arc/reporting-pwa/feeds/rss/?outputType=xml | 0.8 | LOCAL_AR
+Brasil | https://g1.globo.com/index/amp/ | 0.8 | LOCAL_BR
+Sahel | https://www.france24.com/en/africa/rss | 0.7 | COLONIAL_B
+Asia_Pacifico | https://www.japantimes.co.jp/feed/ | 0.8 | REGIONAL_JP
+Europa_Core | https://www.dw.com/xml/rss-berlin | 0.9 | NEUTRAL_DE
+# REGION | URL | CF | SESGO
+# --- ORIENTE MEDIO (Filtro de Disonancia Activo) ---
+Iran_M_Oriente | https://www.longwarjournal.org/feed | 1.0 | OSINT_CONFLCT
+Iran_M_Oriente | https://www.jpost.com/rss/rssfeeds.aspx?categoryid=1 | 0.7 | REGIONAL_ISR
+Iran_M_Oriente | http://feeds.feedburner.com/haaretz/fMCo | 0.8 | INDEP_ISR
+
+# --- RUSIA / UCRANIA (Monitoreo de Frente) ---
+Rusia_Ucrania | https://liveuamap.com/rss | 1.0 | OSINT_LIVE
+Rusia_Ucrania | https://www.understandingwar.org/rss.xml | 0.9 | ANALISIS_ISW
+Rusia_Ucrania | https://tass.com/rss/v2.xml | 0.2 | ESTATAL_RU
+
+# --- CHINA / COREA DEL NORTE (Filtro de Opacidad) ---
+China | https://vpk.name/en/rss/ | 0.7 | DEFENSE_ASIA
+North_Korea | https://www.nknews.org/feed/ | 0.9 | OSINT_NK
+North_Korea | https://en.yna.co.kr/RSS/northkorea.xml | 0.8 | REGIONAL_SK
+
+# --- SAHEL / AFRICA (Alertas de Golpe/Terrorismo) ---
+Sahel | https://news.un.org/feed/view/en/taxonomy/term/1018/feed/rss.xml | 0.9 | INT_ONU
+Sahel | https://www.crisisgroup.org/rss.xml | 1.0 | ANALISIS_OSINT
+
+# --- LATAM (Narcotráfico y Estabilidad) ---
+Latam | https://insightcrime.org/feed/ | 1.0 | OSINT_CRIME
+Latam | https://feeds.elpais.com/mrss-s/el_pais/seccion/america/ | 0.8 | REGIONAL_ES
+
+# --- EUROPA (Seguridad y Defensa) ---
+Europa_Core | https://www.defensenews.com/arc/outboundfeeds/rss/category/europe/ | 0.9 | MIL_DEFENSE
+Europa_Core | https://www.euractiv.com/feed/ | 0.8 | POLITICO_EU
+
+# --- COREA DEL NORTE (Filtro de Opacidad) ---
+North_Korea | https://www.nknews.org/feed/ | 1.0 | OSINT_HIGH
+North_Korea | https://en.yna.co.kr/RSS/northkorea.xml | 0.8 | REGIONAL_SK
+North_Korea | https://www.kcna.kp/en/rss/article | 0.1 | PROPAGANDA_NK
+
+# --- AUSTRALIA (Nodo AUKUS / Indo-Pacífico) ---
+Australia | https://www.aspistrategist.org.au/feed/ | 1.0 | ASPI_THINK_TANK
+Australia | https://www.lowyinstitute.org/rss.xml | 0.9 | INTEL_AU
+Australia | https://abc.net.au/news/feed/52448/rss.xml | 0.8 | REGIONAL_AU

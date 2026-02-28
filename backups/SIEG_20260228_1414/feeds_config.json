@@ -1,0 +1,14 @@
+{
+    "Iran_M_Oriente": ["https://www.tehrantimes.com/rss", "https://www.jpost.com/rss/rssfeeds.aspx?categoryid=1"],
+    "Espana": ["https://www.elmundo.es/rss/index.xml", "https://servicios.larazon.es/rss/portada.xml"],
+    "Rusia_Ucrania": ["https://tass.com/rss/v2.xml", "https://kyivindependent.com/feed/"],
+    "USA": ["https://rss.nytimes.com/services/xml/rss/nyt/World.xml"],
+    "China": ["http://www.scmp.com/rss/2/feed"],
+    "Latam": ["https://feeds.elpais.com/mrss-s/el_pais/seccion/america/"],
+    "Mexico": ["https://www.reforma.com/rss/portada.xml"],
+    "Argentina": ["https://www.lanacion.com.ar/arc/reporting-pwa/feeds/rss/?outputType=xml"],
+    "Brasil": ["https://g1.globo.com/index/amp/"],
+    "Sahel": ["https://www.aljazeera.com/xml/rss/all.xml"],
+    "Asia_Pacifico": ["https://www.japantimes.co.jp/feed/"],
+    "Europa_Core": ["https://www.dw.com/xml/rss-berlin"]
+}
