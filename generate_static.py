@@ -1,0 +1,43 @@
+import json, glob, os
+
+# Plantilla básica para el radar (simplificada para GitHub Pages)
+html_template = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>S.I.E.G. Global Radar</title>
+    <meta http-equiv="refresh" content="1800">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>body { background: #1a1a1a; color: #00ff00; font-family: monospace; text-align: center; }</style>
+</head>
+<body>
+    <h1>🛡️ S.I.E.G. GEOPOLITICAL RADAR</h1>
+    <div style="width: 50%; margin: auto;"><canvas id="radarChart"></canvas></div>
+    <script>
+        const ctx = document.getElementById('radarChart');
+        new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: [{{LABELS}}],
+                datasets: [{
+                    label: 'Risk Level %',
+                    data: [{{DATA}}],
+                    backgroundColor: 'rgba(0, 255, 0, 0.2)',
+                    borderColor: '#00ff00'
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
+"""
+
+files = sorted(glob.glob('data/geoint_*.json'))
+labels = [os.path.basename(f)[7:-5].replace("_", " ").upper() for f in files]
+scores = [json.load(open(f))['score'] for f in files]
+
+output = html_template.replace("{{LABELS}}", str(labels)[1:-1])
+output = output.replace("{{DATA}}", str(scores)[1:-1])
+
+with open('index.html', 'w') as f:
+    f.write(output)
