@@ -1,0 +1,35 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7070
+ * Running on http://192.168.1.150:7070
+Press CTRL+C to quit
+127.0.0.1 - - [27/Feb/2026 22:43:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [27/Feb/2026 22:43:50] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:43:53] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:43:54] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:44:04] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:44:04] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:44:10] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:44:31] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:44:51] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:45:11] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:45:31] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:45:51] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:46:12] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:46:32] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:46:52] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:47:12] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:47:32] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:47:52] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:48:12] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:48:33] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:48:53] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:49:13] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:49:33] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:49:53] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:50:13] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:50:34] "GET /api/all HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2026 22:50:54] "GET /api/all HTTP/1.1" 200 -

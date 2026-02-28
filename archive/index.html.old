@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>S.I.E.G. - SISTEMA DE INTELIGENCIA ESTRATÉGICA GLOBAL</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body { 
+            background: #020502; color: #00ff41; 
+            font-family: 'Courier New', monospace; margin: 0; padding: 15px; 
+            height: 100vh; display: flex; flex-direction: column;
+        }
+
+        /* --- CABECERA --- */
+        header {
+            border: 3px solid #00ff41; padding: 20px; margin-bottom: 15px;
+            background: rgba(0, 255, 65, 0.07);
+        }
+        .header-top { display: flex; justify-content: space-between; align-items: center; }
+        h1 { font-size: 2.8em; margin: 0; letter-spacing: 5px; }
+        #reloj { font-size: 1.8em; font-weight: bold; }
+        
+        .project-goal { 
+            font-size: 1.2em; color: #00ee33; margin-top: 10px; 
+            border-top: 2px solid #1a3a1a; padding-top: 10px;
+        }
+
+        /* --- NAVEGACIÓN --- */
+        nav { margin-bottom: 15px; display: flex; gap: 15px; }
+        nav button { 
+            background: #000; color: #00ff41; border: 2px solid #00ff41; 
+            padding: 10px 25px; cursor: pointer; font-size: 1.3em; font-weight: bold;
+        }
+        nav button:hover { background: #00ff41; color: #000; }
+
+        /* --- CONTENEDORES --- */
+        .content-section { display: none; flex-grow: 1; overflow: hidden; }
+        .active { display: flex; flex-direction: column; }
+        
+        .grid-main { display: grid; grid-template-columns: 58% 42%; gap: 20px; height: 100%; }
+        .box { border: 2px solid #1a3a1a; padding: 30px; background: #050505; display: flex; flex-direction: column; overflow-y: auto;}
+        
+        /* --- TEXTOS DOC --- */
+        .doc-text h2 { font-size: 2.2em; color: #00ff41; border-bottom: 2px solid #00ff41; padding-bottom: 10px; margin-bottom: 20px; text-transform: uppercase; }
+        .doc-text p, .doc-text li { font-size: 1.5em; line-height: 1.6; margin-bottom: 15px; }
+        .doc-text strong { color: #fff; }
+
+        /* --- ALERTAS --- */
+        #alerts { overflow-y: auto; flex-grow: 1; }
+        .critical { 
+            color: #ff3e3e; background: rgba(255,0,0,0.2); 
+            padding: 20px; margin-bottom: 15px; border-left: 12px solid #ff3e3e; 
+            font-size: 1.6em; font-weight: bold;
+        }
+        .high { 
+            color: #ff9f00; background: rgba(255,150,0,0.15); 
+            padding: 20px; margin-bottom: 15px; border-left: 12px solid #ff9f00; 
+            font-size: 1.4em;
+        }
+
+        /* --- RADAR GIGANTE --- */
+        #radar-container { flex-grow: 1; position: relative; width: 100%; height: 100%; min-height: 500px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-top">
+        <h1>S.I.E.G. ANALYTICS</h1>
+        <div id="reloj">...</div>
+    </div>
+    <div class="project-goal">
+        <strong>MISIÓN CORE:</strong> Monitorización de vectores geopolíticos y ciberamenazas OSINT. Operador: <strong>M. Castillo</strong>.
+    </div>
+</header>
+
+<nav>
+    <button onclick="showSec('dashboard')">DASHBOARD</button>
+    <button onclick="showSec('metodo')">METODOLOGÍA</button>
+    <button onclick="showSec('arquitectura')">ARQUITECTURA</button>
+    <button onclick="showSec('about')">ABOUT/CONTACTO</button>
+</nav>
+
+<section id="dashboard" class="content-section active">
+    <div class="grid-main">
+        <div class="box">
+            <h2 style="font-size:1.8em; margin-bottom:15px; border-bottom:1px solid #1a3a1a">VECTOR DE TENSIÓN GLOBAL</h2>
+            <div id="radar-container">
+                <canvas id="radar"></canvas>
+            </div>
+        </div>
+        <div class="box">
+            <h2 style="font-size:1.8em; margin-bottom:15px; border-bottom:1px solid #1a3a1a">INTELIGENCIA DE AMENAZAS</h2>
+            <div id="alerts"></div>
+        </div>
+    </div>
+</section>
+
+<section id="arquitectura" class="content-section">
+    <div class="box doc-text">
+        <h2>Arquitectura y Redundancia</h2>
+        <p><strong>Configuración Master-Slave (Failover):</strong></p>
+        <ul>
+            <li><strong>Nodo Alpha (ODROID 1):</strong> Procesador principal de sensores.</li>
+            <li><strong>Nodo Beta (ODROID 2):</strong> Réplica en espera caliente. Sincronización vía Rsync cada 15 min.</li>
+            <li><strong>Continuidad:</strong> Latencia máxima de recuperación de 60 minutos ante fallo total de hardware.</li>
+            <li><strong>Históricos:</strong> Almacenamiento desacoplado en `/data` para facilitar la portabilidad.</li>
+        </ul>
+    </div>
+</section>
+
+
+
+<section id="metodo" class="content-section">
+    <div class="box doc-text">
+        <h2>Metodología Operativa</h2>
+        <p>El sistema S.I.E.G. utiliza un modelo de <strong>Análisis de Sentimiento Geopolítico</strong> automatizado:</p>
+        <ul>
+            <li><strong>Ingesta de Datos:</strong> Scraping periódico de feeds RSS de agencias de inteligencia y prensa internacional.</li>
+            <li><strong>Procesamiento Semántico:</strong> Identificación de patrones bélicos, diplomáticos y económicos.</li>
+            <li><strong>Ponderación:</strong> Algoritmo de score acumulativo (0-100) basado en la densidad de keywords críticas.</li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="about" class="content-section">
+    <div class="box doc-text">
+        <h2>Acerca del Proyecto</h2>
+        <p><strong>Desarrollador:</strong> M. Castillo</p>
+        <p><strong>Propósito:</strong> Vigilancia estratégica y alerta temprana de ciberseguridad.</p>
+        <p><strong>Contacto:</strong> miguelc@miguel-vivobookasuslaptopx1504vaf1504va</p>
+        <p>Este sistema es fruto de 26 años de experiencia en entornos Linux, diseñado para operar 24/7 de forma autónoma.</p>
+    </div>
+</section>
+
+<script>
+    function showSec(id) {
+        document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+        document.getElementById(id).classList.add('active');
+        if(id === 'dashboard') cargarDatos();
+    }
+
+    const pluginLabels = {
+        id: 'dataLabels',
+        afterDatasetsDraw(chart) {
+            const {ctx, scales: {r}} = chart;
+            chart.data.datasets.forEach((dataset, i) => {
+                chart.getDatasetMeta(i).data.forEach((point, index) => {
+                    const value = dataset.data[index];
+                    ctx.fillStyle = '#ffffff';
+                    ctx.font = 'bold 20px Courier New';
+                    ctx.textAlign = 'center';
+                    ctx.fillText(value, point.x, point.y - 12);
+                });
+            });
+        }
+    };
+
+    let radarChart = null;
+    function cargarDatos() {
+        fetch('/api/all').then(r => r.json()).then(res => {
+            const ctx = document.getElementById('radar').getContext('2d');
+            if (radarChart) radarChart.destroy();
+            radarChart = new Chart(ctx, {
+                type: 'radar',
+                plugins: [pluginLabels],
+                data: {
+                    labels: res.labels,
+                    datasets: [{
+                        data: res.radar,
+                        borderColor: '#00ff41',
+                        backgroundColor: 'rgba(0, 255, 65, 0.2)',
+                        pointBackgroundColor: '#fff',
+                        pointRadius: 8,
+                        borderWidth: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    layout: { padding: 40 },
+                    scales: { 
+                        r: { 
+                            min: 0, max: 110,
+                            ticks: { display: false }, 
+                            grid: { color: '#1a3a1a', lineWidth: 2 }, 
+                            pointLabels: { color: '#00ff41', font: { size: 24, weight: 'bold' } } 
+                        } 
+                    },
+                    plugins: { legend: { display: false } }
+                }
+            });
+            document.getElementById('alerts').innerHTML = res.data.alerts
+                .map(a => `<div class="${a.severity}">[${a.severity.toUpperCase()}] ${a.id}: ${a.title}</div>`).join('');
+        });
+    }
+
+    setInterval(() => {
+        document.getElementById('reloj').innerText = new Date().toLocaleString('es-ES');
+    }, 1000);
+
+    cargarDatos();
+</script>
+</body>
+</html>
