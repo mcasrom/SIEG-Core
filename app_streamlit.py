@@ -8,7 +8,7 @@ from datetime import datetime
 st.set_page_config(page_title="S.I.E.G. Global Radar", page_icon="🛡", layout="wide")
 st.cache_data.clear()
 
-# CSS PERMANENTE
+# CSS PERMANENTE (V11.4+)
 st.markdown("""
     <style>
     .stApp { background-color: #0c0e12; color: #00ff41; }
@@ -27,6 +27,10 @@ st.markdown("""
     .kpi-box {
         background: #1a1c23; border: 1px solid #00ff41;
         padding: 15px; border-radius: 5px; text-align: center;
+    }
+    .shadow-box {
+        background-color: #1a1c23; border-left: 5px solid #ffae00;
+        color: #ffae00; padding: 10px; margin: 5px 0; font-family: monospace;
     }
     @keyframes blinker { 50% { opacity: 0.6; } }
     h1, h2, h3 { color: #00ff41 !important; }
@@ -53,7 +57,7 @@ if not df_h.empty:
             if diff > 7:
                 anomalies.append({"reg": actor.upper().replace("_", " "), "diff": diff})
 
-# --- SIDEBAR: [INALTERABLE SEGÚN INSTRUCCIONES V11.3] ---
+# --- SIDEBAR: [PROTEGIDO - NO TOCAR] ---
 with st.sidebar:
     st.header("📂 DOCUMENTACIÓN TÉCNICA")
     t_met, t_arq, t_acr = st.tabs(["Metodología", "Arquitectura", "Acrónimos"])
@@ -64,7 +68,6 @@ with st.sidebar:
     with t_acr:
         if os.path.exists('data/acronimos.txt'):
             with open('data/acronimos.txt', 'r') as f: st.text(f.read())
-        else: st.caption("Archivo de acrónimos no indexado.")
     st.divider()
     st.markdown("### ✉️ CANAL DE CONTACTO")
     st.code("mybloggingnotes@gmail.com", language=None)
@@ -87,22 +90,24 @@ for f in files:
             if "IRAN" in name: name = "🇮🇷 IRÁN (ACTOR)"
             elif "M_ORIENTE" in name: name = "🌍 MEDIO ORIENTE (REGIONAL)"
             else: name = name.replace("_", " ")
-            data_list.append({"ACTOR": name, "RIESGO": float(c.get('score', 0)), "DISONANCIA": c.get('disonancia')})
+            data_list.append({"ACTOR": name, "RIESGO": float(c.get('score', 0)), "DISONANCIA": c.get('disonancia', False)})
     except: continue
 
-# --- NUEVO: KPI TOP 3 PRIORIDADES ---
+# --- KPI TOP 3 ---
 if data_list:
     df_temp = pd.DataFrame(data_list).sort_values("RIESGO", ascending=False).head(3)
     cols = st.columns(3)
     for i, (idx, row) in enumerate(df_temp.iterrows()):
         with cols[i]:
-            st.markdown(f"""<div class='kpi-box'>
-                <small>OBJETIVO PRIORITARIO {i+1}</small><br>
-                <span style='font-size: 1.2em; font-weight: bold;'>{row['ACTOR']}</span><br>
-                <span style='font-size: 2em;'>{row['RIESGO']}%</span>
-                </div>""", unsafe_allow_html=True)
+            st.markdown(f"""<div class='kpi-box'><small>OBJETIVO {i+1}</small><br><b>{row['ACTOR']}</b><br><span style='font-size: 2em;'>{row['RIESGO']}%</span></div>""", unsafe_allow_html=True)
 
-st.write("") # Espaciador
+# --- V11.5: PROTOCOLO DE SOMBRAS (Lógica Híbrida) ---
+st.write("")
+shadow_targets = [r for r in data_list if r['RIESGO'] > 40 and r['DISONANCIA']]
+if shadow_targets:
+    with st.expander("☢️ ANÁLISIS DE SOMBRAS (Guerra Híbrida Detectada)", expanded=True):
+        for target in shadow_targets:
+            st.markdown(f"<div class='shadow-box'>🔎 <b>{target['ACTOR']}</b>: Alta incertidumbre narrativa detectada. Riesgo cinético oscurecido por posible desinformación.</div>", unsafe_allow_html=True)
 
 if not df_h.empty:
     latest_ts = float(df_h['timestamp'].max())
@@ -120,13 +125,5 @@ if data_list:
         st.subheader("📈 Intensidad")
         st.bar_chart(data=df_actual, x="ACTOR", y="RIESGO", color="#00ff41")
 
-if not df_h.empty:
-    st.divider()
-    st.subheader("📉 Evolución Histórica")
-    sel = st.selectbox("Inspeccionar historial:", sorted(df_h['region'].unique()))
-    df_h['dt'] = pd.to_datetime(df_h['timestamp'], unit='s')
-    df_p = df_h[df_h['region'] == sel].sort_values('dt')
-    st.line_chart(data=df_p, x='dt', y='score', color="#00ff41", height=400, use_container_width=True)
-
 st.divider()
-st.caption("S.I.E.G. V11.4 | High Priority Targets Active | 2026")
+st.caption("S.I.E.G. V11.5 | Protocolo de Sombras Activo | 2026")
