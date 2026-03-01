@@ -18,7 +18,7 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 # CONFIGURACION
 # ---------------------------------------------------------------------------
-DATA_DIR        = "data"
+DATA_DIR        = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 HISTORY_FILE    = os.path.join(DATA_DIR, "history_log.csv")
 GEOINT_PATTERN  = os.path.join(DATA_DIR, "geoint_*.json")
 ACRONIMOS_FILE  = os.path.join(DATA_DIR, "acronimos.txt")
@@ -220,7 +220,7 @@ def load_geoint_actors() -> list:
     return sorted(actors, key=lambda x: x["score"], reverse=True)
 
 
-@st.cache_data(ttl=600)
+@st.cache_data(ttl=60)
 def load_acronimos() -> str:
     if not os.path.exists(ACRONIMOS_FILE):
         return ""
