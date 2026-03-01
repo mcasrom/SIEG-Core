@@ -15,7 +15,18 @@ st.markdown("""
     h1, h2, h3 { color: #00ff41 !important; border-bottom: 1px solid #224422; }
     [data-testid="stMetricValue"] { color: #00ff41 !important; }
     .stDataFrame { border: 1px solid #224422; background-color: #1a1c23; }
-    .timestamp-box { color: #00ff41; font-family: monospace; font-size: 1em; border: 1px solid #224422; padding: 10px; background: #1a1c23; margin-bottom: 20px; width: 100%; text-align: center; }
+    .timestamp-box { 
+        color: #00ff41; 
+        font-family: monospace; 
+        font-size: 1.1em; 
+        border: 1px solid #224422; 
+        padding: 12px; 
+        background: #1a1c23; 
+        margin-bottom: 25px; 
+        width: 100%; 
+        text-align: center; 
+        border-radius: 5px;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -53,11 +64,11 @@ for f in files:
             })
     except: continue
 
-# --- CABECERA DE DATOS ---
 if data_list:
     df = pd.DataFrame(data_list)
     num_regs = 0
     if os.path.exists('data/history_log.csv'):
+        # Lectura rápida para el contador
         num_regs = len(pd.read_csv('data/history_log.csv', header=None))
     
     readable_ts = datetime.fromtimestamp(latest_raw_ts).strftime('%d-%m-%Y %H:%M:%S')
@@ -67,20 +78,23 @@ if data_list:
     m1.metric("Riesgo Promedio Global", f"{df['RIESGO %'].mean():.1f}%")
     m2.metric("Foco de Tensión Máxima", df.loc[df['RIESGO %'].idxmax()]['REGIÓN'], f"{df['RIESGO %'].max()}%")
 
-    # --- CUERPO PRINCIPAL (TABLA + RADAR) ---
     st.divider()
+    
+    # SECCIÓN 1: TABLA Y BAR_CHART (50/50)
     col_izq, col_der = st.columns([1, 1])
     with col_izq:
-        st.subheader("📊 Tabla de Riesgo Regional")
+        st.subheader("📊 Riesgo Regional Actual")
         st.dataframe(df, hide_index=True, use_container_width=True)
     with col_der:
-        st.subheader("📈 Radar de Riesgo Actual")
+        st.subheader("📈 Radar Operativo")
         st.bar_chart(data=df, x="REGIÓN", y="RIESGO %", color="#00ff41")
 
-    # --- HISTÓRICO EXPANDIDO ---
+    # SECCIÓN 2: HISTÓRICO (ANCHO TOTAL - SIN COLUMNAS)
     st.divider()
-    st.subheader("📉 Tendencias Temporales (Análisis de Evolución)")
+    st.subheader("📉 Análisis de Tendencias Temporales (Full-Width)")
+    
     if os.path.exists('data/history_log.csv'):
+        # Lectura robusta del histórico
         df_h = pd.read_csv('data/history_log.csv', header=None, names=['timestamp', 'region', 'score'])
         df_h['timestamp'] = pd.to_datetime(df_h['timestamp'], unit='s', errors='coerce')
         df_h = df_h.dropna(subset=['timestamp']).sort_values('timestamp')
@@ -88,8 +102,8 @@ if data_list:
         reg_sel = st.selectbox("Seleccione región para desglose histórico:", sorted(df_h['region'].unique()))
         df_p = df_h[df_h['region'] == reg_sel]
         
-        # Gráfico a lo ancho para que sea legible
-        st.line_chart(data=df_p, x='timestamp', y='score', color="#00ff41")
+        # El gráfico ahora se expande a todo el ancho de la página (layout="wide")
+        st.line_chart(data=df_p, x='timestamp', y='score', color="#00ff41", use_container_width=True)
 
 st.divider()
-st.caption("S.I.E.G. V10.5 | 2026")
+st.caption("S.I.E.G. V10.6 | 2026")
