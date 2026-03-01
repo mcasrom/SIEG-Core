@@ -15,13 +15,14 @@ st.markdown("""
     [data-testid="stMetricValue"] { color: #00ff41 !important; }
     .stDataFrame { border: 1px solid #224422; }
     .timestamp-box { color: #00ff41; font-family: monospace; font-size: 0.9em; border: 1px solid #224422; padding: 8px; width: fit-content; background: #1a1c23; margin-bottom: 15px; }
+    .contact-footer { padding: 10px; border-top: 1px solid #224422; margin-top: 20px; color: #00ff41; font-family: monospace; }
     </style>
     """, unsafe_allow_html=True)
 
-# --- BARRA LATERAL: 4 TABS VERIFICADOS ---
+# --- BARRA LATERAL: TABS + CONTACTO FIJO ---
 with st.sidebar:
     st.header("📂 DOCUMENTACIÓN")
-    t_met, t_arq, t_acr, t_cnt = st.tabs(["Metodología", "Arquitectura", "Acrónimos", "Contacto"])
+    t_met, t_arq, t_acr = st.tabs(["Metodología", "Arquitectura", "Acrónimos"])
     
     with t_met:
         st.markdown("### 🔬 Obtención y Cálculo\n- **Captura:** Escaneo OSINT.\n- **Gestión:** Normalización JSON.\n- **Cálculo:** Algoritmo de frecuencia y disonancia.")
@@ -35,12 +36,12 @@ with st.sidebar:
             with open('data/acronimos.txt', 'r') as f:
                 st.text(f.read())
         else:
-            st.info("Archivo acronimos.txt no detectado en /data")
-            
-    with t_cnt:
-        st.markdown("### ✉️ Contacto")
-        st.write("Consultas técnicas e intercambio de datos:")
-        st.success("mybloggingnotes@gmail.com")
+            st.info("Archivo acronimos.txt no detectado.")
+
+    # CONTACTO SACADO DE LOS TABS PARA QUE SEA VISIBLE SIEMPRE
+    st.markdown("---")
+    st.markdown("### ✉️ CONTACTO")
+    st.code("mybloggingnotes@gmail.com", language=None)
 
 st.title("🛡️ S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 st.markdown("##### *Análisis de la situación geopolítica global a través de esta interfaz de monitoreo*")
@@ -63,7 +64,7 @@ for f in files:
             })
     except: continue
 
-# Conversión Unix a Humano (M. Castillo)
+# Conversión Unix a Humano
 readable_ts = datetime.fromtimestamp(latest_raw_ts).strftime('%d-%m-%Y %H:%M:%S') if latest_raw_ts > 0 else "N/A"
 
 if data_list:
@@ -82,7 +83,7 @@ if data_list:
         st.subheader("📈 Radar Regional")
         st.bar_chart(data=df, x="REGIÓN", y="RIESGO %", color="#00ff41")
 
-    # --- HISTÓRICO: BLINDADO (NO TOCAR) ---
+    # --- HISTÓRICO: BLINDADO ---
     st.divider()
     st.subheader("📉 Análisis de Tendencias Temporales")
     if os.path.exists('data/history_log.csv'):
@@ -95,4 +96,4 @@ if data_list:
         st.caption(f"Registro: {len(df_plot)} señales procesadas.")
 
 st.divider()
-st.caption("S.I.E.G. V10.0 | 2026")
+st.caption("S.I.E.G. V10.1 | 2026")
