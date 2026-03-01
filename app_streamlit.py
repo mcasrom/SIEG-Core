@@ -8,6 +8,7 @@ from datetime import datetime
 st.set_page_config(page_title="S.I.E.G. Global Radar", page_icon="🛡", layout="wide")
 st.cache_data.clear()
 
+# CSS PROFESIONAL: Terminal Militar + Alertas
 st.markdown("""
     <style>
     .stApp { background-color: #0c0e12; color: #00ff41; }
@@ -18,15 +19,17 @@ st.markdown("""
         text-align: center; border-radius: 5px; margin-bottom: 20px;
     }
     .anomaly-box {
-        background-color: #440000; border: 2px solid #ff0000;
+        background-color: #550000; border: 2px solid #ff0000;
         color: white; padding: 15px; border-radius: 5px;
         margin-bottom: 20px; font-weight: bold; text-align: center;
-        animation: blinker 2s linear infinite;
+        animation: blinker 2.5s linear infinite;
     }
-    @keyframes blinker { 50% { opacity: 0.5; } }
+    @keyframes blinker { 50% { opacity: 0.6; } }
+    h1, h2, h3 { color: #00ff41 !important; }
     </style>
     """, unsafe_allow_html=True)
 
+# --- CARGA DE DATOS ---
 df_h = pd.DataFrame()
 if os.path.exists('data/history_log.csv'):
     try:
@@ -43,28 +46,43 @@ if not df_h.empty:
         if len(reg_series) >= 6:
             diff = float(reg_series.iloc[0]['score']) - float(reg_series.iloc[5]['score'])
             if diff > 7:
-                anomalies.append({"reg": region.upper(), "diff": diff})
+                anomalies.append({"reg": region.upper().replace("_", " "), "diff": diff})
 
+# --- SIDEBAR: DOCUMENTACIÓN RESTAURADA ---
 with st.sidebar:
-    st.header("📂 S.I.E.G. V11")
-    t_met, t_arq = st.tabs(["Metodología", "Arquitectura"])
-    with t_met: st.markdown("### 🔬 OSINT\nAlerta: $\Delta > 7$ en 180 min.")
-    with t_arq: st.markdown("### 🏗 Nodo\nOdroid-C2 DietPi Sync.")
-    st.divider()
-    st.code("mybloggingnotes@gmail.com")
+    st.header("📂 DOCUMENTACIÓN S.I.E.G.")
+    t_met, t_arq, t_acr = st.tabs(["Metodología", "Arquitectura", "Acrónimos"])
+    
+    with t_met:
+        st.markdown("### 🔬 OSINT & Disonancia\nAnálisis de señales geopolíticas mediante frecuencia léxica y divergencia narrativa. La alerta se dispara con $\Delta > 7$ en una ventana de 3 horas.")
+    
+    with t_arq:
+        st.markdown("### 🏗 Nodo Odroid-C2\nInfraestructura física bajo Linux DietPi. Sincronización Git con protocolo de seguridad `--rebase` para integridad de datos.")
+    
+    with t_acr:
+        if os.path.exists('data/acronimos.txt'):
+            with open('data/acronimos.txt', 'r') as f:
+                st.text(f.read())
+        else:
+            st.caption("Archivo acronimos.txt no detectado.")
 
+    st.divider()
+    st.markdown("### ✉️ CONTACTO")
+    st.code("mybloggingnotes@gmail.com", language=None)
+
+# --- PANEL PRINCIPAL ---
 st.title("🛡 S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 
 if anomalies:
     for a in anomalies:
-        st.markdown(f"<div class='anomaly-box'>⚠️ ALERTA DE HOSTILIDAD: {a['reg']} (+{a['diff']:.1f} puntos)</div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='anomaly-box'>⚠️ ALERTA DE HOSTILIDAD: {a['reg']} (+{a['diff']:.1f} puntos detectados)</div>", unsafe_allow_html=True)
 
 if not df_h.empty:
     latest_ts = float(df_h['timestamp'].max())
     readable_ts = datetime.fromtimestamp(latest_ts).strftime('%d-%m-%Y %H:%M:%S')
-    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL: {readable_ts} | 📊 REGISTROS: {len(df_h)}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL REGISTRADA: {readable_ts} | 📊 TOTAL PUNTOS: {len(df_h)}</div>", unsafe_allow_html=True)
 
-# --- VISUALIZACIÓN ---
+# --- TABLAS Y GRÁFICOS ---
 files = sorted(glob.glob('data/geoint_*.json'))
 data_list = []
 for f in files:
@@ -80,21 +98,21 @@ for f in files:
 
 if data_list:
     df_actual = pd.DataFrame(data_list)
-    c_izq, c_der = st.columns(2)
-    with c_izq:
-        st.subheader("📊 Riesgo Actual")
+    c1, c2 = st.columns([1, 1])
+    with c1:
+        st.subheader("📊 Riesgo Regional")
         st.dataframe(df_actual, hide_index=True, use_container_width=True)
-    with c_der:
-        st.subheader("📈 Radar Regional")
+    with c2:
+        st.subheader("📈 Radar de Intensidad")
         st.bar_chart(data=df_actual, x="REGIÓN", y="RIESGO %", color="#00ff41")
 
 if not df_h.empty:
     st.divider()
-    st.subheader("📉 Análisis de Tendencias Temporales")
-    reg_sel = st.selectbox("Región:", sorted(df_h['region'].unique()))
+    st.subheader("📉 Evolución de Tendencias (Histórico Panorámico)")
+    reg_sel = st.selectbox("Región a inspeccionar:", sorted(df_h['region'].unique()))
     df_h['dt'] = pd.to_datetime(df_h['timestamp'], unit='s')
     df_p = df_h[df_h['region'] == reg_sel].sort_values('dt')
     st.line_chart(data=df_p, x='dt', y='score', color="#00ff41", height=400, use_container_width=True)
 
 st.divider()
-st.caption("S.I.E.G. V11 | 2026")
+st.caption("S.I.E.G. V11.1 | 2026 | Sistema de Alertas de Hostilidad")
