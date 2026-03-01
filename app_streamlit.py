@@ -18,23 +18,29 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- BARRA LATERAL: TABS CON ACRÓNIMOS EXTERNOS ---
+# --- BARRA LATERAL: 4 TABS VERIFICADOS ---
 with st.sidebar:
     st.header("📂 DOCUMENTACIÓN")
-    tab_met, tab_arq, tab_acr, tab_cnt = st.tabs(["Metodología", "Arquitectura", "Acrónimos", "Contacto"])
-    with tab_met:
+    t_met, t_arq, t_acr, t_cnt = st.tabs(["Metodología", "Arquitectura", "Acrónimos", "Contacto"])
+    
+    with t_met:
         st.markdown("### 🔬 Obtención y Cálculo\n- **Captura:** Escaneo OSINT.\n- **Gestión:** Normalización JSON.\n- **Cálculo:** Algoritmo de frecuencia y disonancia.")
-    with tab_arq:
+    
+    with t_arq:
         st.markdown("### 🏗️ Infraestructura\n- **Nodo:** Odroid-C2 (Linux/DietPi).\n- **Fiabilidad:** Persistencia vía Cron.\n- **Redundancia:** Preparado para nodo espejo.")
-    with tab_acr:
+    
+    with t_acr:
         st.markdown("### 📑 Glosario")
-        try:
+        if os.path.exists('data/acronimos.txt'):
             with open('data/acronimos.txt', 'r') as f:
                 st.text(f.read())
-        except:
-            st.info("Archivo de acrónimos no detectado.")
-    with tab_cnt:
-        st.markdown("### ✉️ Comunicación\nmybloggingnotes@gmail.com")
+        else:
+            st.info("Archivo acronimos.txt no detectado en /data")
+            
+    with t_cnt:
+        st.markdown("### ✉️ Contacto")
+        st.write("Consultas técnicas e intercambio de datos:")
+        st.success("mybloggingnotes@gmail.com")
 
 st.title("🛡️ S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 st.markdown("##### *Análisis de la situación geopolítica global a través de esta interfaz de monitoreo*")
@@ -57,11 +63,13 @@ for f in files:
             })
     except: continue
 
+# Conversión Unix a Humano (M. Castillo)
 readable_ts = datetime.fromtimestamp(latest_raw_ts).strftime('%d-%m-%Y %H:%M:%S') if latest_raw_ts > 0 else "N/A"
 
 if data_list:
     df = pd.DataFrame(data_list)
     st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL RECIBIDA: {readable_ts}</div>", unsafe_allow_html=True)
+    
     m_col1, m_col2 = st.columns(2)
     m_col1.metric("Riesgo Promedio Global", f"{df['RIESGO %'].mean():.1f}%")
     m_col2.metric("Foco Crítico", df.loc[df['RIESGO %'].idxmax()]['REGIÓN'], f"{df['RIESGO %'].max()}%")
@@ -74,16 +82,17 @@ if data_list:
         st.subheader("📈 Radar Regional")
         st.bar_chart(data=df, x="REGIÓN", y="RIESGO %", color="#00ff41")
 
+    # --- HISTÓRICO: BLINDADO (NO TOCAR) ---
     st.divider()
     st.subheader("📉 Análisis de Tendencias Temporales")
     if os.path.exists('data/history_log.csv'):
         df_h = pd.read_csv('data/history_log.csv')
         df_h['timestamp'] = pd.to_datetime(df_h['timestamp'], unit='s', errors='coerce')
         df_h = df_h.dropna(subset=['timestamp']).sort_values('timestamp')
-        reg_sel = st.selectbox("Región para análisis histórico:", sorted(df_h['region'].unique()))
+        reg_sel = st.selectbox("Región para histórico:", sorted(df_h['region'].unique()))
         df_plot = df_h[df_h['region'] == reg_sel]
         st.line_chart(data=df_plot, x='timestamp', y='score', color="#00ff41")
         st.caption(f"Registro: {len(df_plot)} señales procesadas.")
 
 st.divider()
-st.caption("S.I.E.G. V9.8 | 2026")
+st.caption("S.I.E.G. V10.0 | 2026")
