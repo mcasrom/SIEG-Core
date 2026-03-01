@@ -8,7 +8,7 @@ from datetime import datetime
 st.set_page_config(page_title="S.I.E.G. Global Radar", page_icon="🛡", layout="wide")
 st.cache_data.clear()
 
-# CSS TERMINAL INTELIGENCIA
+# CSS TERMINAL DE INTELIGENCIA
 st.markdown("""
     <style>
     .stApp { background-color: #0c0e12; color: #00ff41; }
@@ -29,16 +29,14 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- CARGA Y PROCESAMIENTO ---
+# --- PROCESAMIENTO DE HISTORIAL ---
 df_h = pd.DataFrame()
 if os.path.exists('data/history_log.csv'):
     try:
         df_h = pd.read_csv('data/history_log.csv', header=None, names=['timestamp', 'region', 'score'])
         df_h['timestamp'] = pd.to_numeric(df_h['timestamp'], errors='coerce')
         df_h = df_h.dropna(subset=['timestamp'])
-        # Normalización de nombres de actores
-        df_h['region'] = df_h['region'].str.replace('m_oriente', 'MEDIO ORIENTE')
-        df_h['region'] = df_h['region'].str.replace('iran', 'IRÁN (ACTOR ESPECÍFICO)')
+        df_h['region'] = df_h['region'].str.replace('m_oriente', 'MEDIO ORIENTE').str.replace('iran', 'IRÁN (ACTOR)')
     except: pass
 
 # --- DETECCIÓN DE ANOMALÍAS ---
@@ -51,19 +49,37 @@ if not df_h.empty:
             if diff > 7:
                 anomalies.append({"reg": actor.upper().replace("_", " "), "diff": diff})
 
-# --- SIDEBAR ---
+# --- SIDEBAR: DOCTRINA EXPANDIDA ---
 with st.sidebar:
-    st.header("📂 DOCUMENTACIÓN S.I.E.G.")
+    st.header("📂 DOCUMENTACIÓN TÉCNICA")
     t_met, t_arq, t_acr = st.tabs(["Metodología", "Arquitectura", "Acrónimos"])
+    
     with t_met:
-        st.markdown("### 🔬 OSINT & Disonancia\nMonitoreo de actores estatales y regionales. Umbral crítico: $\Delta > 7$ pts / 180 min.")
+        st.markdown("""
+        ### 🔬 OSINT & Disonancia Cognitiva
+        El motor analiza la **frecuencia léxica** y la **carga emocional** de señales en fuentes abiertas y oficiales. 
+        
+        * **Cálculo de Riesgo:** Algoritmo ponderado sobre menciones de conflicto, movimientos cinéticos y declaraciones de hostilidad.
+        * **Anomalía:** El sistema dispara alerta roja cuando un actor sufre un incremento de riesgo **$\Delta > 7$ puntos** en una ventana temporal de 180 minutos (3 horas).
+        """)
+    
     with t_arq:
-        st.markdown("### 🏗 Nodo Odroid-C2\nActor IRÁN segregado para análisis de alta fidelidad.")
+        st.markdown("""
+        ### 🏗 Infraestructura SIEG-Core
+        Implementación sobre nodo físico **Odroid-C2** (Arquitectura ARM) operando con **DietPi v9.x**.
+        
+        * **Persistencia:** Almacenamiento local en CSV para mitigar el desgaste de la eMMC.
+        * **Sincronización:** Túnel Git automatizado con protocolo de resolución forzada para garantizar la disponibilidad del dato en Streamlit Cloud 24/7.
+        * **Segregación:** Actores críticos (como Irán) operan con hilos de escaneo independientes.
+        """)
+    
     with t_acr:
         if os.path.exists('data/acronimos.txt'):
             with open('data/acronimos.txt', 'r') as f: st.text(f.read())
+        else: st.caption("Archivo de acrónimos no indexado.")
+
     st.divider()
-    st.markdown("### ✉️ CONTACTO")
+    st.markdown("### ✉️ CANAL DE CONTACTO")
     st.code("mybloggingnotes@gmail.com", language=None)
 
 # --- PANEL PRINCIPAL ---
@@ -71,27 +87,27 @@ st.title("🛡 S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 
 if anomalies:
     for a in anomalies:
-        st.markdown(f"<div class='anomaly-box'>⚠️ ALERTA DE HOSTILIDAD: {a['reg']} (+{a['diff']:.1f} pts)</div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='anomaly-box'>⚠️ ALERTA DE HOSTILIDAD: {a['reg']} (+{a['diff']:.1f} pts en 3h)</div>", unsafe_allow_html=True)
 
 if not df_h.empty:
     latest_ts = float(df_h['timestamp'].max())
     readable_ts = datetime.fromtimestamp(latest_ts).strftime('%d-%m-%Y %H:%M:%S')
-    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL: {readable_ts} | 📊 PUNTOS TOTALES: {len(df_h)}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL REGISTRADA: {readable_ts} | 📊 REGISTROS: {len(df_h)}</div>", unsafe_allow_html=True)
 
-# --- MAPEO DE JSON A ACTORES ---
+# --- CARGA DE ACTORES (JSON) ---
 files = sorted(glob.glob('data/geoint_*.json'))
 data_list = []
 for f in files:
     try:
         with open(f, 'r') as j:
             c = json.load(j)
-            nombre = os.path.basename(f)[7:-5].upper()
-            if "IRAN" in nombre: nombre = "🇮🇷 IRÁN (ACTOR)"
-            elif "M_ORIENTE" in nombre: nombre = "🌍 MEDIO ORIENTE (REGIONAL)"
-            else: nombre = nombre.replace("_", " ")
+            name = os.path.basename(f)[7:-5].upper()
+            if "IRAN" in name: name = "🇮🇷 IRÁN (ACTOR)"
+            elif "M_ORIENTE" in name: name = "🌍 MEDIO ORIENTE (REGIONAL)"
+            else: name = name.replace("_", " ")
             
             data_list.append({
-                "ACTOR / REGIÓN": nombre,
+                "ACTOR / REGIÓN": name,
                 "RIESGO %": float(c.get('score', 0)),
                 "DISONANCIA": "⚠️ ALTA" if c.get('disonancia') else "✅ BAJA"
             })
@@ -99,21 +115,21 @@ for f in files:
 
 if data_list:
     df_actual = pd.DataFrame(data_list)
-    c1, c2 = st.columns([1, 1])
+    c1, c2 = st.columns(2)
     with c1:
         st.subheader("📊 Riesgo Actual")
         st.dataframe(df_actual, hide_index=True, use_container_width=True)
     with c2:
-        st.subheader("📈 Radar de Hostilidad")
+        st.subheader("📈 Intensidad")
         st.bar_chart(data=df_actual, x="ACTOR / REGIÓN", y="RIESGO %", color="#00ff41")
 
 if not df_h.empty:
     st.divider()
-    st.subheader("📉 Análisis de Tendencias Temporales")
-    actor_sel = st.selectbox("Seleccionar Actor para Inspección:", sorted(df_h['region'].unique()))
+    st.subheader("📉 Evolución Histórica (Análisis de Actores)")
+    sel = st.selectbox("Inspeccionar historial:", sorted(df_h['region'].unique()))
     df_h['dt'] = pd.to_datetime(df_h['timestamp'], unit='s')
-    df_p = df_h[df_h['region'] == actor_sel].sort_values('dt')
+    df_p = df_h[df_h['region'] == sel].sort_values('dt')
     st.line_chart(data=df_p, x='dt', y='score', color="#00ff41", height=400, use_container_width=True)
 
 st.divider()
-st.caption("S.I.E.G. V11.2 | Actor Irán Segregado | 2026")
+st.caption("S.I.E.G. V11.3 | Doctrina de Inteligencia Restaurada | 2026")
