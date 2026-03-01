@@ -18,31 +18,23 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- BARRA LATERAL: NARRATIVA PROFESIONAL ---
+# --- BARRA LATERAL: TABS CON ACRÓNIMOS EXTERNOS ---
 with st.sidebar:
     st.header("📂 DOCUMENTACIÓN")
-    tab_met, tab_arq, tab_cnt = st.tabs(["Metodología", "Arquitectura", "Contacto"])
+    tab_met, tab_arq, tab_acr, tab_cnt = st.tabs(["Metodología", "Arquitectura", "Acrónimos", "Contacto"])
     with tab_met:
-        st.markdown("""
-        ### 🔬 Obtención y Cálculo
-        - **Captura:** Escaneo automatizado de fuentes abiertas (OSINT) y flujos de noticias globales.
-        - **Gestión:** Los datos se normalizan en formato JSON para cada región monitorizada.
-        - **Cálculo de Riesgo:** Algoritmo basado en frecuencia de palabras clave de conflicto, variaciones en la narrativa oficial y detección de disonancia informativa.
-        """)
+        st.markdown("### 🔬 Obtención y Cálculo\n- **Captura:** Escaneo OSINT.\n- **Gestión:** Normalización JSON.\n- **Cálculo:** Algoritmo de frecuencia y disonancia.")
     with tab_arq:
-        st.markdown("""
-        ### 🏗️ Infraestructura
-        - **Nodo Maestro:** Tarjeta **Odroid-C2** bajo entorno **Linux (DietPi)**.
-        - **Fiabilidad:** Ejecución de tareas asíncronas mediante `cron`, garantizando persistencia incluso tras reinicios.
-        - **Procesado:** Capacidad optimizada para manejo de I/O de archivos JSON y sincronización remota vía Git.
-        - **Redundancia:** Diseño preparado para integración de un segundo nodo espejo (Odroid secundario).
-        """)
+        st.markdown("### 🏗️ Infraestructura\n- **Nodo:** Odroid-C2 (Linux/DietPi).\n- **Fiabilidad:** Persistencia vía Cron.\n- **Redundancia:** Preparado para nodo espejo.")
+    with tab_acr:
+        st.markdown("### 📑 Glosario")
+        try:
+            with open('data/acronimos.txt', 'r') as f:
+                st.text(f.read())
+        except:
+            st.info("Archivo de acrónimos no detectado.")
     with tab_cnt:
-        st.markdown("""
-        ### ✉️ Comunicación
-        Para consultas técnicas o intercambio de datos:
-        **mybloggingnotes@gmail.com**
-        """)
+        st.markdown("### ✉️ Comunicación\nmybloggingnotes@gmail.com")
 
 st.title("🛡️ S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 st.markdown("##### *Análisis de la situación geopolítica global a través de esta interfaz de monitoreo*")
@@ -60,19 +52,16 @@ for f in files:
             ts_raw = float(content.get('timestamp', 0))
             if ts_raw > latest_raw_ts: latest_raw_ts = ts_raw
             data_list.append({
-                "REGIÓN": nombre, 
-                "RIESGO %": float(content.get('score', 0)),
+                "REGIÓN": nombre, "RIESGO %": float(content.get('score', 0)),
                 "DISONANCIA": "⚠️ ALTA" if content.get('disonancia', False) else "✅ BAJA"
             })
     except: continue
 
-# Fecha legible
 readable_ts = datetime.fromtimestamp(latest_raw_ts).strftime('%d-%m-%Y %H:%M:%S') if latest_raw_ts > 0 else "N/A"
 
 if data_list:
     df = pd.DataFrame(data_list)
     st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL RECIBIDA: {readable_ts}</div>", unsafe_allow_html=True)
-    
     m_col1, m_col2 = st.columns(2)
     m_col1.metric("Riesgo Promedio Global", f"{df['RIESGO %'].mean():.1f}%")
     m_col2.metric("Foco Crítico", df.loc[df['RIESGO %'].idxmax()]['REGIÓN'], f"{df['RIESGO %'].max()}%")
@@ -85,19 +74,16 @@ if data_list:
         st.subheader("📈 Radar Regional")
         st.bar_chart(data=df, x="REGIÓN", y="RIESGO %", color="#00ff41")
 
-    # --- HISTÓRICO CONSOLIDADO (SIN TOCAR) ---
     st.divider()
     st.subheader("📉 Análisis de Tendencias Temporales")
     if os.path.exists('data/history_log.csv'):
         df_h = pd.read_csv('data/history_log.csv')
         df_h['timestamp'] = pd.to_datetime(df_h['timestamp'], unit='s', errors='coerce')
         df_h = df_h.dropna(subset=['timestamp']).sort_values('timestamp')
-        
         reg_sel = st.selectbox("Región para análisis histórico:", sorted(df_h['region'].unique()))
         df_plot = df_h[df_h['region'] == reg_sel]
-        
         st.line_chart(data=df_plot, x='timestamp', y='score', color="#00ff41")
-        st.caption(f"Registro: {len(df_plot)} señales procesadas desde el nodo Odroid.")
+        st.caption(f"Registro: {len(df_plot)} señales procesadas.")
 
 st.divider()
-st.caption("S.I.E.G. V9.7 | 2026")
+st.caption("S.I.E.G. V9.8 | 2026")
