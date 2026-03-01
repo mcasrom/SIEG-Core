@@ -5,7 +5,7 @@ import os
 import pandas as pd
 from datetime import datetime
 
-# 1. Configuración de pantalla
+# 1. Configuración de pantalla - M. Castillo
 st.set_page_config(page_title="S.I.E.G. Global Radar", page_icon="🛡️", layout="wide")
 
 st.markdown("""
@@ -13,19 +13,25 @@ st.markdown("""
     .stApp { background-color: #0e1117; color: #00ff41; }
     h1, h2, h3 { color: #00ff41 !important; border-bottom: 1px solid #224422; }
     [data-testid="stMetricValue"] { color: #00ff41 !important; }
-    .timestamp-box { color: #888; font-family: monospace; font-size: 0.9em; border: 1px solid #224422; padding: 5px; width: fit-content; }
+    .stDataFrame { border: 1px solid #224422; }
+    .timestamp-box { color: #00ff41; font-family: monospace; font-size: 0.9em; border: 1px solid #224422; padding: 8px; width: fit-content; background: #1a1c23; }
     </style>
     """, unsafe_allow_html=True)
 
-# --- BARRA LATERAL ---
+# --- BARRA LATERAL: TABS RESTAURADOS ---
 with st.sidebar:
     st.header("📂 DOCUMENTACIÓN")
-    st.markdown("### 🔬 Metodología S.I.E.G.\nAnalista Jefe: **M. Castillo**\nNodo: **Odroid-C2**")
-    st.info("Arquitectura: V9.5 - Procesador de Señales Unix")
+    tab_met, tab_arq, tab_cnt = st.tabs(["Metodología", "Arquitectura", "Contacto"])
+    with tab_met:
+        st.markdown("### 🔬 S.I.E.G.\nAnálisis OSINT de señales geopolíticas.")
+    with tab_arq:
+        st.markdown("### 🏗️ Hardware\n- **Nodo:** Odroid-C2\n- **OS:** DietPi\n- **Sincro:** Git/Cron")
+    with tab_cnt:
+        st.markdown(f"**Analista Jefe:**\nM. Castillo\n\n**Estado:** Operativo")
 
 st.title("🛡️ S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 
-# --- CARGA DE DATOS ---
+# --- PROCESAMIENTO DE DATOS ---
 files = sorted(glob.glob('data/geoint_*.json'))
 data_list = []
 latest_raw_ts = 0
@@ -35,17 +41,15 @@ for f in files:
         with open(f, 'r') as j:
             content = json.load(j)
             nombre = os.path.basename(f)[7:-5].replace("_", " ").upper()
-            ts_raw = content.get('timestamp', 0)
-            if float(ts_raw) > latest_raw_ts: latest_raw_ts = float(ts_raw)
-            
+            ts_raw = float(content.get('timestamp', 0))
+            if ts_raw > latest_raw_ts: latest_raw_ts = ts_raw
             data_list.append({
-                "REGIÓN": nombre,
-                "RIESGO %": float(content.get('score', 0)),
+                "REGIÓN": nombre, "RIESGO %": float(content.get('score', 0)),
                 "DISONANCIA": "⚠️ ALTA" if content.get('disonancia', False) else "✅ BAJA"
             })
     except: continue
 
-# Conversión de Timestamp para humanos
+# Fecha legible
 readable_ts = datetime.fromtimestamp(latest_raw_ts).strftime('%d-%m-%Y %H:%M:%S') if latest_raw_ts > 0 else "N/A"
 
 if data_list:
@@ -56,42 +60,27 @@ if data_list:
     m_col1.metric("Riesgo Promedio Global", f"{df['RIESGO %'].mean():.1f}%")
     m_col2.metric("Foco Crítico", df.loc[df['RIESGO %'].idxmax()]['REGIÓN'], f"{df['RIESGO %'].max()}%")
 
-    # --- TABLA Y RADAR ---
-    c1, c2 = st.columns([1, 1])
-    with c1:
+    col_l, col_r = st.columns([1, 1])
+    with col_l:
         st.subheader("📊 Tabla de Riesgo")
         st.dataframe(df, hide_index=True, use_container_width=True)
-    with c2:
+    with col_r:
         st.subheader("📈 Radar Regional")
         st.bar_chart(data=df, x="REGIÓN", y="RIESGO %", color="#00ff41")
 
-    # --- HISTÓRICO REPARADO (CONVERSIÓN UNIX) ---
+    # --- HISTÓRICO CONSOLIDADO ---
     st.divider()
     st.subheader("📉 Análisis de Tendencias Temporales")
-    history_path = 'data/history_log.csv'
-
-    if os.path.exists(history_path):
-        df_hist = pd.read_csv(history_path)
+    if os.path.exists('data/history_log.csv'):
+        df_h = pd.read_csv('data/history_log.csv')
+        df_h['timestamp'] = pd.to_datetime(df_h['timestamp'], unit='s', errors='coerce')
+        df_h = df_h.dropna(subset=['timestamp']).sort_values('timestamp')
         
-        # CONVERSIÓN CRÍTICA: Convertimos el número Unix en Fecha de Panda
-        df_hist['timestamp'] = pd.to_datetime(df_hist['timestamp'], unit='s', errors='coerce')
-        df_hist = df_hist.dropna(subset=['timestamp']).sort_values('timestamp')
+        reg_sel = st.selectbox("Región:", sorted(df_h['region'].unique()))
+        df_plot = df_h[df_h['region'] == reg_sel]
         
-        regiones = sorted(df_hist['region'].unique())
-        region_sel = st.selectbox("Seleccione región para histórico:", regiones)
-        
-        df_plot = df_hist[df_hist['region'] == region_sel]
-        
-        if not df_plot.empty:
-            # Forzamos el gráfico de líneas con el nuevo formato
-            st.line_chart(data=df_plot, x='timestamp', y='score', color="#00ff41")
-            st.caption(f"Registro: {len(df_plot)} señales procesadas para {region_sel}.")
-        else:
-            st.info("No hay datos para esta región.")
-    else:
-        st.warning("Archivo de historial no detectado.")
-else:
-    st.error("Esperando flujos de datos de la Odroid...")
+        st.line_chart(data=df_plot, x='timestamp', y='score', color="#00ff41")
+        st.caption(f"Registro: {len(df_plot)} puntos históricos.")
 
 st.divider()
-st.caption("S.I.E.G. V9.5 | M. CASTILLO 2026")
+st.caption("S.I.E.G. V9.6 | M. CASTILLO 2026")
