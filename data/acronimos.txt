@@ -1,11 +1,11 @@
-=== S.I.E.G. GLOSARIO DE TÉRMINOS ===
+=== S.I.E.G. GLOSARIO DE TERMINOS ===
 
 OSINT   — Open Source Intelligence (Inteligencia de fuentes abiertas)
 CF      — Coeficiente de Fiabilidad editorial (0.0 a 1.0)
-KINETIC — Acción militar física (bombardeo, ataque, invasión)
+KINETIC — Accion militar fisica (bombardeo, ataque, invasion)
 RSS     — Really Simple Syndication (formato de feeds de noticias)
 IDF     — Israel Defense Forces (Fuerzas de Defensa de Israel)
-IRGC    — Islamic Revolutionary Guard Corps (Guardia Revolucionaria Iraní)
+IRGC    — Islamic Revolutionary Guard Corps (Guardia Revolucionaria Irani)
 DPRK    — Democratic People's Republic of Korea (Corea del Norte)
 ISW     — Institute for the Study of War
 ASPI    — Australian Strategic Policy Institute
@@ -15,12 +15,12 @@ CISA    — Cybersecurity and Infrastructure Security Agency (EEUU)
 ENISA   — European Union Agency for Cybersecurity
 
 === NIVELES DE ALERTA ===
-CRITICO  — Score >= 80% | Riesgo de confrontación directa
+CRITICO  — Score >= 80% | Riesgo de confrontacion directa
 ALTO     — Score 60-79% | Escalada activa o amenaza sostenida
-MEDIO    — Score 40-59% | Tensión elevada sin acción cinética
-BAJO     — Score < 40%  | Situación monitorizada sin incidentes
+MEDIO    — Score 40-59% | Tension elevada sin accion cinetica
+BAJO     — Score < 40%  | Situacion monitorizada sin incidentes
 
 === INDICADORES ===
-Delta (Δ) — Variación de score en ventana de 3 horas
-Disonancia — Divergencia narrativa entre fuentes > 35 puntos
-Suelo     — Score mínimo estructural por actor (ajustado dinámicamente)
+Delta    — Variacion de score en ventana de 3 horas
+Dison.   — Divergencia narrativa entre fuentes > 35 puntos
+Suelo    — Score minimo estructural por actor (ajustado dinamicamente)
