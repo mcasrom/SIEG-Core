@@ -5,10 +5,8 @@ import os
 import pandas as pd
 from datetime import datetime
 
-# 1. Configuración de pantalla
+# 1. Configuración de pantalla - M. Castillo
 st.set_page_config(page_title="S.I.E.G. Global Radar", page_icon="🛡", layout="wide")
-
-# Limpieza de caché forzada
 st.cache_data.clear()
 
 st.markdown("""
@@ -16,7 +14,8 @@ st.markdown("""
     .stApp { background-color: #0e1117; color: #00ff41; }
     h1, h2, h3 { color: #00ff41 !important; border-bottom: 1px solid #224422; }
     [data-testid="stMetricValue"] { color: #00ff41 !important; }
-    .timestamp-box { color: #00ff41; font-family: monospace; font-size: 0.9em; border: 1px solid #224422; padding: 8px; width: fit-content; background: #1a1c23; margin-bottom: 15px; }
+    .stDataFrame { border: 1px solid #224422; background-color: #1a1c23; }
+    .timestamp-box { color: #00ff41; font-family: monospace; font-size: 1em; border: 1px solid #224422; padding: 10px; background: #1a1c23; margin-bottom: 20px; width: 100%; text-align: center; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -24,15 +23,11 @@ st.markdown("""
 with st.sidebar:
     st.header("📂 DOCUMENTACIÓN")
     t_met, t_arq, t_acr = st.tabs(["Metodología", "Arquitectura", "Acrónimos"])
-    with t_met:
-        st.markdown("### 🔬 OSINT & Disonancia\nAnálisis de señales geopolíticas en tiempo real.")
-    with t_arq:
-        st.markdown("### 🏗 Nodo Odroid-C2\nInfraestructura Linux DietPi persistente.")
+    with t_met: st.markdown("### 🔬 OSINT\nEscaneo de señales y disonancia narrativa.")
+    with t_arq: st.markdown("### 🏗 Nodo Odroid-C2\nLinux DietPi | Sincronización Git.")
     with t_acr:
-        st.markdown("### 📑 Glosario")
         if os.path.exists('data/acronimos.txt'):
             with open('data/acronimos.txt', 'r') as f: st.text(f.read())
-
     st.markdown("---")
     st.markdown("### ✉ CONTACTO")
     st.code("mybloggingnotes@gmail.com", language=None)
@@ -40,7 +35,7 @@ with st.sidebar:
 st.title("🛡 S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 st.markdown("##### *Análisis de la situación geopolítica global a través de esta interfaz de monitoreo*")
 
-# --- PROCESAMIENTO ---
+# --- PROCESAMIENTO DE DATOS ---
 files = sorted(glob.glob('data/geoint_*.json'))
 data_list = []
 latest_raw_ts = 0
@@ -58,29 +53,43 @@ for f in files:
             })
     except: continue
 
-readable_ts = datetime.fromtimestamp(latest_raw_ts).strftime('%d-%m-%Y %H:%M:%S') if latest_raw_ts > 0 else "N/A"
-
+# --- CABECERA DE DATOS ---
 if data_list:
     df = pd.DataFrame(data_list)
-    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL RECIBIDA: {readable_ts}</div>", unsafe_allow_html=True)
+    num_regs = 0
+    if os.path.exists('data/history_log.csv'):
+        num_regs = len(pd.read_csv('data/history_log.csv', header=None))
     
-    c1, c2 = st.columns(2)
-    c1.metric("Riesgo Promedio Global", f"{df['RIESGO %'].mean():.1f}%")
-    c2.metric("Foco Crítico", df.loc[df['RIESGO %'].idxmax()]['REGIÓN'], f"{df['RIESGO %'].max()}%")
+    readable_ts = datetime.fromtimestamp(latest_raw_ts).strftime('%d-%m-%Y %H:%M:%S')
+    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL RECIBIDA: {readable_ts} | 📊 REGISTROS EN HISTORIAL: {num_regs}</div>", unsafe_allow_html=True)
+    
+    m1, m2 = st.columns(2)
+    m1.metric("Riesgo Promedio Global", f"{df['RIESGO %'].mean():.1f}%")
+    m2.metric("Foco de Tensión Máxima", df.loc[df['RIESGO %'].idxmax()]['REGIÓN'], f"{df['RIESGO %'].max()}%")
 
-    st.bar_chart(data=df, x="REGIÓN", y="RIESGO %", color="#00ff41")
-
+    # --- CUERPO PRINCIPAL (TABLA + RADAR) ---
     st.divider()
-    st.subheader("📉 Análisis de Tendencias Temporales")
+    col_izq, col_der = st.columns([1, 1])
+    with col_izq:
+        st.subheader("📊 Tabla de Riesgo Regional")
+        st.dataframe(df, hide_index=True, use_container_width=True)
+    with col_der:
+        st.subheader("📈 Radar de Riesgo Actual")
+        st.bar_chart(data=df, x="REGIÓN", y="RIESGO %", color="#00ff41")
+
+    # --- HISTÓRICO EXPANDIDO ---
+    st.divider()
+    st.subheader("📉 Tendencias Temporales (Análisis de Evolución)")
     if os.path.exists('data/history_log.csv'):
         df_h = pd.read_csv('data/history_log.csv', header=None, names=['timestamp', 'region', 'score'])
         df_h['timestamp'] = pd.to_datetime(df_h['timestamp'], unit='s', errors='coerce')
         df_h = df_h.dropna(subset=['timestamp']).sort_values('timestamp')
         
-        reg_sel = st.selectbox("Seleccione región:", sorted(df_h['region'].unique()))
+        reg_sel = st.selectbox("Seleccione región para desglose histórico:", sorted(df_h['region'].unique()))
         df_p = df_h[df_h['region'] == reg_sel]
+        
+        # Gráfico a lo ancho para que sea legible
         st.line_chart(data=df_p, x='timestamp', y='score', color="#00ff41")
-        st.caption(f"Registros en base de datos: {len(df_h)}")
 
 st.divider()
-st.caption(f"S.I.E.G. V10.3 | 2026")
+st.caption("S.I.E.G. V10.5 | 2026")
