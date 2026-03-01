@@ -1,0 +1,5 @@
+S.I.E.G.: Sistema de Inteligencia Estratégica Global.
+OSINT: Open Source Intelligence (Inteligencia de Fuentes Abiertas).
+JSON: JavaScript Object Notation (Formato de intercambio de datos).
+NODO: Punto de ejecución y proceso (Odroid-C2).
+DISONANCIA: Divergencia detectada entre fuentes de información.
