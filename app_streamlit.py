@@ -3,108 +3,90 @@ import json
 import glob
 import os
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # 1. Configuración de pantalla TOTAL
 st.set_page_config(page_title="S.I.E.G. Global Radar", page_icon="🛡", layout="wide")
 st.cache_data.clear()
 
-# CSS AGRESIVO para ancho total (Blindado)
+# CSS AGRESIVO: Estética de Terminal de Inteligencia
 st.markdown("""
     <style>
-    .stApp { background-color: #0e1117; color: #00ff41; }
-    .block-container { max-width: 95% !important; padding-top: 1rem; padding-bottom: 1rem; }
-    h1, h2, h3 { color: #00ff41 !important; border-bottom: 1px solid #224422; }
+    .stApp { background-color: #0c0e12; color: #00ff41; }
+    .block-container { max-width: 95% !important; padding-top: 1rem; }
     .timestamp-box { 
-        color: #00ff41; font-family: monospace; font-size: 1.2em; 
-        border: 2px solid #00ff41; padding: 15px; background: #1a1c23; 
-        margin-bottom: 25px; width: 100%; text-align: center; 
+        color: #00ff41; font-family: monospace; font-size: 1.1em; 
+        border: 1px solid #00ff41; padding: 10px; background: #1a1c23; 
+        text-align: center; border-radius: 5px; margin-bottom: 20px;
     }
-    .stTabs [data-baseweb="tab-panel"] { color: #00ff41; }
+    .anomaly-box {
+        background-color: #440000; border: 2px solid #ff0000;
+        color: white; padding: 15px; border-radius: 5px;
+        margin-bottom: 20px; font-weight: bold; text-align: center;
+        animation: blinker 2s linear infinite;
+    }
+    @keyframes blinker { 50% { opacity: 0.5; } }
     </style>
     """, unsafe_allow_html=True)
 
-# --- BARRA LATERAL: DOCUMENTACIÓN AMPLIADA (NO MÁS BREVE MIERDA) ---
+# --- CARGA DE DATOS Y LÓGICA DE INTELIGENCIA ---
+df_h = pd.DataFrame()
+if os.path.exists('data/history_log.csv'):
+    df_h = pd.read_csv('data/history_log.csv', header=None, names=['timestamp', 'region', 'score'])
+    df_h['timestamp'] = pd.to_numeric(df_h['timestamp'], errors='coerce')
+    df_h = df_h.dropna(subset=['timestamp'])
+
+# --- DETECCIÓN DE ANOMALÍAS (Tendencia última 3h) ---
+anomalies = []
+if not df_h.empty:
+    for region in df_h['region'].unique():
+        reg_series = df_h[df_h['region'] == region].sort_values('timestamp', ascending=False)
+        if len(reg_series) >= 6:
+            val_actual = reg_series.iloc[0]['score']
+            val_previo = reg_series.iloc[5]['score'] # Hace aprox 3 horas
+            diff = val_actual - val_previo
+            if diff > 8:  # Umbral de alerta: subida de >8 puntos
+                anomalies.append({"reg": region.upper(), "diff": diff, "val": val_actual})
+
+# --- BARRA LATERAL (Documentación Técnica) ---
 with st.sidebar:
-    st.header("📂 DOCUMENTACIÓN TÉCNICA")
-    t_met, t_arq, t_acr = st.tabs(["Metodología", "Arquitectura", "Acrónimos"])
-    
+    st.header("📂 S.I.E.G. DOCS")
+    t_met, t_arq = st.tabs(["Metodología", "Arquitectura"])
     with t_met:
-        st.markdown("""
-        ### 🔬 Ciclo de Inteligencia OSINT
-        El motor **S.I.E.G.** opera bajo un modelo de **análisis de fuentes abiertas (Open Source Intelligence)**. 
-        * **Ingesta:** Recolección de señales mediante raspado de metadatos geopolíticos y monitorización de flujos de noticias.
-        * **Cuantificación:** Las señales se transforman en una escala numérica de **0 a 100** mediante un algoritmo de frecuencia léxica.
-        * **Disonancia:** Se calcula la divergencia entre la narrativa oficial y la actividad detectada en el terreno. Una **Disonancia Alta (⚠️)** indica un conflicto potencial inminente o desinformación activa.
-        """)
-
+        st.markdown("### 🔬 OSINT\nAnálisis de señales mediante frecuencia léxica. La anomalía se dispara con $\Delta > 8$ en 180 min.")
     with t_arq:
-        st.markdown("""
-        ### 🏗 Infraestructura de Nodo Físico
-        A diferencia de sistemas 100% cloud, el núcleo de cálculo reside en un entorno controlado:
-        * **Hardware:** Nodo dedicado **Odroid-C2** (Amlogic S905, 2GB RAM).
-        * **SO:** Linux (DietPi) optimizado para baja latencia.
-        * **Persistencia:** Base de datos relacional ligera y logs históricos en CSV para evitar sobrecarga de E/S en tarjetas eMMC/SD.
-        * **Sincronización:** Tubería de despliegue continuo vía **Git** cada 30 minutos, asegurando la integridad de los datos entre el nodo físico y la interfaz web.
-        """)
-        
-    with t_acr:
-        st.markdown("### 📑 Glosario Operativo")
-        if os.path.exists('data/acronimos.txt'):
-            with open('data/acronimos.txt', 'r') as f:
-                st.text(f.read())
-        else:
-            st.info("Archivo acronimos.txt no detectado.")
+        st.markdown("### 🏗 Nodo\nOdroid-C2 DietPi. Sync Git forzado cada 30 min (Inmune a conflictos).")
+    st.divider()
+    st.code("mybloggingnotes@gmail.com")
 
-    st.markdown("---")
-    st.markdown("### ✉ CONTACTO")
-    st.code("mybloggingnotes@gmail.com", language=None)
-
+# --- CABECERA ---
 st.title("🛡 S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 
-# --- CARGA DE DATOS ---
-latest_ts = 0
-num_regs = 0
-df_h = pd.DataFrame()
+if anomalies:
+    for a in anomalies:
+        st.markdown(f"<div class='anomaly-box'>⚠️ ALERTA DE HOSTILIDAD DETECTADA: {a['reg']} (Incremento crítico de +{a['diff']:.1f}%)</div>", unsafe_allow_html=True)
 
-if os.path.exists('data/history_log.csv'):
-    try:
-        df_h = pd.read_csv('data/history_log.csv', header=None, names=['timestamp', 'region', 'score'])
-        if not df_h.empty:
-            df_h['timestamp'] = pd.to_numeric(df_h['timestamp'], errors='coerce')
-            df_h = df_h.dropna(subset=['timestamp'])
-            latest_ts = float(df_h['timestamp'].max())
-            num_regs = len(df_h)
-    except: pass
+if not df_h.empty:
+    latest_ts = float(df_h['timestamp'].max())
+    readable_ts = datetime.fromtimestamp(latest_ts).strftime('%d-%m-%Y %H:%M:%S')
+    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL: {readable_ts} | 📊 REGISTROS: {len(df_h)}</div>", unsafe_allow_html=True)
 
+# --- VISUALIZACIÓN ---
 files = sorted(glob.glob('data/geoint_*.json'))
 data_list = []
 for f in files:
     try:
         with open(f, 'r') as j:
-            content = json.load(j)
+            c = json.load(j)
             data_list.append({
                 "REGIÓN": os.path.basename(f)[7:-5].replace("_", " ").upper(),
-                "RIESGO %": float(content.get('score', 0)),
-                "DISONANCIA": "⚠️ ALTA" if content.get('disonancia', False) else "✅ BAJA"
+                "RIESGO %": float(c.get('score', 0)),
+                "DISONANCIA": "⚠️ ALTA" if c.get('disonancia') else "✅ BAJA"
             })
     except: continue
 
-# --- RENDERIZADO ---
-if latest_ts > 0:
-    readable_ts = datetime.fromtimestamp(latest_ts).strftime('%d-%m-%Y %H:%M:%S')
-else:
-    readable_ts = "SINCRONIZANDO..."
-
-st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL REGISTRADA: {readable_ts} | 📊 TOTAL PUNTOS: {num_regs}</div>", unsafe_allow_html=True)
-
 if data_list:
     df_actual = pd.DataFrame(data_list)
-    c1, c2 = st.columns(2)
-    c1.metric("Riesgo Promedio", f"{df_actual['RIESGO %'].mean():.1f}%")
-    c2.metric("Estado del Sistema", "OPERATIVO", "SYNC OK")
-
-    st.divider()
     col_izq, col_der = st.columns([1, 1])
     with col_izq:
         st.subheader("📊 Riesgo Actual")
@@ -115,12 +97,11 @@ if data_list:
 
 if not df_h.empty:
     st.divider()
-    st.subheader("📉 Análisis de Tendencias Temporales (PANORÁMICO)")
+    st.subheader("📉 Análisis de Tendencias Temporales (ANCHO TOTAL)")
+    reg_sel = st.selectbox("Seleccionar Región para Análisis Profundo:", sorted(df_h['region'].unique()))
     df_h['dt'] = pd.to_datetime(df_h['timestamp'], unit='s')
-    reg_sel = st.selectbox("Filtrar Histórico por Región:", sorted(df_h['region'].unique()))
     df_p = df_h[df_h['region'] == reg_sel].sort_values('dt')
-    
     st.line_chart(data=df_p, x='dt', y='score', color="#00ff41", height=400, use_container_width=True)
 
 st.divider()
-st.caption("S.I.E.G. V10.9 | 2026")
+st.caption("S.I.E.G. V11 | 2026 | Protocolo de Anomalías Activo")
