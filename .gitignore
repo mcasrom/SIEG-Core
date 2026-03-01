@@ -1,5 +1,12 @@
-logs/*.log
-backups/*.tar.gz
+logs/
+backups/
 __pycache__/
+*.pyc
+*.pyo
 *.zip
+*.tar.gz
+*.log
+.env
 .DS_Store
+venv/
+.venv/
