@@ -1,5 +1,26 @@
-S.I.E.G.: Sistema de Inteligencia Estratégica Global.
-OSINT: Open Source Intelligence (Inteligencia de Fuentes Abiertas).
-JSON: JavaScript Object Notation (Formato de intercambio de datos).
-NODO: Punto de ejecución y proceso (Odroid-C2).
-DISONANCIA: Divergencia detectada entre fuentes de información.
+=== S.I.E.G. GLOSARIO DE TÉRMINOS ===
+
+OSINT   — Open Source Intelligence (Inteligencia de fuentes abiertas)
+CF      — Coeficiente de Fiabilidad editorial (0.0 a 1.0)
+KINETIC — Acción militar física (bombardeo, ataque, invasión)
+RSS     — Really Simple Syndication (formato de feeds de noticias)
+IDF     — Israel Defense Forces (Fuerzas de Defensa de Israel)
+IRGC    — Islamic Revolutionary Guard Corps (Guardia Revolucionaria Iraní)
+DPRK    — Democratic People's Republic of Korea (Corea del Norte)
+ISW     — Institute for the Study of War
+ASPI    — Australian Strategic Policy Institute
+NATO    — North Atlantic Treaty Organization
+OPEC    — Organization of the Petroleum Exporting Countries
+CISA    — Cybersecurity and Infrastructure Security Agency (EEUU)
+ENISA   — European Union Agency for Cybersecurity
+
+=== NIVELES DE ALERTA ===
+CRITICO  — Score >= 80% | Riesgo de confrontación directa
+ALTO     — Score 60-79% | Escalada activa o amenaza sostenida
+MEDIO    — Score 40-59% | Tensión elevada sin acción cinética
+BAJO     — Score < 40%  | Situación monitorizada sin incidentes
+
+=== INDICADORES ===
+Delta (Δ) — Variación de score en ventana de 3 horas
+Disonancia — Divergencia narrativa entre fuentes > 35 puntos
+Suelo     — Score mínimo estructural por actor (ajustado dinámicamente)
