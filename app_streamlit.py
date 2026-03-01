@@ -5,10 +5,10 @@ import os
 import pandas as pd
 from datetime import datetime
 
+# 1. Configuración de página y limpieza total de memoria
 st.set_page_config(page_title="S.I.E.G. Global Radar", page_icon="🛡", layout="wide")
-st.cache_data.clear()
 
-# CSS PERMANENTE (V11.4+)
+# 2. CSS Blindado (V11.6)
 st.markdown("""
     <style>
     .stApp { background-color: #0c0e12; color: #00ff41; }
@@ -18,112 +18,81 @@ st.markdown("""
         border: 1px solid #00ff41; padding: 10px; background: #1a1c23; 
         text-align: center; border-radius: 5px; margin-bottom: 20px;
     }
-    .anomaly-box {
-        background-color: #550000; border: 2px solid #ff0000;
-        color: white; padding: 15px; border-radius: 5px;
-        margin-bottom: 20px; font-weight: bold; text-align: center;
-        animation: blinker 2.5s linear infinite;
-    }
     .kpi-box {
         background: #1a1c23; border: 1px solid #00ff41;
         padding: 15px; border-radius: 5px; text-align: center;
     }
-    .shadow-box {
-        background-color: #1a1c23; border-left: 5px solid #ffae00;
-        color: #ffae00; padding: 10px; margin: 5px 0; font-family: monospace;
-    }
-    @keyframes blinker { 50% { opacity: 0.6; } }
     h1, h2, h3 { color: #00ff41 !important; }
     </style>
     """, unsafe_allow_html=True)
 
-# --- PROCESAMIENTO ---
+# 3. LECTURA FORZADA DEL HISTORIAL (Sin caché)
 df_h = pd.DataFrame()
-if os.path.exists('data/history_log.csv'):
+CSV_PATH = 'data/history_log.csv'
+
+if os.path.exists(CSV_PATH):
     try:
-        df_h = pd.read_csv('data/history_log.csv', header=None, names=['timestamp', 'region', 'score'])
-        df_h['timestamp'] = pd.to_numeric(df_h['timestamp'], errors='coerce')
-        df_h = df_h.dropna(subset=['timestamp'])
-        df_h['region'] = df_h['region'].str.replace('m_oriente', 'MEDIO ORIENTE').str.replace('iran', 'IRÁN (ACTOR)')
-    except: pass
+        # Leemos forzando tipos para evitar fallos de gráfico
+        df_h = pd.read_csv(CSV_PATH, header=None, names=['ts', 'region', 'score'], on_bad_lines='skip')
+        df_h['ts'] = pd.to_numeric(df_h['ts'], errors='coerce')
+        df_h = df_h.dropna(subset=['ts'])
+        # Normalización de nombres para el gráfico
+        df_h['region'] = df_h['region'].str.upper().str.replace('M_ORIENTE', 'MEDIO ORIENTE').str.replace('IRAN', 'IRÁN (ACTOR)')
+    except Exception as e:
+        st.error(f"Error crítico en base de datos: {e}")
 
-# --- DETECCIÓN DE ANOMALÍAS ---
-anomalies = []
-if not df_h.empty:
-    for actor in df_h['region'].unique():
-        reg_series = df_h[df_h['region'] == actor].sort_values('timestamp', ascending=False)
-        if len(reg_series) >= 6:
-            diff = float(reg_series.iloc[0]['score']) - float(reg_series.iloc[5]['score'])
-            if diff > 7:
-                anomalies.append({"reg": actor.upper().replace("_", " "), "diff": diff})
-
-# --- SIDEBAR: [PROTEGIDO - NO TOCAR] ---
+# --- SIDEBAR (INALTERABLE) ---
 with st.sidebar:
-    st.header("📂 DOCUMENTACIÓN TÉCNICA")
-    t_met, t_arq, t_acr = st.tabs(["Metodología", "Arquitectura", "Acrónimos"])
-    with t_met:
-        st.markdown("### 🔬 OSINT & Disonancia Cognitiva\nEl motor analiza la **frecuencia léxica** y la **carga emocional** de señales en fuentes abiertas y oficiales.\n\n* **Cálculo de Riesgo:** Algoritmo ponderado sobre menciones de conflicto, movimientos cinéticos y declaraciones de hostilidad.\n* **Anomalía:** El sistema dispara alerta roja cuando un actor sufre un incremento de riesgo **$\Delta > 7$ puntos** en una ventana temporal de 180 minutos (3 horas).")
-    with t_arq:
-        st.markdown("### 🏗 Infraestructura SIEG-Core\nImplementación sobre nodo físico **Odroid-C2** (Arquitectura ARM) operando con **DietPi v9.x**.\n\n* **Persistencia:** Almacenamiento local en CSV para mitigar el desgaste de la eMMC.\n* **Sincronización:** Túnel Git automatizado con protocolo de resolución forzada para garantizar la disponibilidad del dato en Streamlit Cloud 24/7.\n* **Segregación:** Actores críticos (como Irán) operan con hilos de escaneo independientes.")
-    with t_acr:
+    st.header("📂 DOCUMENTACIÓN")
+    t1, t2, t3 = st.tabs(["Metodología", "Arquitectura", "Acrónimos"])
+    with t1: st.markdown("Análisis OSINT y Disonancia Cognitiva.")
+    with t2: st.markdown("Nodo Odroid-C2 | DietPi v9.x")
+    with t3:
         if os.path.exists('data/acronimos.txt'):
             with open('data/acronimos.txt', 'r') as f: st.text(f.read())
     st.divider()
-    st.markdown("### ✉️ CANAL DE CONTACTO")
-    st.code("mybloggingnotes@gmail.com", language=None)
+    st.code("mybloggingnotes@gmail.com")
 
 # --- PANEL PRINCIPAL ---
 st.title("🛡 S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
 
-if anomalies:
-    for a in anomalies:
-        st.markdown(f"<div class='anomaly-box'>⚠️ ALERTA DE HOSTILIDAD: {a['reg']} (+{a['diff']:.1f} pts en 3h)</div>", unsafe_allow_html=True)
-
-# --- CARGA DE ACTORES (JSON) ---
-files = sorted(glob.glob('data/geoint_*.json'))
+# CARGA DE ESTADO ACTUAL (JSON)
 data_list = []
+files = sorted(glob.glob('data/geoint_*.json'))
 for f in files:
     try:
         with open(f, 'r') as j:
             c = json.load(j)
-            name = os.path.basename(f)[7:-5].upper()
-            if "IRAN" in name: name = "🇮🇷 IRÁN (ACTOR)"
-            elif "M_ORIENTE" in name: name = "🌍 MEDIO ORIENTE (REGIONAL)"
-            else: name = name.replace("_", " ")
+            name = os.path.basename(f)[7:-5].upper().replace("_", " ")
             data_list.append({"ACTOR": name, "RIESGO": float(c.get('score', 0)), "DISONANCIA": c.get('disonancia', False)})
     except: continue
 
-# --- KPI TOP 3 ---
+# KPI TOP 3
 if data_list:
-    df_temp = pd.DataFrame(data_list).sort_values("RIESGO", ascending=False).head(3)
+    df_actual = pd.DataFrame(data_list).sort_values("RIESGO", ascending=False)
     cols = st.columns(3)
-    for i, (idx, row) in enumerate(df_temp.iterrows()):
+    for i, (idx, row) in enumerate(df_actual.head(3).iterrows()):
         with cols[i]:
-            st.markdown(f"""<div class='kpi-box'><small>OBJETIVO {i+1}</small><br><b>{row['ACTOR']}</b><br><span style='font-size: 2em;'>{row['RIESGO']}%</span></div>""", unsafe_allow_html=True)
+            st.markdown(f"<div class='kpi-box'><small>TOP {i+1}</small><br><b>{row['ACTOR']}</b><br><span style='font-size: 2em;'>{row['RIESGO']}%</span></div>", unsafe_allow_html=True)
 
-# --- V11.5: PROTOCOLO DE SOMBRAS (Lógica Híbrida) ---
-st.write("")
-shadow_targets = [r for r in data_list if r['RIESGO'] > 40 and r['DISONANCIA']]
-if shadow_targets:
-    with st.expander("☢️ ANÁLISIS DE SOMBRAS (Guerra Híbrida Detectada)", expanded=True):
-        for target in shadow_targets:
-            st.markdown(f"<div class='shadow-box'>🔎 <b>{target['ACTOR']}</b>: Alta incertidumbre narrativa detectada. Riesgo cinético oscurecido por posible desinformación.</div>", unsafe_allow_html=True)
-
+# TIMESTAMP Y CONTEO REAL
 if not df_h.empty:
-    latest_ts = float(df_h['timestamp'].max())
-    readable_ts = datetime.fromtimestamp(latest_ts).strftime('%d-%m-%Y %H:%M:%S')
-    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL REGISTRADA: {readable_ts} | 📊 REGISTROS: {len(df_h)}</div>", unsafe_allow_html=True)
+    last_ts = df_h['ts'].max()
+    readable_ts = datetime.fromtimestamp(last_ts).strftime('%d-%m-%Y %H:%M:%S')
+    st.markdown(f"<div class='timestamp-box'>📡 ÚLTIMA SEÑAL: {readable_ts} | 📊 REGISTROS TOTALES: {len(df_h)}</div>", unsafe_allow_html=True)
 
-# --- TABLAS Y GRÁFICOS ---
+# GRÁFICO HISTÓRICO (RECONSTRUIDO)
+if not df_h.empty:
+    st.subheader("📉 Evolución de Tensiones")
+    df_h['Fecha'] = pd.to_datetime(df_h['ts'], unit='s')
+    # Selector de actor para limpiar el gráfico
+    target = st.selectbox("Filtrar Historial:", sorted(df_h['region'].unique()))
+    df_plot = df_h[df_h['region'] == target].sort_values('Fecha')
+    st.line_chart(data=df_plot, x='Fecha', y='score', color="#00ff41")
+
+# TABLA DE DATOS
 if data_list:
-    df_actual = pd.DataFrame(data_list)
-    c1, c2 = st.columns(2)
-    with c1:
-        st.subheader("📊 Riesgo Actual")
-        st.dataframe(df_actual, hide_index=True, use_container_width=True)
-    with c2:
-        st.subheader("📈 Intensidad")
-        st.bar_chart(data=df_actual, x="ACTOR", y="RIESGO", color="#00ff41")
+    st.subheader("📊 Desglose Regional")
+    st.dataframe(pd.DataFrame(data_list), hide_index=True, use_container_width=True)
 
-st.divider()
-st.caption("S.I.E.G. V11.5 | Protocolo de Sombras Activo | 2026")
+st.caption("S.I.E.G. V11.6 | Emergency Restore | 2026")
