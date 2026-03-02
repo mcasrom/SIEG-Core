@@ -1,29 +1,269 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>S.I.E.G. Global Radar</title>
-    <meta http-equiv="refresh" content="1800">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>body { background: #1a1a1a; color: #00ff00; font-family: monospace; text-align: center; }</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S.I.E.G. Documentation</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+  :root {
+    --bg: #0a0c10; --bg2: #0f1318; --bg3: #141820;
+    --green: #00ff41; --blue: #00ccff; --orange: #ff8800;
+    --red: #ff2222; --yellow: #ffdd00; --text: #c8d8e8;
+    --muted: #556677; --border: #1a2a3a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif;
+         line-height: 1.6; }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  header { background: var(--bg2); border-bottom: 2px solid var(--green);
+            padding: 2rem; text-align: center; }
+  header h1 { font-family: 'JetBrains Mono'; color: var(--green);
+               font-size: 2.2rem; letter-spacing: 0.1em; }
+  header p { color: var(--muted); margin-top: .5rem; font-size: .95rem; }
+  .badges { margin: 1rem 0; display: flex; gap: .8rem; justify-content: center; flex-wrap: wrap; }
+  .badge { background: var(--bg3); border: 1px solid var(--border);
+            padding: .3rem .9rem; border-radius: 12px; font-size: .8rem;
+            font-family: 'JetBrains Mono'; }
+  .badge.live { border-color: var(--green); color: var(--green); }
+  .badge.ver  { border-color: var(--blue);  color: var(--blue); }
+  nav { background: var(--bg3); border-bottom: 1px solid var(--border);
+         padding: .8rem 2rem; display: flex; gap: 1.5rem; flex-wrap: wrap;
+         justify-content: center; }
+  nav a { color: var(--muted); font-size: .9rem; font-weight: 600;
+           transition: color .2s; }
+  nav a:hover { color: var(--green); text-decoration: none; }
+  main { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+  section { margin-bottom: 3rem; }
+  h2 { font-family: 'JetBrains Mono'; color: var(--blue);
+        font-size: 1.3rem; margin-bottom: 1rem;
+        padding-bottom: .5rem; border-bottom: 1px solid var(--border); }
+  h3 { color: var(--green); font-size: 1rem; margin: 1.2rem 0 .5rem; }
+  p { color: var(--text); margin-bottom: .8rem; font-size: .95rem; }
+  p.en { color: var(--muted); font-style: italic; font-size: .88rem; margin-bottom: 1.2rem; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0;
+           font-size: .88rem; }
+  th { background: var(--bg3); color: var(--blue); text-align: left;
+        padding: .6rem .8rem; border: 1px solid var(--border);
+        font-family: 'JetBrains Mono'; font-size: .82rem; }
+  td { padding: .5rem .8rem; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: var(--bg2); }
+  ul { padding-left: 1.5rem; margin-bottom: .8rem; }
+  li { margin-bottom: .3rem; font-size: .93rem; }
+  code { font-family: 'JetBrains Mono'; background: var(--bg3);
+          color: var(--green); padding: .15rem .4rem; border-radius: 3px;
+          font-size: .83rem; }
+  pre { background: var(--bg3); border: 1px solid var(--border);
+         padding: 1rem 1.2rem; border-radius: 6px; overflow-x: auto;
+         font-family: 'JetBrains Mono'; font-size: .82rem; color: var(--text);
+         margin: 1rem 0; }
+  .card { background: var(--bg2); border: 1px solid var(--border);
+           border-radius: 8px; padding: 1.4rem; margin-bottom: 1rem; }
+  .card:hover { border-color: var(--blue); }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media(max-width:700px) { .grid2 { grid-template-columns: 1fr; } }
+  .level { display: inline-block; padding: .2rem .7rem; border-radius: 4px;
+            font-family: 'JetBrains Mono'; font-size: .8rem; font-weight: 600; }
+  .l-crit { background:#330000; color:var(--red); border:1px solid var(--red); }
+  .l-high { background:#331500; color:var(--orange); border:1px solid var(--orange); }
+  .l-med  { background:#333300; color:var(--yellow); border:1px solid var(--yellow); }
+  .l-norm { background:#003300; color:var(--green); border:1px solid var(--green); }
+  .q-green  { background:#0a2a0a; color:#00ff41; border:1px solid #00ff41; }
+  .q-blue   { background:#0a1a2a; color:#00ccff; border:1px solid #00ccff; }
+  .q-yellow { background:#2a2a00; color:#ffdd00; border:1px solid #ffdd00; }
+  .q-orange { background:#2a1500; color:#ff8800; border:1px solid #ff8800; }
+  .q-red    { background:#2a0000; color:#ff2222; border:1px solid #ff2222; }
+  .quality  { display:inline-block; padding:.2rem .7rem; border-radius:10px;
+               font-family:'JetBrains Mono'; font-size:.78rem; font-weight:600; }
+  footer { background: var(--bg2); border-top: 1px solid var(--border);
+            text-align: center; padding: 1.5rem; color: var(--muted);
+            font-size: .83rem; font-family: 'JetBrains Mono'; }
+</style>
 </head>
 <body>
-    <h1>🛡️ S.I.E.G. GEOPOLITICAL RADAR</h1>
-    <div style="width: 50%; margin: auto;"><canvas id="radarChart"></canvas></div>
-    <script>
-        const ctx = document.getElementById('radarChart');
-        new Chart(ctx, {
-            type: 'radar',
-            data: {
-                labels: ['ARGENTINA', 'ASIA PACIFICO', 'AUSTRALIA', 'BRASIL', 'CHINA', 'ESPANA', 'EUROPA CORE', 'IRAN M ORIENTE', 'LATAM', 'MEXICO', 'NORTH KOREA', 'RUSIA UCRANIA', 'SAHEL', 'USA'],
-                datasets: [{
-                    label: 'Risk Level %',
-                    data: [20, 20, 20, 20, 20, 40, 20, 75, 20, 21, 48, 80, 36, 29],
-                    backgroundColor: 'rgba(0, 255, 0, 0.2)',
-                    borderColor: '#00ff00'
-                }]
-            }
-        });
-    </script>
+
+<header>
+  <h1>🛡 S.I.E.G.</h1>
+  <p>Sistema de Inteligencia Estratégica Geopolítica &nbsp;·&nbsp; Strategic Geopolitical Intelligence System</p>
+  <div class="badges">
+    <span class="badge live">● CORE LIVE</span>
+    <span class="badge live">● ATLAS LIVE</span>
+    <span class="badge ver">Core V12.0 / Scanner V9.2</span>
+    <span class="badge ver">Atlas V1.0 / Scanner V1.2</span>
+    <span class="badge ver">Odroid-C2 · DietPi</span>
+  </div>
+</header>
+
+<nav>
+  <a href="#dashboards">Dashboards</a>
+  <a href="#alerts">Niveles de Alerta</a>
+  <a href="#quality">Calidad de Fuentes</a>
+  <a href="#core">SIEG Core</a>
+  <a href="#atlas">SIEG Atlas</a>
+  <a href="#methodology">Metodologia</a>
+  <a href="#data">Uso de Datos</a>
+  <a href="#glossary">Glosario</a>
+  <a href="#docs">Documentacion</a>
+</nav>
+
+<main>
+
+<section id="dashboards">
+<h2>🌐 Dashboards en Vivo / Live Dashboards</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>SIEG Intelligence Radar</h3>
+    <p>14 actores geopoliticos globales. Scoring en tiempo real, mapa mundial, heatmap temporal y alertas de anomalia.</p>
+    <p class="en">14 global geopolitical actors. Real-time scoring, world map, temporal heatmap and anomaly alerts.</p>
+    <a href="https://sieg-intelligence-radar.streamlit.app" target="_blank">→ sieg-intelligence-radar.streamlit.app</a>
+  </div>
+  <div class="card">
+    <h3>SIEG Atlas — Infrastructure Intelligence</h3>
+    <p>6 ejes de infraestructura critica. Precio del petroleo en tiempo real, mapa de incidentes y cyber timeline.</p>
+    <p class="en">6 critical infrastructure axes. Real-time oil price, incident map and cyber timeline.</p>
+    <a href="https://sieg-atlas-intelligence.streamlit.app" target="_blank">→ sieg-atlas-intelligence.streamlit.app</a>
+  </div>
+</div>
+</section>
+
+<section id="alerts">
+<h2>📊 Niveles de Alerta / Alert Levels</h2>
+<table>
+  <tr><th>Score</th><th>Nivel / Level</th><th>Descripcion / Description</th></tr>
+  <tr><td>&gt;= 80%</td><td><span class="level l-crit">🔴 CRITICO</span></td><td>Confrontacion directa o riesgo inmediato de escalada militar</td></tr>
+  <tr><td>60-79%</td><td><span class="level l-high">🟠 ALTO</span></td><td>Escalada activa o amenaza sostenida con accion cinetica</td></tr>
+  <tr><td>40-59%</td><td><span class="level l-med">🟡 MEDIO</span></td><td>Tension elevada sin accion cinetica confirmada</td></tr>
+  <tr><td>&lt; 40%</td><td><span class="level l-norm">🟢 NORMAL</span></td><td>Situacion monitorizada sin incidentes activos</td></tr>
+</table>
+</section>
+
+<section id="quality">
+<h2>🔌 Calidad de Fuentes / Source Quality</h2>
+<p>Cada actor muestra un badge de calidad que indica la robustez de la cobertura en ese ciclo:</p>
+<table>
+  <tr><th>Badge</th><th>Noticias</th><th>Descripcion</th></tr>
+  <tr><td><span class="quality q-green">🟢 VERDE</span></td><td>&gt;= 80</td><td>Cobertura optima — todas las fuentes activas</td></tr>
+  <tr><td><span class="quality q-blue">🔵 AZUL</span></td><td>&gt;= 60</td><td>Cobertura aceptable — umbral minimo alcanzado</td></tr>
+  <tr><td><span class="quality q-yellow">🟡 AMARILLO</span></td><td>40-59</td><td>Cobertura reducida — algunas fuentes caidas</td></tr>
+  <tr><td><span class="quality q-orange">🟠 NARANJA</span></td><td>20-39</td><td>Cobertura critica — mayoria de fuentes caidas</td></tr>
+  <tr><td><span class="quality q-red">🔴 ROJO</span></td><td>&lt; 20</td><td>Sin cobertura — score = suelo base estructural</td></tr>
+</table>
+<h3>Sistema de 3 Capas / 3-Layer Fallback</h3>
+<ul>
+  <li><b>Capa 1:</b> Fuentes primarias (mapa_fuentes.txt)</li>
+  <li><b>Capa 2 [FB]:</b> Banco de alternativas por actor</li>
+  <li><b>Capa 3 [WEB]:</b> Google News RSS — aprendido y reutilizado automaticamente</li>
+</ul>
+</section>
+
+<section id="core">
+<h2>🛡 SIEG Core — 14 Actores Geopoliticos</h2>
+<table>
+  <tr><th>Actor</th><th>Score base</th><th>Contexto</th></tr>
+  <tr><td>🇮🇷 Iran / M. Oriente</td><td>68%</td><td>Conflicto activo con Israel</td></tr>
+  <tr><td>🇺🇦 Rusia / Ucrania</td><td>62-68%</td><td>Frente estabilizado, tension sostenida</td></tr>
+  <tr><td>🇺🇸 USA</td><td>variable</td><td>Actor global, monitorizado</td></tr>
+  <tr><td>🇨🇳 China</td><td>variable</td><td>Taiwan Strait, Mar de China Sur</td></tr>
+  <tr><td>🇰🇵 Corea del Norte</td><td>35%</td><td>Actividad nuclear/misiles periodica</td></tr>
+  <tr><td>🌍 Sahel</td><td>32%</td><td>Inestabilidad yihadista persistente</td></tr>
+  <tr><td>🌎 Latam / MX / AR / BR</td><td>variable</td><td>Crisis politicas regionales</td></tr>
+  <tr><td>🌏 Asia-Pacifico / AU</td><td>variable</td><td>Indo-Pacifico, AUKUS</td></tr>
+  <tr><td>🇪🇺 Europa Core</td><td>variable</td><td>NATO, seguridad colectiva</td></tr>
+</table>
+</section>
+
+<section id="atlas">
+<h2>🌐 SIEG Atlas — 6 Ejes Infraestructura Critica</h2>
+<table>
+  <tr><th>Eje</th><th>Score base</th><th>Descripcion</th></tr>
+  <tr><td>🛢 Petroleo &amp; Gas</td><td>35%</td><td>Precios, OPEC, embargos, rutas de suministro</td></tr>
+  <tr><td>⚓ Rutas Maritimas</td><td>45%</td><td>Houthi, Mar Rojo, estrechos criticos globales</td></tr>
+  <tr><td>🔌 Cables Submarinos</td><td>15%</td><td>Incidentes fibra optica submarina</td></tr>
+  <tr><td>🌊 Mar de China</td><td>42%</td><td>Disputas Taiwan Strait, Spratly, PLA Navy</td></tr>
+  <tr><td>🛰 Espacio</td><td>20%</td><td>ASAT, debris orbital, satelites militares</td></tr>
+  <tr><td>💻 Cibergeopolitica</td><td>33%</td><td>APT estatales, ataques infraestructura critica</td></tr>
+</table>
+</section>
+
+<section id="methodology">
+<h2>🔬 Metodologia / Methodology</h2>
+<p>El scoring se basa en analisis lexico de titulares y descripciones RSS con vocabulario cinetico especializado por actor/eje.</p>
+<pre>
+1. Fetch RSS todas las fuentes del actor
+2. Tokenizar en oraciones
+3. Score por oracion:
+   - CRITICAL_ALERTS → 92 pts
+   - DEESCALATION x2 → 15 pts
+   - hits_alto x22 + hits_medio x12 + hits_bajo x5
+   - Bonus x1.35 si region presente (aliases)
+4. Score noticia = percentil 75 de oraciones
+5. Score bruto = media ponderada por CF
+6. Suelo dinamico = max(base, media_reciente * 0.6)
+7. Inercia: si baja → 65% old + 35% nuevo
+</pre>
+<p><b>Nota:</b> CF (Coeficiente de Fiabilidad) — fuentes 1.0 pesan mas que fuentes 0.6 en el calculo final.</p>
+<p class="en">Note: CF (Reliability Coefficient) — sources with CF 1.0 weigh more than CF 0.6 sources in the final calculation.</p>
+</section>
+
+<section id="data">
+<h2>📁 Uso de los Datos / Data Usage</h2>
+<ul>
+  <li>Seguimiento de tendencias geopoliticas a medio y largo plazo</li>
+  <li>Deteccion temprana de escaladas en regiones monitorizadas</li>
+  <li>Comparacion de intensidad entre actores y ejes tematicos</li>
+  <li>Input para analisis de riesgo en contextos de seguridad o inversion</li>
+</ul>
+<h3>Retencion / Retention</h3>
+<table>
+  <tr><th>Datos</th><th>Retencion activa</th><th>Archivo historico</th></tr>
+  <tr><td>history_log.csv (Core)</td><td>90 dias</td><td>Ilimitado (.csv.gz)</td></tr>
+  <tr><td>history_atlas.csv (Atlas)</td><td>90 dias</td><td>Ilimitado (.csv.gz)</td></tr>
+  <tr><td>Backup mensual</td><td>12 meses local</td><td>Ilimitado en GitHub</td></tr>
+</table>
+</section>
+
+<section id="glossary">
+<h2>📖 Glosario / Glossary</h2>
+<table>
+  <tr><th>Termino</th><th>ES</th><th>EN</th></tr>
+  <tr><td><code>OSINT</code></td><td>Inteligencia de fuentes abiertas</td><td>Open Source Intelligence</td></tr>
+  <tr><td><code>CF</code></td><td>Coeficiente de Fiabilidad (0.0-1.0)</td><td>Reliability Coefficient</td></tr>
+  <tr><td><code>Score</code></td><td>Indicador de tension (0-100%)</td><td>Tension indicator</td></tr>
+  <tr><td><code>Suelo</code></td><td>Score minimo garantizado</td><td>Guaranteed minimum score</td></tr>
+  <tr><td><code>Disonancia</code></td><td>Divergencia narrativa &gt;35pts entre fuentes</td><td>Narrative divergence &gt;35pts</td></tr>
+  <tr><td><code>Kinetic</code></td><td>Accion militar fisica</td><td>Physical military action</td></tr>
+  <tr><td><code>IDF</code></td><td>Fuerzas de Defensa de Israel</td><td>Israel Defense Forces</td></tr>
+  <tr><td><code>IRGC</code></td><td>Guardia Revolucionaria Irani</td><td>Islamic Revolutionary Guard Corps</td></tr>
+  <tr><td><code>APT</code></td><td>Amenaza Persistente Avanzada</td><td>Advanced Persistent Threat</td></tr>
+  <tr><td><code>ASAT</code></td><td>Arma antisatelite</td><td>Anti-satellite weapon</td></tr>
+  <tr><td><code>FONOP</code></td><td>Operacion libertad de navegacion</td><td>Freedom of Navigation Operation</td></tr>
+</table>
+</section>
+
+<section id="docs">
+<h2>📄 Documentacion / Documentation</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>📘 Guia de Usuario (PDF)</h3>
+    <p>Documento completo para analistas y usuarios. Metodologia, niveles de alerta, glosario y FAQ.</p>
+    <a href="user_guide.pdf">⬇ Descargar user_guide.pdf</a>
+  </div>
+  <div class="card">
+    <h3>🔧 Referencia Tecnica (Markdown)</h3>
+    <p>Arquitectura, algoritmos, changelog y referencia completa para desarrolladores.</p>
+    <a href="technical_reference.md">⬇ Ver technical_reference.md</a>
+  </div>
+</div>
+</section>
+
+</main>
+
+<footer>
+  🛡 S.I.E.G. Intelligence Platform &nbsp;·&nbsp; © 2026 M. Castillo
+  &nbsp;·&nbsp; <a href="mailto:mybloggingnotes@gmail.com">mybloggingnotes@gmail.com</a>
+  &nbsp;·&nbsp; March 2026
+</footer>
+
 </body>
 </html>
