@@ -18,7 +18,7 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 # CONFIGURACION
 # ---------------------------------------------------------------------------
-DATA_DIR        = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+DATA_DIR        = "data"
 HISTORY_FILE    = os.path.join(DATA_DIR, "history_log.csv")
 GEOINT_PATTERN  = os.path.join(DATA_DIR, "geoint_*.json")
 ACRONIMOS_FILE  = os.path.join(DATA_DIR, "acronimos.txt")
@@ -80,7 +80,7 @@ TERMINAL_CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 .stApp { background-color: #0c0e12; color: #00ff41; }
-.block-container { max-width: 98% !important; padding-top: 3.5rem; }
+.block-container { max-width: 98% !important; padding-top: 0.5rem; }
 
 h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospace; }
 
@@ -130,6 +130,28 @@ h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospac
 
 /* Dataframe override */
 .stDataFrame { border: 1px solid #1a3a1a !important; }
+
+/* Quality badge */
+.quality-badge {
+    display: inline-block; font-family: monospace;
+    font-size: 0.70em; padding: 2px 8px; border-radius: 10px;
+    margin-top: 3px; letter-spacing: 0.08em; font-weight: bold;
+}
+.quality-green  { background: #0a2a0a; color: #00ff41; border: 1px solid #00ff41; }
+.quality-blue   { background: #0a1a2a; color: #00ccff; border: 1px solid #00ccff; }
+.quality-yellow { background: #2a2a00; color: #ffdd00; border: 1px solid #ffdd00; }
+.quality-orange { background: #2a1500; color: #ff8800; border: 1px solid #ff8800; }
+.quality-red    { background: #2a0000; color: #ff2222; border: 1px solid #ff2222; }
+
+/* Footer */
+.sieg-footer {
+    border-top: 1px solid #1a3a1a; margin-top: 30px;
+    padding: 16px 0 8px 0; text-align: center;
+    font-family: monospace; font-size: 0.78em; color: #558855;
+    line-height: 2.2;
+}
+.sieg-footer a { color: #00ff41; text-decoration: none; }
+.sieg-footer a:hover { text-decoration: underline; }
 </style>
 """
 
@@ -205,13 +227,19 @@ def load_geoint_actors() -> list:
             with open(filepath, "r", encoding="utf-8") as f:
                 content = json.load(f)
             actors.append({
-                "key":        raw_name,
-                "display":    DISPLAY_MAP.get(raw_name, raw_name.replace("_", " ")),
-                "score":      float(content.get("score", 0)),
-                "disonancia": bool(content.get("disonancia", False)),
-                "noticias":   int(content.get("noticias_procesadas", 0)),
-                "timestamp":  float(content.get("timestamp", 0)),
-                "version":    content.get("version", "?"),
+                "key":             raw_name,
+                "display":         DISPLAY_MAP.get(raw_name, raw_name.replace("_", " ")),
+                "score":           float(content.get("score", 0)),
+                "disonancia":      bool(content.get("disonancia", False)),
+                "noticias":        int(content.get("noticias_procesadas", 0)),
+                "timestamp":       float(content.get("timestamp", 0)),
+                "version":         content.get("version", "?"),
+                "calidad_nivel":   content.get("calidad_nivel", "ROJO"),
+                "calidad_emoji":   content.get("calidad_emoji", "🔴"),
+                "calidad_css":     content.get("calidad_css", "red"),
+                "fuentes_activas": int(content.get("fuentes_activas", 0)),
+                "uso_fallback":    bool(content.get("uso_fallback", False)),
+                "uso_web":         bool(content.get("uso_web", False)),
             })
         except (json.JSONDecodeError, OSError, ValueError) as e:
             logger.warning("Fichero omitido %s: %s", filepath, e)
@@ -220,7 +248,7 @@ def load_geoint_actors() -> list:
     return sorted(actors, key=lambda x: x["score"], reverse=True)
 
 
-@st.cache_data(ttl=60)
+@st.cache_data(ttl=600)
 def load_acronimos() -> str:
     if not os.path.exists(ACRONIMOS_FILE):
         return ""
@@ -337,7 +365,8 @@ def render_sidebar(actors: list, df: pd.DataFrame) -> None:
 
             - Persistencia: CSV local (proteccion eMMC)
             - Sync: Git automatizado cada 30 min
-            - Scanner: V9.0 con timeout y lock guard
+            - Scanner: V9.2 autolearning 3 capas
+            - Calidad: VERDE/AZUL/AMARILLO/NARANJA/ROJO
             """)
         with t_acr:
             acronimos = load_acronimos()
@@ -401,7 +430,13 @@ def render_gauge_grid(actors: list, trends: dict, risk_filter: str) -> None:
                 st.markdown(
                     f"<div style='text-align:center;font-family:monospace;font-size:0.75em;color:#aaffbb'>"
                     f"{arrow} &nbsp; <b>{nivel}</b> &nbsp; {disstr}"
-                    f"</div>",
+                    f"</div>"
+                    f"<div style='text-align:center;margin-top:3px'>"
+                    f"<span class='quality-badge quality-{actor.get('calidad_css','red')}'>"
+                    f"{actor.get('calidad_emoji','🔴')} {actor.get('calidad_nivel','ROJO')}"
+                    f"{'  FB' if actor.get('uso_fallback') else ''}"
+                    f"{'  WEB' if actor.get('uso_web') else ''}"
+                    f"</span></div>",
                     unsafe_allow_html=True,
                 )
 
@@ -708,11 +743,16 @@ def main() -> None:
         else:
             st.info("Sin datos de actores disponibles.")
 
-    st.divider()
-    st.caption(
-        f"S.I.E.G. {APP_VERSION} · Scanner {SCANNER_VERSION} · "
-        f"Doctrina de Inteligencia Restaurada · {BUILD_DATE}"
-    )
+    st.markdown(f"""
+    <div class='sieg-footer'>
+        \U0001f6e1 S.I.E.G. Intelligence Radar {APP_VERSION} &nbsp;&middot;&nbsp;
+        Scanner {SCANNER_VERSION} &nbsp;&middot;&nbsp;
+        Geopolitical Open Source Intelligence<br>
+        &copy; {BUILD_DATE} <b>M. Castillo</b> &nbsp;&middot;&nbsp;
+        <a href='mailto:mybloggingnotes@gmail.com'>mybloggingnotes@gmail.com</a>
+        &nbsp;&middot;&nbsp; Nodo: Odroid-C2 / DietPi
+    </div>
+    """, unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
