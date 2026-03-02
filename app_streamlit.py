@@ -79,7 +79,7 @@ TERMINAL_CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 .stApp { background-color: #0c0e12; color: #00ff41; }
-.block-container { max-width: 98% !important; padding-top: 0.5rem; }
+.block-container { max-width: 98% !important; padding-top: 3.5rem; }
 
 h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospace; }
 
@@ -359,6 +359,9 @@ def render_sidebar(actors: list, df: pd.DataFrame) -> None:
             - Calidad: VERDE/AZUL/AMARILLO/NARANJA/ROJO
             """)
 
+        st.divider()
+        st.markdown("**🌐 Proyecto relacionado:**")
+        st.markdown("[S.I.E.G. ATLAS →](https://sieg-atlas-intelligence.streamlit.app)")
         st.divider()
         st.markdown("**✉ Contacto**")
         st.code("mybloggingnotes@gmail.com", language=None)
