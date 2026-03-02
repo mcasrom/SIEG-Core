@@ -21,7 +21,6 @@ import streamlit as st
 DATA_DIR        = "data"
 HISTORY_FILE    = os.path.join(DATA_DIR, "history_log.csv")
 GEOINT_PATTERN  = os.path.join(DATA_DIR, "geoint_*.json")
-ACRONIMOS_FILE  = os.path.join(DATA_DIR, "acronimos.txt")
 
 ANOMALY_THRESHOLD = 7
 ANOMALY_WINDOW    = 6
@@ -248,15 +247,6 @@ def load_geoint_actors() -> list:
     return sorted(actors, key=lambda x: x["score"], reverse=True)
 
 
-@st.cache_data(ttl=600)
-def load_acronimos() -> str:
-    if not os.path.exists(ACRONIMOS_FILE):
-        return ""
-    try:
-        with open(ACRONIMOS_FILE, "r", encoding="utf-8") as f:
-            return f.read()
-    except OSError:
-        return ""
 
 
 # ---------------------------------------------------------------------------
@@ -345,7 +335,7 @@ def render_sidebar(actors: list, df: pd.DataFrame) -> None:
             """)
             st.divider()
 
-        t_met, t_arq, t_acr = st.tabs(["Metodologia", "Arquitectura", "Acronimos"])
+        t_met, t_arq = st.tabs(["Metodologia", "Arquitectura"])
 
         with t_met:
             st.markdown("""
@@ -368,9 +358,6 @@ def render_sidebar(actors: list, df: pd.DataFrame) -> None:
             - Scanner: V9.2 autolearning 3 capas
             - Calidad: VERDE/AZUL/AMARILLO/NARANJA/ROJO
             """)
-        with t_acr:
-            acronimos = load_acronimos()
-            st.text(acronimos) if acronimos else st.caption("Acronimos no indexados.")
 
         st.divider()
         st.markdown("**✉ Contacto**")
