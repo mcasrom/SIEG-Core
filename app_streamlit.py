@@ -4,6 +4,7 @@ Dashboard V12.0 — Visualizacion avanzada, heatmap, gauges, tabs por actor,
 filtros de riesgo, indicadores de tendencia, mapa mundial.
 """
 
+import base64
 import glob
 import json
 import logging
@@ -14,6 +15,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+import streamlit.components.v1 as components
 
 # ---------------------------------------------------------------------------
 # CONFIGURACION
@@ -26,13 +28,11 @@ ANOMALY_THRESHOLD = 7
 ANOMALY_WINDOW    = 6
 
 APP_VERSION     = "V12.0"
-SCANNER_VERSION = "V9.0"
+SCANNER_VERSION = "V9.2"
 BUILD_DATE      = "2026"
 
-# JSONs obsoletos a ignorar (versiones antiguas del scanner)
 OBSOLETE_ACTORS = {"asia", "europa", "m_oriente"}
 
-# Mapeo nombre interno -> display
 DISPLAY_MAP = {
     "IRAN_M_ORIENTE": "🇮🇷 Iran / M.Oriente",
     "RUSIA_UCRANIA":  "🇷🇺 Rusia / Ucrania",
@@ -50,7 +50,6 @@ DISPLAY_MAP = {
     "AUSTRALIA":      "🇦🇺 Australia",
 }
 
-# Coordenadas para mapa mundial (lat, lon)
 COORDS = {
     "IRAN_M_ORIENTE": (32.0,  53.0),
     "RUSIA_UCRANIA":  (55.0,  37.0),
@@ -83,12 +82,10 @@ TERMINAL_CSS = """
 
 h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospace; }
 
-/* Tabs */
 .stTabs [data-baseweb="tab-list"] { background-color: #0f1a0f; border-bottom: 1px solid #00ff41; }
 .stTabs [data-baseweb="tab"] { color: #00aa22; font-family: monospace; }
 .stTabs [aria-selected="true"] { color: #00ff41 !important; border-bottom: 2px solid #00ff41 !important; }
 
-/* Anomaly */
 .anomaly-box {
     background-color: #550000; border: 2px solid #ff0000;
     color: white; padding: 12px 20px; border-radius: 5px;
@@ -98,7 +95,6 @@ h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospac
 }
 @keyframes blinker { 50% { opacity: 0.6; } }
 
-/* Hero */
 .hero-box {
     border: 1px solid #00ff41; border-top: 3px solid #00ff41;
     background: linear-gradient(180deg, #0f1a0f 0%, #0c0e12 100%);
@@ -111,7 +107,6 @@ h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospac
     border-top: 1px solid #1a3a1a; padding-top: 8px; margin-top: 4px; }
 .hero-objectives span { color: #00ff41; font-weight: bold; }
 
-/* Gauge cards */
 .gauge-card {
     background: #0f1a0f; border: 1px solid #1a3a1a; border-radius: 6px;
     padding: 10px; margin-bottom: 8px; text-align: center; font-family: monospace;
@@ -124,13 +119,9 @@ h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospac
 .score-medium   { color: #ffdd00; }
 .score-low      { color: #00ff41; }
 
-/* Filter pills */
 .filter-active { background: #00ff41; color: #000; padding: 2px 10px; border-radius: 12px; font-size: 0.8em; }
-
-/* Dataframe override */
 .stDataFrame { border: 1px solid #1a3a1a !important; }
 
-/* Quality badge */
 .quality-badge {
     display: inline-block; font-family: monospace;
     font-size: 0.70em; padding: 2px 8px; border-radius: 10px;
@@ -142,7 +133,6 @@ h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospac
 .quality-orange { background: #2a1500; color: #ff8800; border: 1px solid #ff8800; }
 .quality-red    { background: #2a0000; color: #ff2222; border: 1px solid #ff2222; }
 
-/* Footer */
 .sieg-footer {
     border-top: 1px solid #1a3a1a; margin-top: 30px;
     padding: 16px 0 8px 0; text-align: center;
@@ -178,11 +168,8 @@ def trend_arrow(delta: float) -> str:
     return "→ 0"
 
 def normalize_timestamp(val) -> float:
-    """Convierte timestamps ISO o unix float a unix float."""
     try:
-        f = float(val)
-        # Si es menor que 1e10 podria ser unix seconds normal
-        return f
+        return float(val)
     except (ValueError, TypeError):
         pass
     try:
@@ -200,12 +187,10 @@ def load_history() -> pd.DataFrame:
         return pd.DataFrame(columns=["timestamp", "region", "score", "dt"])
     try:
         df = pd.read_csv(HISTORY_FILE, header=None, names=["timestamp", "region", "score"])
-        # Normalizar timestamps mixtos (ISO + unix float)
         df["timestamp"] = df["timestamp"].apply(normalize_timestamp)
         df = df.dropna(subset=["timestamp"])
         df["score"] = pd.to_numeric(df["score"], errors="coerce").fillna(0.0)
         df["region"] = df["region"].str.upper().str.strip()
-        # Filtrar actores obsoletos
         df = df[~df["region"].isin({o.upper() for o in OBSOLETE_ACTORS})]
         df["dt"] = pd.to_datetime(df["timestamp"], unit="s")
         return df.sort_values("dt")
@@ -242,16 +227,10 @@ def load_geoint_actors() -> list:
             })
         except (json.JSONDecodeError, OSError, ValueError) as e:
             logger.warning("Fichero omitido %s: %s", filepath, e)
-
-    # Ordenar por score descendente
     return sorted(actors, key=lambda x: x["score"], reverse=True)
 
 
-
-
-
 def export_csv(df: pd.DataFrame, label: str) -> bytes:
-    """Genera CSV filtrado para descarga."""
     return df[["dt", "region", "score"]].rename(columns={
         "dt": "datetime", "region": "actor", "score": "score_pct"
     }).to_csv(index=False).encode("utf-8")
@@ -274,7 +253,6 @@ def detect_anomalies(df: pd.DataFrame) -> list:
 
 
 def compute_trends(df: pd.DataFrame, actors: list) -> dict:
-    """Calcula delta vs penultimo ciclo para cada actor."""
     trends = {}
     for a in actors:
         key = a["key"]
@@ -332,7 +310,6 @@ def render_sidebar(actors: list, df: pd.DataFrame) -> None:
     with st.sidebar:
         st.header("📂 S.I.E.G. CONTROL")
 
-        # Mini-resumen de estado
         if actors:
             n_critical = sum(1 for a in actors if a["score"] >= 80)
             n_high     = sum(1 for a in actors if 60 <= a["score"] < 80)
@@ -375,7 +352,6 @@ def render_sidebar(actors: list, df: pd.DataFrame) -> None:
 
 
 def render_gauge_grid(actors: list, trends: dict, risk_filter: str) -> None:
-    """Cuadricula de gauges por actor con score, nivel y tendencia."""
     filtered = actors
     if risk_filter != "TODOS":
         filtered = [a for a in actors if score_label(a["score"]) == risk_filter]
@@ -389,13 +365,11 @@ def render_gauge_grid(actors: list, trends: dict, risk_filter: str) -> None:
         cols = st.columns(cols_per_row)
         for j, actor in enumerate(filtered[i:i+cols_per_row]):
             with cols[j]:
-                delta   = trends.get(actor["key"], 0.0)
-                css_cls = score_color(actor["score"])
-                nivel   = score_label(actor["score"])
-                disstr  = "⚠ DISON" if actor["disonancia"] else ""
-                arrow   = trend_arrow(delta)
+                delta  = trends.get(actor["key"], 0.0)
+                nivel  = score_label(actor["score"])
+                disstr = "⚠ DISON" if actor["disonancia"] else ""
+                arrow  = trend_arrow(delta)
 
-                # Gauge plotly mini
                 fig = go.Figure(go.Indicator(
                     mode="gauge+number",
                     value=actor["score"],
@@ -439,7 +413,6 @@ def render_gauge_grid(actors: list, trends: dict, risk_filter: str) -> None:
 
 
 def render_world_map(actors: list) -> None:
-    """Mapa mundial con intensidad de riesgo por region."""
     rows = []
     for a in actors:
         coords = COORDS.get(a["key"])
@@ -463,10 +436,10 @@ def render_world_map(actors: list) -> None:
         size="size",
         color="score",
         color_continuous_scale=[
-            [0.0,  "#00ff41"],
-            [0.4,  "#ffdd00"],
-            [0.6,  "#ff8800"],
-            [1.0,  "#ff0000"],
+            [0.0, "#00ff41"],
+            [0.4, "#ffdd00"],
+            [0.6, "#ff8800"],
+            [1.0, "#ff0000"],
         ],
         range_color=[0, 100],
         hover_name="display",
@@ -476,15 +449,9 @@ def render_world_map(actors: list) -> None:
     fig.update_layout(
         paper_bgcolor="#0c0e12",
         geo=dict(
-            bgcolor="#0c0e12",
-            landcolor="#0f1a0f",
-            oceancolor="#050810",
-            showocean=True,
-            showland=True,
-            showcountries=True,
-            countrycolor="#1a3a1a",
-            coastlinecolor="#1a3a1a",
-            framecolor="#00ff41",
+            bgcolor="#0c0e12", landcolor="#0f1a0f", oceancolor="#050810",
+            showocean=True, showland=True, showcountries=True,
+            countrycolor="#1a3a1a", coastlinecolor="#1a3a1a", framecolor="#00ff41",
         ),
         coloraxis_colorbar=dict(
             tickfont={"color": "#00ff41"},
@@ -497,18 +464,14 @@ def render_world_map(actors: list) -> None:
 
 
 def render_heatmap(df: pd.DataFrame) -> None:
-    """Heatmap actores x tiempo con intensidad de riesgo."""
     if df.empty:
         st.info("Sin datos historicos para heatmap.")
         return
 
-    # Pivotar: filas = actores, columnas = ventanas temporales (hora)
     df_h = df.copy()
     df_h["hora"] = df_h["dt"].dt.strftime("%m-%d %H:%M")
     pivot = df_h.pivot_table(index="region", columns="hora", values="score", aggfunc="mean")
     pivot = pivot.fillna(0)
-
-    # Limitar a ultimas 48 columnas para legibilidad
     pivot = pivot[pivot.columns[-48:]]
 
     fig = go.Figure(go.Heatmap(
@@ -516,11 +479,8 @@ def render_heatmap(df: pd.DataFrame) -> None:
         x=pivot.columns.tolist(),
         y=[DISPLAY_MAP.get(r, r.replace("_", " ")) for r in pivot.index],
         colorscale=[
-            [0.0,  "#0a140a"],
-            [0.4,  "#1a4a00"],
-            [0.6,  "#884400"],
-            [0.8,  "#aa2200"],
-            [1.0,  "#ff0000"],
+            [0.0, "#0a140a"], [0.4, "#1a4a00"],
+            [0.6, "#884400"], [0.8, "#aa2200"], [1.0, "#ff0000"],
         ],
         zmin=0, zmax=100,
         hoverongaps=False,
@@ -531,13 +491,9 @@ def render_heatmap(df: pd.DataFrame) -> None:
         ),
     ))
     fig.update_layout(
-        paper_bgcolor="#0c0e12",
-        plot_bgcolor="#0c0e12",
-        font_color="#00ff41",
-        xaxis=dict(tickangle=45, tickfont={"size": 8, "color": "#aaffbb"},
-                   gridcolor="#1a3a1a"),
-        yaxis=dict(tickfont={"size": 10, "color": "#aaffbb"},
-                   gridcolor="#1a3a1a"),
+        paper_bgcolor="#0c0e12", plot_bgcolor="#0c0e12", font_color="#00ff41",
+        xaxis=dict(tickangle=45, tickfont={"size": 8, "color": "#aaffbb"}, gridcolor="#1a3a1a"),
+        yaxis=dict(tickfont={"size": 10, "color": "#aaffbb"}, gridcolor="#1a3a1a"),
         margin=dict(t=10, b=80, l=10, r=10),
         height=380,
     )
@@ -545,10 +501,9 @@ def render_heatmap(df: pd.DataFrame) -> None:
 
 
 def render_comparative_chart(df: pd.DataFrame) -> None:
-    """Grafico comparativo multi-actor en el mismo eje temporal."""
     if df.empty:
         return
-    regions = sorted(df["region"].unique())
+    regions  = sorted(df["region"].unique())
     selected = st.multiselect(
         "Seleccionar actores a comparar:",
         options=regions,
@@ -558,15 +513,14 @@ def render_comparative_chart(df: pd.DataFrame) -> None:
     if not selected:
         return
 
-    fig = go.Figure()
+    fig     = go.Figure()
     palette = ["#00ff41","#ff8800","#ff2222","#00ccff","#ffdd00",
                "#ff44aa","#44ffff","#aa44ff","#ffffff","#aaffbb"]
 
     for idx, region in enumerate(selected):
         df_r = df[df["region"] == region].sort_values("dt")
         fig.add_trace(go.Scatter(
-            x=df_r["dt"],
-            y=df_r["score"],
+            x=df_r["dt"], y=df_r["score"],
             mode="lines+markers",
             name=DISPLAY_MAP.get(region, region.replace("_", " ")),
             line=dict(color=palette[idx % len(palette)], width=2),
@@ -574,19 +528,16 @@ def render_comparative_chart(df: pd.DataFrame) -> None:
             hovertemplate="%{fullData.name}<br>%{x}<br>Score: %{y}%<extra></extra>",
         ))
 
-    # Lineas de umbral
-    for level, color, label in [(80,"#ff2222","CRITICO"), (60,"#ff8800","ALTO"), (40,"#ffdd00","MEDIO")]:
+    for level, color, label in [(80,"#ff2222","CRITICO"),(60,"#ff8800","ALTO"),(40,"#ffdd00","MEDIO")]:
         fig.add_hline(y=level, line_dash="dot", line_color=color,
                       annotation_text=label, annotation_font_color=color,
                       annotation_font_size=9)
 
     fig.update_layout(
-        paper_bgcolor="#0c0e12", plot_bgcolor="#0c0e12",
-        font_color="#00ff41",
+        paper_bgcolor="#0c0e12", plot_bgcolor="#0c0e12", font_color="#00ff41",
         xaxis=dict(gridcolor="#1a3a1a", tickfont={"color":"#aaffbb"}),
         yaxis=dict(range=[0,105], gridcolor="#1a3a1a", tickfont={"color":"#aaffbb"}),
-        legend=dict(bgcolor="#0f1a0f", bordercolor="#1a3a1a",
-                    font={"color":"#aaffbb","size":10}),
+        legend=dict(bgcolor="#0f1a0f", bordercolor="#1a3a1a", font={"color":"#aaffbb","size":10}),
         margin=dict(t=20, b=20, l=10, r=10),
         height=380,
     )
@@ -594,10 +545,8 @@ def render_comparative_chart(df: pd.DataFrame) -> None:
 
 
 def render_actor_detail_tab(actor: dict, df: pd.DataFrame, trends: dict) -> None:
-    """Tab de detalle individual por actor."""
     key   = actor["key"]
     delta = trends.get(key, 0.0)
-    css   = score_color(actor["score"])
     nivel = score_label(actor["score"])
 
     c1, c2, c3, c4 = st.columns(4)
@@ -606,7 +555,6 @@ def render_actor_detail_tab(actor: dict, df: pd.DataFrame, trends: dict) -> None
     c3.metric("Fuentes procesadas", actor["noticias"])
     c4.metric("Disonancia", "⚠ ALTA" if actor["disonancia"] else "✅ BAJA")
 
-    # Historico del actor
     df_a = df[df["region"] == key].sort_values("dt")
     if not df_a.empty:
         fig = go.Figure(go.Scatter(
@@ -621,16 +569,13 @@ def render_actor_detail_tab(actor: dict, df: pd.DataFrame, trends: dict) -> None
         fig.add_hline(y=80, line_dash="dot", line_color="#ff2222", annotation_text="CRITICO")
         fig.add_hline(y=60, line_dash="dot", line_color="#ff8800", annotation_text="ALTO")
         fig.update_layout(
-            paper_bgcolor="#0c0e12", plot_bgcolor="#0c0e12",
-            font_color="#00ff41",
+            paper_bgcolor="#0c0e12", plot_bgcolor="#0c0e12", font_color="#00ff41",
             xaxis=dict(gridcolor="#1a3a1a", tickfont={"color":"#aaffbb"}),
             yaxis=dict(range=[0,105], gridcolor="#1a3a1a", tickfont={"color":"#aaffbb"}),
             margin=dict(t=20, b=20, l=10, r=10),
             height=280,
         )
         st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
-
-        # Stats basicas
         st.caption(
             f"Min: {df_a['score'].min():.0f}% · "
             f"Max: {df_a['score'].max():.0f}% · "
@@ -642,17 +587,16 @@ def render_actor_detail_tab(actor: dict, df: pd.DataFrame, trends: dict) -> None
 
 
 def render_summary_table(actors: list, trends: dict) -> None:
-    """Tabla resumen ordenada por score con tendencia."""
     rows = []
     for a in actors:
         delta = trends.get(a["key"], 0.0)
         rows.append({
-            "Actor / Region":  a["display"],
-            "Score %":         int(a["score"]),
-            "Nivel":           score_label(a["score"]),
-            "Tendencia":       trend_arrow(delta),
-            "Disonancia":      "⚠ ALTA" if a["disonancia"] else "✅ BAJA",
-            "Fuentes":         a["noticias"],
+            "Actor / Region": a["display"],
+            "Score %":        int(a["score"]),
+            "Nivel":          score_label(a["score"]),
+            "Tendencia":      trend_arrow(delta),
+            "Disonancia":     "⚠ ALTA" if a["disonancia"] else "✅ BAJA",
+            "Fuentes":        a["noticias"],
         })
     df_t = pd.DataFrame(rows)
     st.dataframe(
@@ -665,6 +609,109 @@ def render_summary_table(actors: list, trends: dict) -> None:
             ),
         },
     )
+
+
+def render_docs_tab() -> None:
+    """Tab de documentacion integrada."""
+    st.markdown("""
+    <div style='padding:.8rem 0 .5rem 0'>
+    <span style='font-family:monospace;font-size:1.05em;color:#00ff41'>
+    📚 Documentacion S.I.E.G. / Documentation
+    </span><br>
+    <span style='font-family:monospace;font-size:.82em;color:#556677'>
+    Guia de usuario · Referencia tecnica · Links externos
+    </span>
+    </div>
+    """, unsafe_allow_html=True)
+
+    d_user, d_tech, d_links = st.tabs(["📘 Guia de Usuario", "🔧 Ref. Tecnica", "🔗 Links"])
+
+    # ── Guia de Usuario (PDF embebido) ──
+    with d_user:
+        st.caption("Guia completa — metodologia, niveles de alerta, glosario y FAQ · Bilingue ES/EN")
+
+        pdf_paths = [
+            os.path.join(os.path.dirname(__file__), "docs", "user_guide.pdf"),
+            os.path.join(os.path.dirname(__file__), "user_guide.pdf"),
+        ]
+        pdf_found = next((p for p in pdf_paths if os.path.exists(p)), None)
+
+        if pdf_found:
+            with open(pdf_found, "rb") as f:
+                pdf_bytes = f.read()
+            b64 = base64.b64encode(pdf_bytes).decode()
+            components.html(
+                f'<iframe src="data:application/pdf;base64,{b64}"'
+                f' width="100%" height="820"'
+                f' style="border:1px solid #1a3a1a;border-radius:6px">'
+                f'</iframe>',
+                height=840,
+            )
+            st.download_button(
+                label="⬇ Descargar user_guide.pdf",
+                data=pdf_bytes,
+                file_name="sieg_user_guide.pdf",
+                mime="application/pdf",
+            )
+        else:
+            st.warning("PDF no encontrado en docs/. Verifica que user_guide.pdf esta en el repo.")
+            st.markdown("[⬇ Descargar desde GitHub](https://github.com/mcasrom/SIEG-Core/raw/main/docs/user_guide.pdf)")
+
+    # ── Referencia Tecnica (Markdown) ──
+    with d_tech:
+        st.caption("Arquitectura, algoritmos, changelog — referencia para desarrolladores")
+
+        md_paths = [
+            os.path.join(os.path.dirname(__file__), "docs", "technical_reference.md"),
+            os.path.join(os.path.dirname(__file__), "technical_reference.md"),
+        ]
+        md_found = next((p for p in md_paths if os.path.exists(p)), None)
+
+        if md_found:
+            with open(md_found, "r", encoding="utf-8") as f:
+                st.markdown(f.read())
+        else:
+            st.warning("technical_reference.md no encontrado en docs/.")
+            st.markdown("[Ver en GitHub](https://github.com/mcasrom/SIEG-Core/blob/main/docs/technical_reference.md)")
+
+    # ── Links externos ──
+    with d_links:
+        st.markdown("""
+        <div style='font-family:monospace'>
+        <table style='width:100%;border-collapse:collapse'>
+        <tr style='border-bottom:1px solid #1a3a1a'>
+            <th style='text-align:left;padding:10px;color:#00ff41'>Recurso</th>
+            <th style='text-align:left;padding:10px;color:#00ff41'>URL</th>
+            <th style='text-align:left;padding:10px;color:#00ff41'>Descripcion</th>
+        </tr>
+        <tr style='border-bottom:1px solid #0f1a0f'>
+            <td style='padding:8px'>📊 SIEG Core</td>
+            <td style='padding:8px'><a href='https://sieg-intelligence-radar.streamlit.app' style='color:#00ccff' target='_blank'>sieg-intelligence-radar</a></td>
+            <td style='padding:8px;color:#556677'>Este dashboard</td>
+        </tr>
+        <tr style='border-bottom:1px solid #0f1a0f;background:#0f1318'>
+            <td style='padding:8px'>🌐 SIEG Atlas</td>
+            <td style='padding:8px'><a href='https://sieg-atlas-intelligence.streamlit.app' style='color:#00ccff' target='_blank'>sieg-atlas-intelligence</a></td>
+            <td style='padding:8px;color:#556677'>Dashboard infraestructura critica</td>
+        </tr>
+        <tr style='border-bottom:1px solid #0f1a0f'>
+            <td style='padding:8px'>📁 GitHub Core</td>
+            <td style='padding:8px'><a href='https://github.com/mcasrom/SIEG-Core' style='color:#00ccff' target='_blank'>github.com/mcasrom/SIEG-Core</a></td>
+            <td style='padding:8px;color:#556677'>Codigo fuente y datos</td>
+        </tr>
+        <tr style='border-bottom:1px solid #0f1a0f;background:#0f1318'>
+            <td style='padding:8px'>📘 User Guide PDF</td>
+            <td style='padding:8px'><a href='https://github.com/mcasrom/SIEG-Core/raw/main/docs/user_guide.pdf' style='color:#00ccff' target='_blank'>Descargar PDF</a></td>
+            <td style='padding:8px;color:#556677'>Guia completa usuario (bilingue)</td>
+        </tr>
+        <tr style='background:#0f1318'>
+            <td style='padding:8px'>🔧 Ref. Tecnica</td>
+            <td style='padding:8px'><a href='https://github.com/mcasrom/SIEG-Core/blob/main/docs/technical_reference.md' style='color:#00ccff' target='_blank'>Ver en GitHub</a></td>
+            <td style='padding:8px;color:#556677'>Referencia tecnica completa</td>
+        </tr>
+        </table>
+        </div>
+        """, unsafe_allow_html=True)
 
 
 # ---------------------------------------------------------------------------
@@ -680,7 +727,6 @@ def main() -> None:
     )
     st.markdown(TERMINAL_CSS, unsafe_allow_html=True)
 
-    # Carga de datos
     df_history = load_history()
     actors     = load_geoint_actors()
     anomalies  = detect_anomalies(df_history)
@@ -688,34 +734,61 @@ def main() -> None:
 
     render_sidebar(actors, df_history)
 
-    # Cabecera
     st.title("🛡 S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
     render_hero(df_history, len(actors))
     render_anomaly_alerts(anomalies)
 
-    # --- TABS PRINCIPALES ---
-    tab_overview, tab_map, tab_heatmap, tab_comparative, tab_actors = st.tabs([
+    tab_overview, tab_map, tab_heatmap, tab_comparative, tab_actors, tab_docs = st.tabs([
         "📊 Overview",
         "🌍 Mapa Mundial",
         "🔥 Heatmap",
         "📈 Comparativa",
         "🔍 Por Actor",
+        "📚 Docs",
     ])
 
     with tab_overview:
         st.subheader("Estado Actual — Todos los Actores")
-
-        # Filtro de riesgo
         risk_filter = st.radio(
             "Filtrar por nivel:",
             ["TODOS", "CRITICO", "ALTO", "MEDIO", "BAJO"],
             horizontal=True,
         )
         st.divider()
-
         render_gauge_grid(actors, trends, risk_filter)
         st.divider()
         render_summary_table(actors, trends)
+        st.divider()
+        st.subheader("📥 Exportar Datos")
+        col_exp1, col_exp2, col_exp3 = st.columns(3)
+        with col_exp1:
+            days_exp = st.selectbox(
+                "Periodo", [7, 30, 90, 365, 0],
+                format_func=lambda x: f"Ultimos {x} dias" if x > 0 else "Todo el historico",
+                key="exp_days",
+            )
+        with col_exp2:
+            if not df_history.empty:
+                if days_exp > 0:
+                    cutoff = pd.Timestamp.now() - pd.Timedelta(days=days_exp)
+                    df_exp = df_history[df_history["dt"] >= cutoff]
+                else:
+                    df_exp = df_history
+                fname = (f"sieg_core_{datetime.now().strftime('%Y-%m-%d')}_"
+                         f"{'all' if days_exp == 0 else str(days_exp) + 'd'}.csv")
+                st.download_button(
+                    label=f"⬇ Descargar CSV ({len(df_exp)} filas)",
+                    data=export_csv(df_exp, "sieg_core"),
+                    file_name=fname,
+                    mime="text/csv",
+                )
+        with col_exp3:
+            if not df_history.empty:
+                st.caption(
+                    f"Total: {len(df_history):,} registros | "
+                    f"Desde: {df_history['dt'].min().strftime('%d/%m/%Y')} | "
+                    f"Hasta: {df_history['dt'].max().strftime('%d/%m/%Y')}"
+                )
 
     with tab_map:
         st.subheader("Mapa de Intensidad Global")
@@ -725,37 +798,6 @@ def main() -> None:
     with tab_heatmap:
         st.subheader("Heatmap de Tension — Actores x Tiempo (ultimas 48 lecturas)")
         render_heatmap(df_history)
-
-    with tab_overview:
-        st.divider()
-        st.subheader("📥 Exportar Datos")
-        col_exp1, col_exp2, col_exp3 = st.columns(3)
-        with col_exp1:
-            days_exp = st.selectbox("Periodo", [7, 30, 90, 365, 0],
-                format_func=lambda x: f"Ultimos {x} dias" if x > 0 else "Todo el historico",
-                key="exp_days")
-        with col_exp2:
-            if not df_history.empty:
-                if days_exp > 0:
-                    cutoff = pd.Timestamp.now() - pd.Timedelta(days=days_exp)
-                    df_exp = df_history[df_history["dt"] >= cutoff]
-                else:
-                    df_exp = df_history
-                csv_bytes = export_csv(df_exp, "sieg_core")
-                fname = f"sieg_core_{datetime.now().strftime('%Y-%m-%d')}_{'all' if days_exp==0 else str(days_exp)+'d'}.csv"
-                st.download_button(
-                    label=f"⬇ Descargar CSV ({len(df_exp)} filas)",
-                    data=csv_bytes,
-                    file_name=fname,
-                    mime="text/csv",
-                )
-        with col_exp3:
-            if not df_history.empty:
-                st.caption(
-                    f"Total registros: {len(df_history):,} | "
-                    f"Desde: {df_history['dt'].min().strftime('%d/%m/%Y')} | "
-                    f"Hasta: {df_history['dt'].max().strftime('%d/%m/%Y')}"
-                )
 
     with tab_comparative:
         st.subheader("Evolucion Comparativa Multi-Actor")
@@ -770,6 +812,9 @@ def main() -> None:
             render_actor_detail_tab(sel_actor, df_history, trends)
         else:
             st.info("Sin datos de actores disponibles.")
+
+    with tab_docs:
+        render_docs_tab()
 
     st.markdown(f"""
     <div class='sieg-footer'>
