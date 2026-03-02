@@ -249,6 +249,13 @@ def load_geoint_actors() -> list:
 
 
 
+
+def export_csv(df: pd.DataFrame, label: str) -> bytes:
+    """Genera CSV filtrado para descarga."""
+    return df[["dt", "region", "score"]].rename(columns={
+        "dt": "datetime", "region": "actor", "score": "score_pct"
+    }).to_csv(index=False).encode("utf-8")
+
 # ---------------------------------------------------------------------------
 # LOGICA DE NEGOCIO
 # ---------------------------------------------------------------------------
@@ -718,6 +725,37 @@ def main() -> None:
     with tab_heatmap:
         st.subheader("Heatmap de Tension — Actores x Tiempo (ultimas 48 lecturas)")
         render_heatmap(df_history)
+
+    with tab_overview:
+        st.divider()
+        st.subheader("📥 Exportar Datos")
+        col_exp1, col_exp2, col_exp3 = st.columns(3)
+        with col_exp1:
+            days_exp = st.selectbox("Periodo", [7, 30, 90, 365, 0],
+                format_func=lambda x: f"Ultimos {x} dias" if x > 0 else "Todo el historico",
+                key="exp_days")
+        with col_exp2:
+            if not df_history.empty:
+                if days_exp > 0:
+                    cutoff = pd.Timestamp.now() - pd.Timedelta(days=days_exp)
+                    df_exp = df_history[df_history["dt"] >= cutoff]
+                else:
+                    df_exp = df_history
+                csv_bytes = export_csv(df_exp, "sieg_core")
+                fname = f"sieg_core_{datetime.now().strftime('%Y-%m-%d')}_{'all' if days_exp==0 else str(days_exp)+'d'}.csv"
+                st.download_button(
+                    label=f"⬇ Descargar CSV ({len(df_exp)} filas)",
+                    data=csv_bytes,
+                    file_name=fname,
+                    mime="text/csv",
+                )
+        with col_exp3:
+            if not df_history.empty:
+                st.caption(
+                    f"Total registros: {len(df_history):,} | "
+                    f"Desde: {df_history['dt'].min().strftime('%d/%m/%Y')} | "
+                    f"Hasta: {df_history['dt'].max().strftime('%d/%m/%Y')}"
+                )
 
     with tab_comparative:
         st.subheader("Evolucion Comparativa Multi-Actor")
