@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
-S.I.E.G. - Intel Scanner V9.2
-Novedades vs V9.1:
-  - Autolearning 3 capas: primarias -> fallback -> Google News RSS
-  - Indicador de calidad por actor: VERDE/AZUL/AMARILLO/NARANJA/ROJO
-  - Umbral minimo: 60 noticias por actor
-  - Fuentes aprendidas persistidas en data/sieg_learned_sources.json
-  - Calidad guardada en geoint_*.json para visualizacion en dashboard
+S.I.E.G. - Intel Scanner V9.3
+Novedades vs V9.2:
+  - Flash News: detección de eventos críticos con triggers globales y por región
+  - Flashes persistidos en data/sieg_flashes.json con TTL de 48h
+  - Máximo 20 flashes activos globales / 3 nuevos por actor y ciclo
+  - Score mínimo de actor para generar flashes: 60
 """
 
 import json
@@ -32,8 +31,15 @@ LEARNED_FILE   = DATA_DIR / "sieg_learned_sources.json"
 
 RSS_ITEMS_POR_FUENTE = 20
 TIMEOUT_HTTP         = 10
-VERSION              = "V9.2"
+VERSION              = "V9.3"
 MIN_NOTICIAS         = 60     # Umbral minimo aceptable por actor
+
+# Flash config
+FLASH_TTL_H     = 48    # horas de vida de cada flash
+FLASH_SCORE     = 60    # score minimo del actor para generar flashes
+FLASH_MAX       = 20    # maximo flashes almacenados globalmente
+FLASH_POR_ACTOR = 3     # maximo flashes nuevos por actor y ciclo
+FLASHES_FILE    = DATA_DIR / "sieg_flashes.json"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -63,6 +69,109 @@ def calcular_calidad(n: int, fuentes_activas: int,
         "fuentes_activas": fuentes_activas,
         "uso_fallback": uso_fallback, "uso_web": uso_web,
     }
+
+# ---------------------------------------------------------------------------
+# FLASH NEWS — V9.3
+# ---------------------------------------------------------------------------
+
+FLASH_TRIGGERS_GLOBAL = [
+    "missile strike", "ballistic missile", "airstrike", "airstrikes",
+    "bombing", "bombed", "invasion", "ground invasion", "military offensive",
+    "drone strike", "drone attack", "drone swarm",
+    "warship sunk", "fighter jet downed", "shot down",
+    "mass casualty", "hundreds killed", "city under fire",
+    "nuclear device", "nuclear test", "dirty bomb", "chemical weapon",
+    "tactical nuke", "radiological", "nuclear warhead",
+    "declares war", "martial law", "mobilization",
+    "strait closed", "canal closed", "oil embargo",
+    "pipeline attack", "pipeline explosion",
+    "coup", "government collapse", "capital under attack",
+    "mass missile attack", "full scale attack", "full-scale invasion",
+    "nuclear breakout", "enriched to 90", "bomb-grade",
+]
+
+FLASH_TRIGGERS_REGION = {
+    "Iran_M_Oriente": [
+        "hormuz closed", "hormuz blocked", "iran launches", "iran fires",
+        "iran attacks", "israel strikes iran", "idf strikes iran",
+        "hezbollah declares", "houthi closes red sea", "iaea emergency",
+    ],
+    "Rusia_Ucrania": [
+        "nato article 5", "nuclear escalation", "kyiv falls",
+        "poland border", "russian nuclear", "mobilization russia",
+    ],
+    "China": [
+        "taiwan invasion", "taiwan blockade", "pla crosses",
+        "strait of taiwan blocked", "us carrier attacked",
+    ],
+    "North_Korea": [
+        "icbm launch", "nuclear test north korea", "hydrogen bomb",
+        "north korea attacks", "dprk missile",
+    ],
+    "USA":           ["us declares war", "pentagon attack"],
+    "Sahel":         ["capital falls", "coup succeeds", "bamako attack"],
+    "Asia_Pacifico": ["south china sea clash", "india pakistan", "kashmir escalation"],
+    "Europa_Core":   ["nato attacked", "article 5 invoked", "hybrid attack"],
+}
+
+ACTOR_ICONOS = {
+    "Iran_M_Oriente": "🇮🇷", "Rusia_Ucrania": "🇷🇺", "China": "🇨🇳",
+    "North_Korea": "🇰🇵",    "USA": "🇺🇸",           "Sahel": "🌍",
+    "Asia_Pacifico": "🌏",   "Europa_Core": "🇪🇺",   "Espana": "🇪🇸",
+    "Latam": "🌎",           "Mexico": "🇲🇽",         "Argentina": "🇦🇷",
+    "Brasil": "🇧🇷",         "Australia": "🇦🇺",
+}
+
+def cargar_flashes() -> list:
+    if not FLASHES_FILE.exists():
+        return []
+    try:
+        with open(FLASHES_FILE) as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return []
+
+def guardar_flashes(flashes: list) -> None:
+    try:
+        with open(FLASHES_FILE, "w") as f:
+            json.dump(flashes, f, indent=2, ensure_ascii=False)
+    except OSError as e:
+        log.warning("No se pudo guardar flashes: %s", e)
+
+def purgar_flashes_expirados(flashes: list, ahora: float) -> list:
+    ttl_s = FLASH_TTL_H * 3600
+    return [f for f in flashes if (ahora - f.get("ts", 0)) < ttl_s]
+
+def extraer_flashes_actor(noticias: list, region: str,
+                          score: float, ahora: float) -> list:
+    if score < FLASH_SCORE:
+        return []
+    region_key = region.replace("_", "").lower()
+    triggers_region = []
+    for k, v in FLASH_TRIGGERS_REGION.items():
+        if k.lower().replace("_", "") in region_key or \
+           region_key in k.lower().replace("_", ""):
+            triggers_region = v
+            break
+    todos_triggers = FLASH_TRIGGERS_GLOBAL + triggers_region
+    icono  = ACTOR_ICONOS.get(region, "🔴")
+    nuevos = []
+    for n in noticias:
+        texto      = n.get("text", "").lower()
+        titulo_raw = n.get("text", "").split(".")[0].strip()
+        titulo     = titulo_raw[:130] if len(titulo_raw) > 130 else titulo_raw
+        if not titulo:
+            continue
+        trigger_hit = next((t for t in todos_triggers if t in texto), None)
+        if trigger_hit:
+            nuevos.append({
+                "ts": ahora, "actor": region, "icono": icono,
+                "titulo": titulo, "trigger": trigger_hit,
+                "score": int(score), "cf": round(float(n.get("cf", 0.7)), 2),
+            })
+        if len(nuevos) >= FLASH_POR_ACTOR:
+            break
+    return nuevos
 
 # ---------------------------------------------------------------------------
 # BANCO DE FUENTES ALTERNATIVAS (CAPA 2)
@@ -176,7 +285,7 @@ def build_google_news_url(region: str) -> str:
     return f"https://news.google.com/rss/search?q={query}&hl=en&gl=US&ceid=US:en"
 
 # ---------------------------------------------------------------------------
-# VOCABULARIO (heredado de V9.1)
+# VOCABULARIO
 # ---------------------------------------------------------------------------
 
 KINETIC_ALTO = [
@@ -281,7 +390,7 @@ def cargar_mapa_fuentes() -> dict:
 
 def fetch_rss(fuentes_lista: list, region: str, label: str = "P") -> tuple:
     """Retorna (noticias, n_fuentes_activas)."""
-    headers  = {"User-Agent": "Mozilla/5.0 (compatible; SIEG-Scanner/9.2)"}
+    headers  = {"User-Agent": "Mozilla/5.0 (compatible; SIEG-Scanner/9.3)"}
     noticias = []
     activas  = 0
     for fuente in fuentes_lista:
@@ -489,7 +598,9 @@ def scan() -> None:
     print(f"    Umbral: {MIN_NOTICIAS} noticias | Capas: P -> FB -> WEB")
     print()
 
-    global_scores = []
+    global_scores        = []
+    flashes_actuales     = purgar_flashes_expirados(cargar_flashes(), ts)
+    nuevos_flashes_total = 0
 
     for region, data_fuentes in fuentes.items():
         clean_name = region.lower().replace(".", "_")
@@ -510,6 +621,11 @@ def scan() -> None:
 
         score, disonancia = calcular_triaje(noticias, region, old_score, historico)
 
+        # Flash extraction
+        nuevos_flashes = extraer_flashes_actor(noticias, region, score, ts)
+        flashes_actuales.extend(nuevos_flashes)
+        nuevos_flashes_total += len(nuevos_flashes)
+
         try:
             with open(file_path, "w") as f:
                 json.dump({
@@ -519,7 +635,6 @@ def scan() -> None:
                     "timestamp":           ts,
                     "noticias_procesadas": len(noticias),
                     "version":             VERSION,
-                    # NUEVO: indicadores de calidad
                     "calidad_nivel":       calidad["nivel"],
                     "calidad_emoji":       calidad["emoji"],
                     "calidad_css":         calidad["css"],
@@ -533,7 +648,7 @@ def scan() -> None:
         guardar_historico(region, score, ts)
         global_scores.append(score)
 
-        # Output con calidad
+        # Output con calidad y flashes
         icono = ("☢️ " if score >= 92 else
                  "⚠️ " if disonancia   else
                  "🔥 " if score > 70   else "⚖️ ")
@@ -541,16 +656,22 @@ def scan() -> None:
         delta_str = f"+{delta}" if delta > 0 else str(delta)
         fb_str    = " [FB]"  if calidad["uso_fallback"] else ""
         web_str   = " [WEB]" if calidad["uso_web"]      else ""
+        flash_str = f" ⚡{len(nuevos_flashes)}" if nuevos_flashes else ""
 
         print(f"[{icono}] {region:20} | Score: {score:3}% ({delta_str:>4}) | "
               f"Noticias: {len(noticias):3} | "
-              f"Calidad: {calidad['emoji']} {calidad['nivel']}{fb_str}{web_str}")
+              f"Calidad: {calidad['emoji']} {calidad['nivel']}{fb_str}{web_str}{flash_str}")
 
     guardar_aprendidas(aprendidas)
     actualizar_historico_json(global_scores)
+
+    flashes_actuales = flashes_actuales[-FLASH_MAX:]
+    guardar_flashes(flashes_actuales)
+
     avg = sum(global_scores) // len(global_scores) if global_scores else 0
     print()
-    print(f"--- Scan completado: {len(global_scores)} actores | Avg: {avg}% ---")
+    print(f"--- Scan completado: {len(global_scores)} actores | Avg: {avg}% | "
+          f"Flashes: {nuevos_flashes_total} nuevos / {len(flashes_actuales)} activos ---")
 
 if __name__ == "__main__":
     scan()

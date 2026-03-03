@@ -1,7 +1,7 @@
 """
 S.I.E.G. - Geopolitical Intelligence Engine
-Dashboard V13.0 — Visualizacion avanzada, heatmap, gauges, tabs por actor,
-filtros de riesgo, indicadores de tendencia, mapa mundial + Flash News integration.
+Dashboard V12.0 — Visualizacion avanzada, heatmap, gauges, tabs por actor,
+filtros de riesgo, indicadores de tendencia, mapa mundial.
 """
 
 import base64
@@ -9,7 +9,6 @@ import glob
 import json
 import logging
 import os
-import time
 from datetime import datetime
 
 import pandas as pd
@@ -24,16 +23,13 @@ import streamlit.components.v1 as components
 DATA_DIR        = "data"
 HISTORY_FILE    = os.path.join(DATA_DIR, "history_log.csv")
 GEOINT_PATTERN  = os.path.join(DATA_DIR, "geoint_*.json")
-FLASHES_FILE    = os.path.join(DATA_DIR, "sieg_flashes.json")      # NUEVO
 
 ANOMALY_THRESHOLD = 7
 ANOMALY_WINDOW    = 6
 
-APP_VERSION     = "V13.0"     # actualizado
-SCANNER_VERSION = "V9.3"      # actualizado
+APP_VERSION     = "V12.0"
+SCANNER_VERSION = "V9.2"
 BUILD_DATE      = "2026"
-
-FLASH_TTL_H     = 48          # NUEVO
 
 OBSOLETE_ACTORS = {"asia", "europa", "m_oriente"}
 
@@ -75,7 +71,7 @@ logging.basicConfig(level=logging.WARNING, format="%(levelname)s | %(message)s")
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
-# CSS — con sección FLASH añadida al final
+# CSS
 # ---------------------------------------------------------------------------
 TERMINAL_CSS = """
 <style>
@@ -145,63 +141,6 @@ h1, h2, h3 { color: #00ff41 !important; font-family: 'Share Tech Mono', monospac
 }
 .sieg-footer a { color: #00ff41; text-decoration: none; }
 .sieg-footer a:hover { text-decoration: underline; }
-
-/* ── FLASH TICKER ─────────────────────────────────────────── */
-.flash-ticker-wrap {
-    background: #1a0000;
-    border-top: 1px solid #ff2200;
-    border-bottom: 1px solid #ff2200;
-    overflow: hidden;
-    position: relative;
-    height: 36px;
-    margin-bottom: 14px;
-}
-.flash-ticker-label {
-    position: absolute; left: 0; top: 0;
-    background: #ff2200; color: #fff;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.75em; font-weight: bold;
-    padding: 0 10px; height: 36px;
-    line-height: 36px; z-index: 2;
-    letter-spacing: 0.1em;
-    white-space: nowrap;
-}
-.flash-ticker-track {
-    display: inline-block;
-    white-space: nowrap;
-    animation: ticker-scroll 50s linear infinite;
-    padding-left: 160px;
-    line-height: 36px;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.82em;
-    color: #ffaaaa;
-}
-.flash-ticker-track:hover { animation-play-state: paused; }
-@keyframes ticker-scroll {
-    0%   { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-}
-.flash-item-ticker { margin-right: 60px; color: #ffdddd; }
-.flash-item-ticker b { color: #ff6666; }
-
-/* ── FLASH SIDEBAR ─────────────────────────────────────────── */
-.flash-sidebar-item {
-    background: #1a0505;
-    border-left: 3px solid #ff2200;
-    padding: 6px 10px;
-    margin-bottom: 6px;
-    border-radius: 0 4px 4px 0;
-    font-family: monospace;
-    font-size: 0.78em;
-    color: #ffcccc;
-}
-.flash-sidebar-item .flash-ts { color: #886666; font-size: 0.85em; }
-.flash-new-badge {
-    background: #ff2200; color: #fff;
-    font-size: 0.65em; padding: 1px 5px;
-    border-radius: 3px; margin-left: 4px;
-    vertical-align: middle; font-weight: bold;
-}
 </style>
 """
 
@@ -291,21 +230,6 @@ def load_geoint_actors() -> list:
     return sorted(actors, key=lambda x: x["score"], reverse=True)
 
 
-@st.cache_data(ttl=60)
-def load_flashes() -> list:
-    """Carga flashes desde JSON, purga TTL expirados."""
-    if not os.path.exists(FLASHES_FILE):
-        return []
-    try:
-        with open(FLASHES_FILE) as f:
-            flashes = json.load(f)
-        ahora = time.time()
-        ttl_s = FLASH_TTL_H * 3600
-        return [fl for fl in flashes if (ahora - fl.get("ts", 0)) < ttl_s]
-    except (OSError, json.JSONDecodeError):
-        return []
-
-
 def export_csv(df: pd.DataFrame, label: str) -> bytes:
     return df[["dt", "region", "score"]].rename(columns={
         "dt": "datetime", "region": "actor", "score": "score_pct"
@@ -338,65 +262,6 @@ def compute_trends(df: pd.DataFrame, actors: list) -> dict:
         else:
             trends[key] = 0.0
     return trends
-
-
-# ---------------------------------------------------------------------------
-# FLASH NEWS RENDERING
-# ---------------------------------------------------------------------------
-
-def render_flash_ticker(flashes: list) -> None:
-    """Ticker horizontal animado en cabecera."""
-    if not flashes:
-        return
-    items_html = ""
-    for fl in flashes:
-        actor  = fl.get("actor", "")
-        icono  = fl.get("icono", "🔴")
-        titulo = fl.get("titulo", "")[:100]
-        score  = fl.get("score", 0)
-        items_html += (
-            f'<span class="flash-item-ticker">'
-            f'{icono} <b>[{actor}·{score}%]</b> {titulo}'
-            f'</span>'
-        )
-    # Duplicar para loop continuo sin salto visible
-    track = items_html * 2
-    st.markdown(
-        f'<div class="flash-ticker-wrap">'
-        f'<div class="flash-ticker-label">⚡ FLASH</div>'
-        f'<div class="flash-ticker-track">{track}</div>'
-        f'</div>',
-        unsafe_allow_html=True,
-    )
-
-
-def render_flash_sidebar(flashes: list) -> None:
-    """Panel de flashes en sidebar."""
-    if not flashes:
-        st.markdown(
-            "<div style='font-family:monospace;font-size:0.78em;color:#445544'>"
-            "Sin eventos flash activos</div>",
-            unsafe_allow_html=True
-        )
-        return
-    ahora  = time.time()
-    recent = sorted(flashes, key=lambda x: x.get("ts", 0), reverse=True)[:8]
-    for fl in recent:
-        age_h  = (ahora - fl.get("ts", 0)) / 3600
-        badge  = '<span class="flash-new-badge">NEW</span>' if age_h < 24 else ""
-        actor  = fl.get("actor", "")
-        icono  = fl.get("icono", "🔴")
-        titulo = fl.get("titulo", "")[:90]
-        score  = fl.get("score", 0)
-        ts_str = datetime.fromtimestamp(fl.get("ts", 0)).strftime("%d/%m %H:%M")
-        st.markdown(
-            f'<div class="flash-sidebar-item">'
-            f'{icono} <b>{actor}</b> [{score}%]{badge}<br>'
-            f'{titulo}<br>'
-            f'<span class="flash-ts">{ts_str}</span>'
-            f'</div>',
-            unsafe_allow_html=True,
-        )
 
 
 # ---------------------------------------------------------------------------
@@ -441,7 +306,7 @@ def render_anomaly_alerts(anomalies: list) -> None:
         )
 
 
-def render_sidebar(actors: list, df: pd.DataFrame, flashes: list) -> None:
+def render_sidebar(actors: list, df: pd.DataFrame) -> None:
     with st.sidebar:
         st.header("📂 S.I.E.G. CONTROL")
 
@@ -474,20 +339,13 @@ def render_sidebar(actors: list, df: pd.DataFrame, flashes: list) -> None:
 
             - Persistencia: CSV local (proteccion eMMC)
             - Sync: Git automatizado cada 30 min
-            - Scanner: V9.3 autolearning 3 capas + Flash News
+            - Scanner: V9.2 autolearning 3 capas
             - Calidad: VERDE/AZUL/AMARILLO/NARANJA/ROJO
             """)
 
         st.divider()
         st.markdown("**🌐 Proyecto relacionado:**")
         st.markdown("[S.I.E.G. ATLAS →](https://sieg-atlas-intelligence.streamlit.app)")
-        st.divider()
-
-        # ── Nueva sección Flash en sidebar ──
-        st.divider()
-        st.markdown("**⚡ Flash News**")
-        render_flash_sidebar(flashes)
-
         st.divider()
         st.markdown("**✉ Contacto**")
         st.code("mybloggingnotes@gmail.com", language=None)
@@ -768,6 +626,7 @@ def render_docs_tab() -> None:
 
     d_user, d_tech, d_links = st.tabs(["📘 Guia de Usuario", "🔧 Ref. Tecnica", "🔗 Links"])
 
+    # ── Guia de Usuario (PDF embebido) ──
     with d_user:
         st.caption("Guia completa — metodologia, niveles de alerta, glosario y FAQ · Bilingue ES/EN")
 
@@ -798,6 +657,7 @@ def render_docs_tab() -> None:
             st.warning("PDF no encontrado en docs/. Verifica que user_guide.pdf esta en el repo.")
             st.markdown("[⬇ Descargar desde GitHub](https://github.com/mcasrom/SIEG-Core/raw/main/docs/user_guide.pdf)")
 
+    # ── Referencia Tecnica (Markdown) ──
     with d_tech:
         st.caption("Arquitectura, algoritmos, changelog — referencia para desarrolladores")
 
@@ -814,6 +674,7 @@ def render_docs_tab() -> None:
             st.warning("technical_reference.md no encontrado en docs/.")
             st.markdown("[Ver en GitHub](https://github.com/mcasrom/SIEG-Core/blob/main/docs/technical_reference.md)")
 
+    # ── Links externos ──
     with d_links:
         st.markdown("""
         <div style='font-family:monospace'>
@@ -870,12 +731,10 @@ def main() -> None:
     actors     = load_geoint_actors()
     anomalies  = detect_anomalies(df_history)
     trends     = compute_trends(df_history, actors)
-    flashes    = load_flashes()          # NUEVO
 
-    render_sidebar(actors, df_history, flashes)   # pasa flashes
+    render_sidebar(actors, df_history)
 
     st.title("🛡 S.I.E.G. - GEOPOLITICAL INTELLIGENCE ENGINE")
-    render_flash_ticker(flashes)         # NUEVO — ticker antes del hero
     render_hero(df_history, len(actors))
     render_anomaly_alerts(anomalies)
 
