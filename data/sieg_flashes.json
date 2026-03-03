@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772566472.3531039,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1772566472.3531039,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How many countries has the US bombed since 2001, and how much has it cost? Since 9/11, the US has engaged in three full-scale wars",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772568003.8952296,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "How many countries has the US bombed since 2001, and how much has it cost? Since 9/11, the US has engaged in three full-scale wars",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772568003.8952296,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "IAEA confirms buildings damaged at Iran’s Natanz nuclear facility As US-Israeli attacks continue, watchdog says &#039;no radiologi",
-    "trigger": "radiological",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772568003.8952296,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772568003.8952296,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Macron unveils expansion of France’s nuclear arsenal, opens door to European deterrence cooperation  \n                       Speak",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1772568003.8952296,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772571603.7581565,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran mourns 165 girls, staff killed in US-Israel strike on Minab school Thousands gathered in Minab, Iran, for a mass funeral of 1",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772573403.0088394,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UK, France send warships, air defence assets to Cyprus after drone attack The development comes after an Iranian-made drone crashe",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772573403.0088394,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran mourns 165 girls, staff killed in US-Israel strike on Minab school Thousands gathered in Minab, Iran, for a mass funeral of 1",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772573403.0088394,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772573403.0088394,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772573403.0088394,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "UK, France send warships, air defence assets to Cyprus after drone attack The development comes after an Iranian-made drone crashe",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772573403.0088394,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Iran mourns 165 girls, staff killed in US-Israel strike on Minab school Thousands gathered in Minab, Iran, for a mass funeral of 1",
