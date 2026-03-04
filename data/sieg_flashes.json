@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772634603.215626,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772634603.215626,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian tanker on fire in Mediterranean Sea, Moscow accuses Ukraine of sea drone attack  \n                       A Russian-flagged",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772636403.9425418,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone targets military base in Bahrain Eyewitness video shows a suspected Iranian drone attack on a military base in Bahrain",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772636403.9425418,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772636403.9425418,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran expands retaliation for US-Israel campaign across Arab states (February 28–March 2)  The Tehran regime responded to the US-Is",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772636403.9425418,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Paris trying to become European military decision-making center — expert According to Alexander Stepanov, the French president’s a",
-    "trigger": "nuclear escalation",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772636403.9425418,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian tanker on fire in Mediterranean Sea, Moscow accuses Ukraine of sea drone attack  \n                       A Russian-flagged",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772641802.7949524,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Debris from NATO’s missile interception falls on Turkish soil Debris from NATO’s interception of an Iranian ballistic missile has ",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772641802.7949524,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone targets military base in Bahrain Eyewitness video shows a suspected Iranian drone attack on a military base in Bahrain",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772641802.7949524,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772641802.7949524,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772641802.7949524,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772641802.7949524,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
