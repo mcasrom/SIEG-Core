@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772641802.7949524,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772641802.7949524,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772643603.7080429,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Debris from NATO’s missile interception falls on Turkish soil Debris from NATO’s interception of an Iranian ballistic missile has ",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772643603.7080429,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone targets military base in Bahrain Eyewitness video shows a suspected Iranian drone attack on a military base in Bahrain",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772643603.7080429,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772643603.7080429,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Pentagon confident Iran can no longer carry out mass missile launches Iran's theater ballistic missile shots fired down 86% from t",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772643603.7080429,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772647203.9326975,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian tanker on fire in Mediterranean Sea, Moscow accuses Ukraine of sea drone attack  \n                       A Russian-flagged",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772649003.372172,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Debris from NATO’s missile interception falls on Turkish soil Debris from NATO’s interception of an Iranian ballistic missile has ",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772649003.372172,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone targets military base in Bahrain Eyewitness video shows a suspected Iranian drone attack on a military base in Bahrain",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772649003.372172,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772649003.372172,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772649003.372172,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772649003.372172,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian tanker on fire in Mediterranean Sea, Moscow accuses Ukraine of sea drone attack  \n                       A Russian-flagged",
