@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772652603.4266517,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772652603.4266517,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772654403.2140946,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Debris from NATO’s missile interception falls on Turkish soil Debris from NATO’s interception of an Iranian ballistic missile has ",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772654403.2140946,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Debris from NATO’s missile interception falls on Turkish soil Debris from NATO’s interception of an Iranian ballistic missile has ",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772654403.2140946,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Analysis: Why Iran’s ballistic missile launches are declining  Iran has lashed out at its neighbors with hundreds of missiles and ",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772654403.2140946,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 3 Russian ships hit, 3 sailors killed in Ukrainian strike on Black Sea port, SBU source says  \n               ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1772654403.2140946,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772658003.9424036,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772659802.991585,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Debris from NATO’s missile interception falls on Turkish soil Debris from NATO’s interception of an Iranian ballistic missile has ",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772659802.991585,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Debris from NATO’s missile interception falls on Turkish soil Debris from NATO’s interception of an Iranian ballistic missile has ",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772659802.991585,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772659802.991585,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 3 Russian ships hit, 3 sailors killed in Ukrainian strike on Black Sea port, SBU source says  \n               ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772659802.991585,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772659802.991585,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
