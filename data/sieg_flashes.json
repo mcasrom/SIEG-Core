@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772627404.8330934,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian tanker on fire in Mediterranean Sea, Moscow accuses Ukraine of sea drone attack  \n                       A Russian-flagged",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772627404.8330934,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1772629203.641465,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Witkoff lying about nuclear talks' content, says Iranian negotiator TEHRAN - During his weekly press conference at a Tehran school",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772629203.641465,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "TEHRAN – Brazilian political cartoonist Carlos Latuff has created a work regarding the Leader of the TEHRAN – Brazilian political ",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772629203.641465,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone targets military base in Bahrain Eyewitness video shows a suspected Iranian drone attack on a military base in Bahrain",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772629203.641465,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1772629203.641465,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772632803.915716,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian tanker on fire in Mediterranean Sea, Moscow accuses Ukraine of sea drone attack  \n                       A Russian-flagged",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772634603.215626,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone targets military base in Bahrain Eyewitness video shows a suspected Iranian drone attack on a military base in Bahrain",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772634603.215626,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772634603.215626,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran expands retaliation for US-Israel campaign across Arab states (February 28–March 2)  The Tehran regime responded to the US-Is",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772634603.215626,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772634603.215626,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772634603.215626,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian tanker on fire in Mediterranean Sea, Moscow accuses Ukraine of sea drone attack  \n                       A Russian-flagged",
