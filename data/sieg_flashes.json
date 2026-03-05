@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772674203.420502,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Three people injured in Ukrainian drone attack on Saratov Region — governor Roman Busargin says several civilian facilities were d",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772674203.420502,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 3 Russian ships hit, 3 sailors killed in Ukrainian strike on Black Sea port, SBU source says  \n               ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772676003.307808,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Russia accuses Ukraine of drone attack as gas tanker sinks in Mediterranean Russian President Vladimir Putin accuses Ukraine of ca",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772676003.307808,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772676003.307808,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Analysis: Why Iran’s ballistic missile launches are declining  Iran has lashed out at its neighbors with hundreds of missiles and ",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772676003.307808,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iranian forces launch missile strike on anti-Iranian groups in Iraqi Kurdistan — statement The IRGC fulfilled three missile strike",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772676003.307808,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.9
+  },
+  {
+    "ts": 1772681403.1429763,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Battered and isolated, Hezbollah drags Lebanon into another war Its attack on Israel in support of Iran has led to fresh mass disp",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772681403.1429763,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Experts doubt Tehran’s claims of advanced ‘hypersonic’ missiles",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772681403.1429763,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Whose Airstrike Hit a Girls’ School in Iran? The U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772681403.1429763,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 3 Russian ships hit, 3 sailors killed in Ukrainian strike on Black Sea port, SBU source says  \n               ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772681403.1429763,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772681403.1429763,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
   }
 ]
