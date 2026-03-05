@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772692203.163642,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772692203.163642,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772694003.78546,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Expert details damage to UNESCO-listed Golestan Palace following airstrike TEHRAN – Iranian cultural heritage expert Eskandar Mokh",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772694003.78546,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Young, veteran artists creating artwork about “Martyr Leader” TEHRAN – A three-day visual art workshop titled “Martyr Leader” was ",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772694003.78546,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran denies firing missile towards Turkiye after NATO interception Turkiye&#039;s Defence Ministry had said a ⁠ballistic missile ⁠",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772694003.78546,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iranian forces launch missile strike on anti-Iranian groups in Iraqi Kurdistan — statement The IRGC fulfilled three missile strike",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772694003.78546,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772697603.2213442,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772699403.7202559,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Expert details damage to UNESCO-listed Golestan Palace following airstrike TEHRAN – Iranian cultural heritage expert Eskandar Mokh",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1772699403.7202559,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Young, veteran artists creating artwork about “Martyr Leader” TEHRAN – A three-day visual art workshop titled “Martyr Leader” was ",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1772699403.7202559,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran denies firing missile towards Turkiye after NATO interception Turkiye&#039;s Defence Ministry had said a ⁠ballistic missile ⁠",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772699403.7202559,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 3 Russian ships hit, 3 sailors killed in Ukrainian strike on Black Sea port, SBU source says  \n               ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772699403.7202559,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772699403.7202559,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russia continues to escalate drone attacks on passenger trains, railway infrastructure  \n                       Russian drone hit ",
