@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772672403.7260265,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Three people injured in Ukrainian drone attack on Saratov Region — governor Roman Busargin says several civilian facilities were d",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772672403.7260265,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 3 Russian ships hit, 3 sailors killed in Ukrainian strike on Black Sea port, SBU source says  \n               ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772674203.420502,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Russia accuses Ukraine of drone attack as gas tanker sinks in Mediterranean Russian President Vladimir Putin accuses Ukraine of ca",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772674203.420502,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Debris from NATO’s missile interception falls on Turkish soil Debris from NATO’s interception of an Iranian ballistic missile has ",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772674203.420502,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772674203.420502,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iranian forces launch missile strike on anti-Iranian groups in Iraqi Kurdistan — statement The IRGC fulfilled three missile strike",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772674203.420502,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1772679603.918852,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772679603.918852,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Analysis: Why Iran’s ballistic missile launches are declining  Iran has lashed out at its neighbors with hundreds of missiles and ",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772679603.918852,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772679603.918852,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772679603.918852,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "In a World Order Defined by Trump, the Key to Europe’s Defense Is Germany In the wake of the U",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772679603.918852,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "After a Drone Strikes RAF Base in Cyprus, UK Risks Being Dragged Further Into Iran Conflict The government of Prime Minister Keir ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.9
   }
 ]
