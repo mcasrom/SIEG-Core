@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772744403.5897727,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Tinder for the labor market' — How Ukraine is trying to fix a critical shortage  \n                       Since Dmytro Volynets st",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772744403.5897727,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian Ka-27 helicopter destroyed over Black Sea, Ukraine's Navy says  \n                       The latest report brings up the nu",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772746203.959373,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772746203.959373,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Analysis: Why Iran’s ballistic missile launches are declining  Iran has lashed out at its neighbors with hundreds of missiles and ",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772746203.959373,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Analysis: US and Israel race to defeat Iranian missiles and drones following early campaign successes  The United States and Israe",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772746203.959373,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Bahrain destroys 65 out of 75 missiles since start of Iranian strikes — military The military recorded the launch of 124 unmanned ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772746203.959373,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772749803.605664,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian Ka-27 helicopter destroyed over Black Sea, Ukraine's Navy says  \n                       The latest report brings up the nu",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772751604.3373501,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran fires more missiles, drones across Gulf region amid US-Israeli attacks Gulf countries face continued barrage of Iranian attac",
+    "trigger": "iran fires",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772751604.3373501,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772751604.3373501,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Analysis: Why Iran’s ballistic missile launches are declining  Iran has lashed out at its neighbors with hundreds of missiles and ",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772751604.3373501,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Bahrain destroys 65 out of 75 missiles since start of Iranian strikes — military The military recorded the launch of 124 unmanned ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772751604.3373501,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran launches more than 500 missiles, 2,000 UAVs since February 28 — agency The Islamic Republic used both cruise and ballistic mi",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772751604.3373501,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian Ka-27 helicopter destroyed over Black Sea, Ukraine's Navy says  \n                       The latest report brings up the nu",
