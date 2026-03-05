@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772710203.4620929,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 3 Russian ships hit, 3 sailors killed in Ukrainian strike on Black Sea port, SBU source says  \n               ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772710203.4620929,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772712003.2917693,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Expert details damage to UNESCO-listed Golestan Palace following airstrike TEHRAN – Iranian cultural heritage expert Eskandar Mokh",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772712003.2917693,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Young, veteran artists creating artwork about “Martyr Leader” TEHRAN – A three-day visual art workshop titled “Martyr Leader” was ",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772712003.2917693,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran drone attack at Azerbaijan airport Eyewitness videos from an airport in Azerbaijan captured the moment of a suspected Iranian",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772712003.2917693,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Israel hits ballistic missile storage sites in Tehran The IDF also struck several launch sites of long-range ballistic missiles",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772712003.2917693,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772715603.1730573,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772717403.3977096,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranians get by as US, Israeli bombs rain down, internet blocked Officials say some water, electricity facilities damaged amid US-",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772717403.3977096,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran drone attack at Azerbaijan airport Eyewitness videos from an airport in Azerbaijan captured the moment of a suspected Iranian",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772717403.3977096,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran denies its drones hit airport in Azerbaijan’s exclave as war widens Azeri authorities confirm drone attack in Nakhchivan, cla",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772717403.3977096,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 3 Russian ships hit, 3 sailors killed in Ukrainian strike on Black Sea port, SBU source says  \n               ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772717403.3977096,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine's experience priceless as Iran war sees long-range strike drones go global  \n                       The Trump administrati",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772717403.3977096,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
