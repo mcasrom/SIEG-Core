@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772764203.2132087,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US secretary of war claims Iran did not shot down F-15 fighter \"CENTCOM pointed out that those reports of an F-15 being shot down ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772764203.2132087,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Man, teen wounded in Ukrainian drone attack on Sevastopol Damage to civilian infrastructure was reported as a result of the attack",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772766005.1114144,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US says Iran missile attacks down 90% after strikes from B-2 bombers The US says B-2 bombers have dropped dozens of 2,000-pound bo",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772766005.1114144,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires more missiles, drones across Gulf region amid US-Israeli attacks Gulf countries face continued barrage of Iranian attac",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772766005.1114144,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772766005.1114144,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772766005.1114144,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "invasion",
     "score": 62,
     "cf": 0.9
+  },
+  {
+    "ts": 1772771403.5628655,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "War crimes in practice: The US–Israeli campaign against Iranian civilians MADRID - Over the past five days, the United States and ",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1772771403.5628655,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Netanyahu admits Israel’s goal is the ethnic cleansing of Iranians TEHRAN - While Israeli Prime Minister Benjamin Netanyahu tells ",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1772771403.5628655,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US says Iran missile attacks down 90% after strikes from B-2 bombers The US says B-2 bombers have dropped dozens of 2,000-pound bo",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772771403.5628655,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Nine people seek medical assistance after Ukrainian drone attack on Sevastopol A five-storey apartment block was seriously damaged",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772771403.5628655,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US secretary of war claims Iran did not shot down F-15 fighter \"CENTCOM pointed out that those reports of an F-15 being shot down ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772771403.5628655,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Man, teen wounded in Ukrainian drone attack on Sevastopol Damage to civilian infrastructure was reported as a result of the attack",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
   }
 ]
