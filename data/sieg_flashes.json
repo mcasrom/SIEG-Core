@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772753403.1470582,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Healey visits Cyprus after criticism of UK response to drone attacks The Cypriot government has criticised how the UK has handled ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1772753403.1470582,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1772755204.5198658,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires more missiles, drones across Gulf region amid US-Israeli attacks Gulf countries face continued barrage of Iranian attac",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772755204.5198658,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772755204.5198658,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772755204.5198658,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Man, teen wounded in Ukrainian drone attack on Sevastopol Damage to civilian infrastructure was reported as a result of the attack",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772755204.5198658,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772758804.2536085,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772760603.6573198,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US says Iran missile attacks down 90% after strikes from B-2 bombers The US says B-2 bombers have dropped dozens of 2,000-pound bo",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772760603.6573198,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran fires more missiles, drones across Gulf region amid US-Israeli attacks Gulf countries face continued barrage of Iranian attac",
+    "trigger": "iran fires",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772760603.6573198,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772760603.6573198,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian Ka-27 helicopter destroyed over Black Sea, Ukraine's Navy says  \n                       The latest report brings up the nu",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772760603.6573198,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Healey visits Cyprus after criticism of UK response to drone attacks The Cypriot government has criticised how the UK has handled ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1772760603.6573198,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Bowen: Why Ukraine remains defiant and does not feel close to defeat This month marks four gruelling years since the full‑scale in",
