@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772886602.929989,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian mass attack on Ukraine kills 10 in Kharkiv, including children  \n                       Russia attacked Kharkiv, Kyiv and ",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772886602.929989,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Inside a Ukrainian prison for women who sided with Russia  \n                        Since the beginning of Russia's full-scale inv",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772888403.8411894,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian-American filmmaker denounces U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772888403.8411894,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Moment drone strikes Dubai International Airport Moment drone strikes Dubai International Airport",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772888403.8411894,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772888403.8411894,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Jordanian air defenses detect launch of 119 missiles 108 were intercepted and shot down",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772888403.8411894,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russian attacks against Ukraine kill 10, injure 40 over past day  \n                       Russia launched 480 drones, including Sh",
     "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772893803.5965133,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian-American filmmaker denounces U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1772893803.5965133,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Moment drone strikes Dubai International Airport Moment drone strikes Dubai International Airport",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772893803.5965133,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772893803.5965133,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Jordanian air defenses detect launch of 119 missiles 108 were intercepted and shot down",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772893803.5965133,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "UAE air defenses detect launch of 16 Iranian missiles — top brass Thus, according to the ministry, since the beginning of the esca",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772893803.5965133,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "What's on at the Venice Biennale? Russian soft power  \n                       In the fifth year of Russia’s full-scale war against",
+    "trigger": "invasion",
     "score": 62,
     "cf": 0.7
   }
