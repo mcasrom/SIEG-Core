@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772884803.9497223,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian mass attack on Ukraine kills 9 in Kharkiv, including children  \n                       Russia attacked Kharkiv, Kyiv and o",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772884803.9497223,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Inside a Ukrainian prison for women who sided with Russia  \n                        Since the beginning of Russia's full-scale inv",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772886602.929989,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranians take to the streets amid American-Israeli heavy bombing",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772886602.929989,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Moment drone strikes Dubai International Airport Moment drone strikes Dubai International Airport",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772886602.929989,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missiles intercepted over Saudi Arabia, Qatar, UAE, Bahrain sirens Qatar says it came under a wave of drone attacks, with ",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772886602.929989,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian attacks against Ukraine kill 10, injure 40 over past day  \n                       Russia launched 480 drones, including Sh",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1772886602.929989,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Inside a Ukrainian prison for women who sided with Russia  \n                        Since the beginning of Russia's full-scale inv",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772892003.8271167,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian-American filmmaker denounces U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1772892003.8271167,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Moment drone strikes Dubai International Airport Moment drone strikes Dubai International Airport",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772892003.8271167,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772892003.8271167,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Jordanian air defenses detect launch of 119 missiles 108 were intercepted and shot down",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772892003.8271167,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "UAE air defenses detect launch of 16 Iranian missiles — top brass Thus, according to the ministry, since the beginning of the esca",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772892003.8271167,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian attacks against Ukraine kill 10, injure 40 over past day  \n                       Russia launched 480 drones, including Sh",
+    "trigger": "ballistic missile",
     "score": 62,
     "cf": 0.7
   }
