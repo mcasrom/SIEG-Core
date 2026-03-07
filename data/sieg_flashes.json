@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772836203.3992946,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Tinder for the labor market' — How Ukraine is trying to fix a critical shortage  \n                       Since Dmytro Volynets st",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772836203.3992946,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Azerbaijan furious with Iran as war spills over its border President Ilham Aliyev says drone strikes are an \"act of terror\" as he ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1772838003.9764895,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772838003.9764895,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772838003.9764895,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772838003.9764895,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Inside a Ukrainian prison for women who sided with Russia  \n                        Since the beginning of Russia's full-scale inv",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1772838003.9764895,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "'Tinder for the labor market' — How Ukraine is trying to fix a critical shortage  \n                       Since Dmytro Volynets st",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772843403.710146,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran war live: Trump says no deal with Iran until ‘unconditional surrender’ US-Israeli attacks on Iran continue as Israel&#039;s b",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772843403.710146,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772843403.710146,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772843403.710146,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US soon to launch largest bombing of Iran — Treasury chief Scott Bessent stressed that it will do the most damage to the Iranian m",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772843403.710146,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Explosions rock Kyiv, other Ukrainian cities as Russia launches combined ballistic missile and drone attack overnight  \n          ",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772843403.710146,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Inside a Ukrainian prison for women who sided with Russia  \n                        Since the beginning of Russia's full-scale inv",
     "trigger": "invasion",
     "score": 62,
     "cf": 0.7
