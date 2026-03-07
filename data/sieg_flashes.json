@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772861403.3119047,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US soon to launch largest bombing of Iran — Treasury chief Scott Bessent stressed that it will do the most damage to the Iranian m",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772861403.3119047,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions rock Kyiv, 4 killed in Kharkiv as Russia strikes residential building  \n                       Russia attacked Kyiv and",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772863203.1741347,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranians take to the streets amid American-Israeli heavy bombing",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772863203.1741347,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772863203.1741347,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772863203.1741347,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire erupts at US chemical warehouse after drone strike in southern Iraq — TV The types of chemicals stored at the Halliburton fac",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772863203.1741347,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Explosions rock Kyiv, kill 5 in Kharkiv as Russia strikes residential building  \n                       Russia attacked Kyiv and o",
     "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772868603.8855217,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranians take to the streets amid American-Israeli heavy bombing",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1772868603.8855217,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missiles intercepted over Saudi, UAE, drones launched at Qatar Qatar says it came under a wave of drone attacks, with 10 f",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772868603.8855217,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772868603.8855217,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772868603.8855217,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Explosions rock Kyiv, kill 5 in Kharkiv as Russia strikes residential building  \n                       Russia attacked Kyiv and o",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772868603.8855217,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Inside a Ukrainian prison for women who sided with Russia  \n                        Since the beginning of Russia's full-scale inv",
+    "trigger": "invasion",
     "score": 62,
     "cf": 0.7
   }
