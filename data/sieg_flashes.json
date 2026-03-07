@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772915403.0853622,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "What's on at the Venice Biennale? Russian soft power  \n                       In the fifth year of Russia’s full-scale war against",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772915403.0853622,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian attacks against Ukraine kill 10, injure 40 over past day  \n                       Russia launched 480 drones, including Sh",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772917203.0750208,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Video: Satellite images reveal damage to several Iranian military bases Satellite imagery reveals extensive damage at several Iran",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772917203.0750208,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "UAE president says prepared to confront ‘threats’ as Iran attacks continue Iran&#039;s judiciary chief contradicts earlier apology",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772917203.0750208,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "More than 30 injured in nightclub bombing in northern Peru Peru has experienced an uptick in organised crime, including extortion,",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772917203.0750208,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772917203.0750208,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russia back at Paralympics under national flag, its war veterans eye 2028 games  \n                       For the first time in 12 ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772922603.46431,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Video: Satellite images reveal damage to several Iranian military bases Satellite imagery reveals extensive damage at several Iran",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772922603.46431,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UAE president says prepared to confront ‘threats’ as Iran attacks continue Iran&#039;s judiciary chief contradicts earlier apology",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772922603.46431,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "More than 30 injured in nightclub bombing in northern Peru Peru has experienced an uptick in organised crime, including extortion,",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772922603.46431,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Zelensky points to Russia-Iran coordination in Middle East drone strikes  \n                       President Volodymyr Zelensky sai",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772922603.46431,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia back at Paralympics under national flag, its war veterans eye 2028 games  \n                       For the first time in 12 ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772922603.46431,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "What's on at the Venice Biennale? Russian soft power  \n                       In the fifth year of Russia’s full-scale war against",
     "trigger": "invasion",
     "score": 62,
     "cf": 0.7
