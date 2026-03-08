@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772956803.1175458,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire area in oil depot in Armavir is 200 sq m According to an earlier report, the fire occurred due to a drone attack",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772956803.1175458,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US supplying Ukraine-tested anti-drone systems to Middle East partners, WSJ reports  \n                       The U",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772958603.5782366,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian-American filmmaker denounces U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1772958603.5782366,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Flames engulf Kuwaiti high-rise amid Iranian drone strikes Flames engulfed Kuwait’s Public Institution for Social Security high-ri",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772958603.5782366,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump oversees return of US troops killed in Iranian drone strike US President Donald Trump attended the “dignified transfer” of s",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772958603.5782366,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "One person killed in drone strike on airport in Erbil — Shafaq News According to the source, the victim of the strike was a member",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772958603.5782366,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "US supplying Ukraine-tested anti-drone systems to Middle East partners, WSJ reports  \n                       The U",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772964003.6059809,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel strikes Iran’s oil facilities for first time as war enters ninth day Attacks spark huge fires as they hit four storage faci",
+    "trigger": "israel strikes iran",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772964003.6059809,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Flames engulf Kuwaiti high-rise amid Iranian drone strikes Flames engulfed Kuwait’s Public Institution for Social Security high-ri",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772964003.6059809,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump oversees return of US troops killed in Iranian drone strike US President Donald Trump attended the “dignified transfer” of s",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772964003.6059809,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "One person killed in drone strike on airport in Erbil — Shafaq News According to the source, the victim of the strike was a member",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772964003.6059809,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire area in oil depot in Armavir is 200 sq m According to an earlier report, the fire occurred due to a drone attack",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772964003.6059809,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "General Staff: Russia has lost 1,273,290 troops in Ukraine since Feb",
+    "trigger": "invasion",
     "score": 62,
     "cf": 0.7
   }
