@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772965803.1421745,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire area in oil depot in Armavir is 200 sq m According to an earlier report, the fire occurred due to a drone attack",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772965803.1421745,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "General Staff: Russia has lost 1,273,290 troops in Ukraine since Feb",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772967603.3529077,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bahrain says water desalination plant damaged in Iranian drone attack &#039;Iranian aggression randomly bombs civilian targets&#03",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772967603.3529077,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Flames engulf Kuwaiti high-rise amid Iranian drone strikes Flames engulfed Kuwait’s Public Institution for Social Security high-ri",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772967603.3529077,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772967603.3529077,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "General Staff: Russia has lost 1,273,290 troops in Ukraine since Feb",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1772967603.3529077,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1772973003.468954,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bahrain says water desalination plant damaged in Iranian drone attack &#039;Iranian aggression randomly bombs civilian targets&#03",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772973003.468954,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772973003.468954,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772973003.468954,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukrainian crisis arose from Western support for coup in Kiev — Putin The Kiev regime is manipulating European countries, the Russi",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772973003.468954,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "UAE air defenses detect launch of 17 missiles, 117 drones from Iran on March 8 According to the defense ministry, since the start ",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772973003.468954,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian air defenses shoot down 180 Ukrainian fixed-wing drones over past day Russian air defense systems also shot down 13 rocket",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
   }
 ]
