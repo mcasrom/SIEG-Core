@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772920802.9214287,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Zelensky points to Russia-Iran coordination in Middle East drone strikes  \n                       President Volodymyr Zelensky sai",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772920802.9214287,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia back at Paralympics under national flag, its war veterans eye 2028 games  \n                       For the first time in 12 ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772922603.46431,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Video: Satellite images reveal damage to several Iranian military bases Satellite imagery reveals extensive damage at several Iran",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772922603.46431,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "UAE president says prepared to confront ‘threats’ as Iran attacks continue Iran&#039;s judiciary chief contradicts earlier apology",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772922603.46431,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "More than 30 injured in nightclub bombing in northern Peru Peru has experienced an uptick in organised crime, including extortion,",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772922603.46431,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Zelensky points to Russia-Iran coordination in Middle East drone strikes  \n                       President Volodymyr Zelensky sai",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1772922603.46431,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1772926203.3033347,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "What's on at the Venice Biennale? Russian soft power  \n                       In the fifth year of Russia’s full-scale war against",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772928003.1539528,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump oversees return of US troops killed in Iranian drone strike US President Donald Trump attended the “dignified transfer” of s",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772928003.1539528,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Video: Satellite images reveal damage to several Iranian military bases Satellite imagery reveals extensive damage at several Iran",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772928003.1539528,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UAE president says prepared to confront ‘threats’ as Iran attacks continue Iran&#039;s judiciary chief contradicts earlier apology",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772928003.1539528,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Zelensky points to Russia-Iran coordination in Middle East drone strikes  \n                       President Volodymyr Zelensky sai",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772928003.1539528,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia back at Paralympics under national flag, its war veterans eye 2028 games  \n                       For the first time in 12 ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772928003.1539528,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "What's on at the Venice Biennale? Russian soft power  \n                       In the fifth year of Russia’s full-scale war against",
