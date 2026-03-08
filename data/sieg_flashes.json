@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772973003.468954,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "UAE air defenses detect launch of 17 missiles, 117 drones from Iran on March 8 According to the defense ministry, since the start ",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772973003.468954,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian air defenses shoot down 180 Ukrainian fixed-wing drones over past day Russian air defense systems also shot down 13 rocket",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1772974803.8493304,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bahrain says water desalination plant damaged in Iranian drone attack &#039;Iranian aggression randomly bombs civilian targets&#03",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772974803.8493304,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772974803.8493304,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1772974803.8493304,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Desalination plant in Bahrain damaged in Iranian drone attack — interior ministry Authorities later clarified that the incident di",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772974803.8493304,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Ukrainian drones attack oil depot in Krasnodar Krai, Russia claims  \n                       Russia's Defense Ministry claimed that",
     "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772980203.7630043,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bahrain says water desalination plant damaged in Iranian drone attack &#039;Iranian aggression randomly bombs civilian targets&#03",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772980203.7630043,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772980203.7630043,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1772980203.7630043,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772980203.7630043,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone strikes Ukrainian train with 200 passengers on board  \n                       Local authorities reported no injuries",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772980203.7630043,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "General Staff: Russia has lost 1,273,290 troops in Ukraine since Feb",
+    "trigger": "invasion",
     "score": 62,
     "cf": 0.7
   }
