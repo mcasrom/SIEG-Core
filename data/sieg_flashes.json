@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1772937003.4492006,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US supplying Ukraine-tested anti-drone systems to Middle East partners, WSJ reports  \n                       The U",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772937003.4492006,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Zelensky points to Russia-Iran coordination in Middle East drone strikes  \n                       President Volodymyr Zelensky sai",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772938803.8590586,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump oversees return of US troops killed in Iranian drone strike US President Donald Trump attended the “dignified transfer” of s",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772938803.8590586,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Video: Satellite images reveal damage to several Iranian military bases Satellite imagery reveals extensive damage at several Iran",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772938803.8590586,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "UAE president says prepared to confront ‘threats’ as Iran attacks continue Iran&#039;s judiciary chief contradicts earlier apology",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1772938803.8590586,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire area in oil depot in Armavir is 200 sq m According to an earlier report, the fire occurred due to a drone attack",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1772938803.8590586,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russia back at Paralympics under national flag, its war veterans eye 2028 games  \n                       For the first time in 12 ",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772944203.3274953,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian-American filmmaker denounces U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1772944203.3274953,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump oversees return of US troops killed in Iranian drone strike US President Donald Trump attended the “dignified transfer” of s",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772944203.3274953,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Video: Satellite images reveal damage to several Iranian military bases Satellite imagery reveals extensive damage at several Iran",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772944203.3274953,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire area in oil depot in Armavir is 200 sq m According to an earlier report, the fire occurred due to a drone attack",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1772944203.3274953,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US supplying Ukraine-tested anti-drone systems to Middle East partners, WSJ reports  \n                       The U",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1772944203.3274953,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Zelensky points to Russia-Iran coordination in Middle East drone strikes  \n                       President Volodymyr Zelensky sai",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
