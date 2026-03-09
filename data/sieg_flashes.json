@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773066603.4419353,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian air defense systems shot down 163 Ukrainian UAVs overnight In particular, 54 UAVs were shot down over the Bryansk region, ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773066603.4419353,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773068403.0239444,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773068403.0239444,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773068403.0239444,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 1,600 strikes on Iran in 4 days of war, weathers Iranian missile and drones  Israel has carried out more than 1,60",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773068403.0239444,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773068403.0239444,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773072003.3858821,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "NATO air defense intercepts ballistic missile launched from Iran — Turkish top brass Turkey \"places great importance on good neigh",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773073804.1299977,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Turkiye says Iranian ballistic missile intercepted by NATO air defences Ministry of National Defence says no casualties or damage ",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773073804.1299977,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773073804.1299977,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran targets US bases, diplomatic missions, and oil infrastructure in Arab countries on March 3–5  Between March 3 and March 5, Ir",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773073804.1299977,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran announces new wave of missile strikes on Israel — state broadcaster \"A few minutes ago, a new salvo of Iranian missiles was f",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773073804.1299977,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran launches missile strike at US helicopter base in Kuwait Early this morning, IRGC Navy struck US Al-Udeiri Helicopter Base in ",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773073804.1299977,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "NATO air defense intercepts ballistic missile launched from Iran — Turkish top brass Turkey \"places great importance on good neigh",
