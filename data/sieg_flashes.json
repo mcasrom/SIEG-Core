@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773057603.8962784,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773057603.8962784,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773059402.9098427,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump, look them in the eyes TEHRAN - U",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773059402.9098427,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trees and books, or invasion and plunder? Tehran - Look at the martyr leader",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773059402.9098427,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773059402.9098427,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian air defense systems shot down 163 Ukrainian UAVs overnight In particular, 54 UAVs were shot down over the Bryansk region, ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773059402.9098427,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
     "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773064803.4772284,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Airstrikes damage 17th-century mosque in Isfahan TEHRAN – Recent airstrikes on the Iranian city of Isfahan have damaged the histor",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773064803.4772284,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump, look them in the eyes TEHRAN - U",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773064803.4772284,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773064803.4772284,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773064803.4772284,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773064803.4772284,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
+    "trigger": "invasion",
     "score": 62,
     "cf": 0.7
   }
