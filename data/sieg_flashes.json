@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773048603.5733368,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773048603.5733368,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russian attack kills 11 in Kharkiv, including 2 children  \n                       Key developments on March 7-",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773050403.674425,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump, look them in the eyes TEHRAN - U",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773050403.674425,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trees and books, or invasion and plunder? Tehran - Look at the martyr leader",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773050403.674425,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "IRGC warns of energy war after US-Israeli strikes on Iranian assets The spokesman for the IRGC, says the US has opened a new chapt",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773050403.674425,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773050403.674425,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russian attacks kill 3, injure 20 in Ukraine over past day  \n                       Russia launched 117 drones, including Shahed-t",
     "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773055803.5974126,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump, look them in the eyes TEHRAN - U",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773055803.5974126,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trees and books, or invasion and plunder? Tehran - Look at the martyr leader",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773055803.5974126,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "IRGC warns of energy war after US-Israeli strikes on Iranian assets The spokesman for the IRGC, says the US has opened a new chapt",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773055803.5974126,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773055803.5974126,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773055803.5974126,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russian attack kills 11 in Kharkiv, including 2 children  \n                       Key developments on March 7-",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
