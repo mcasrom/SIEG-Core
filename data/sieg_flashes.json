@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773037803.9134736,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Pezeshkian rejects Iran’s responsibility for drone attack on Nakhchivan Azerbaijani President Ilham Aliyev says it is important to",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773037803.9134736,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773039603.6821883,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump, look them in the eyes TEHRAN - U",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773039603.6821883,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trees and books, or invasion and plunder? Tehran - Look at the martyr leader",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773039603.6821883,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773039603.6821883,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian air defense systems shot down 163 Ukrainian UAVs overnight In particular, 54 UAVs were shot down over the Bryansk region, ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773039603.6821883,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russian attacks kill 3, injure 20 in Ukraine over past day  \n                       Russia launched 117 drones, including Shahed-t",
     "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773045003.8405573,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump, look them in the eyes TEHRAN - U",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773045003.8405573,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trees and books, or invasion and plunder? Tehran - Look at the martyr leader",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773045003.8405573,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "IRGC warns of energy war after US-Israeli strikes on Iranian assets The spokesman for the IRGC, says the US has opened a new chapt",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773045003.8405573,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian air defense systems shot down 163 Ukrainian UAVs overnight In particular, 54 UAVs were shot down over the Bryansk region, ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773045003.8405573,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773045003.8405573,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russian attack kills 11 in Kharkiv, including 2 children  \n                       Key developments on March 7-",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
