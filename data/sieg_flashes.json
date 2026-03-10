@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773117003.4101486,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Almost 30 Iranian hospitals damaged by bombing — emergencies service According to the latest report of the Iranian Red Crescent, a",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773117003.4101486,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "West mulls buying Russian oil amid conflict in Iran — expert The market is currently grappling with physical supply being choked o",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773118804.330657,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "People line up for blood donation to show sympathy, solidarity TEHRAN – The people of Tehran from all walks of life refer in large",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773118804.330657,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773118804.330657,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773118804.330657,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773118804.330657,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773124203.0367107,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "People line up for blood donation to show sympathy, solidarity TEHRAN – The people of Tehran from all walks of life refer in large",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773124203.0367107,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773124203.0367107,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773124203.0367107,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773124203.0367107,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773124203.0367107,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
+    "trigger": "ballistic missile",
     "score": 62,
     "cf": 0.7
   }
