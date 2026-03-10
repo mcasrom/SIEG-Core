@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773138603.459641,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773138603.459641,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773140403.2007797,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "People line up for blood donation to show sympathy, solidarity TEHRAN – The people of Tehran from all walks of life refer in large",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773140403.2007797,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Hundreds killed in Haiti drone strikes, including 60 civilians: Report Human Rights Watch says drone strikes by Haitian forces kil",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773140403.2007797,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘If there is peace, I will return’: People flee US-Israeli bombing of Iran Iranians and foreign workers flee US-Israeli bombardmen",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773140403.2007797,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773140403.2007797,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773144004.3384628,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773145803.8915641,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "People line up for blood donation to show sympathy, solidarity TEHRAN – The people of Tehran from all walks of life refer in large",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773145803.8915641,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Walk down Beirut street shows destruction after Israeli bombing This is the aftermath of a street in the Harat Hreik suburb of Bei",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773145803.8915641,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missile strikes central Israel amid escalating attacks Video shows the moment an Iranian missile struck central Israel, pa",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773145803.8915641,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Exclusive: Saudi Arabia prepping 'huge deal' for Ukrainian weapons amid Iranian drone threat  \n                       A Saudi Arab",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773145803.8915641,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773145803.8915641,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
