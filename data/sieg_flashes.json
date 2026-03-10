@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773154803.3747165,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Exclusive: Saudi Arabia prepping 'huge deal' for Ukrainian weapons amid Iranian drone threat  \n                       A Saudi Arab",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773154803.3747165,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "War fuels debate in Cyprus over UK military bases “British Bases Out” is the slogan of Cypriot protesters after a drone strike tar",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1773156603.0352113,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Walk down Beirut street shows destruction after Israeli bombing This is the aftermath of a street in the Harat Hreik suburb of Bei",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773156603.0352113,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missile strikes central Israel amid escalating attacks Video shows the moment an Iranian missile struck central Israel, pa",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773156603.0352113,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773156603.0352113,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Exclusive: Saudi Arabia prepping 'huge deal' for Ukrainian weapons amid Iranian drone threat  \n                       A Saudi Arab",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773156603.0352113,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773160203.395643,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "War fuels debate in Cyprus over UK military bases “British Bases Out” is the slogan of Cypriot protesters after a drone strike tar",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1773162003.4898114,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Walk down Beirut street shows destruction after Israeli bombing This is the aftermath of a street in the Harat Hreik suburb of Bei",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773162003.4898114,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773162003.4898114,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773162003.4898114,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "After Khamenei and Maduro, Putin knows he could be next  \n                       On Jan",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773162003.4898114,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Exclusive: Saudi Arabia prepping 'huge deal' for Ukrainian weapons amid Iranian drone threat  \n                       A Saudi Arab",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773162003.4898114,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "War fuels debate in Cyprus over UK military bases “British Bases Out” is the slogan of Cypriot protesters after a drone strike tar",
