@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773095403.4423888,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773095403.4423888,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773097204.1828713,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US senators demand probe into ‘appalling’ attack on girls’ school in Iran Top Democrats say Minab school bombing that killed at le",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773097204.1828713,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Turkiye says Iranian ballistic missile intercepted by NATO air defences Ministry of National Defence says no casualties or damage ",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773097204.1828713,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773097204.1828713,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773097204.1828713,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.3
+  },
+  {
+    "ts": 1773102603.0891619,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US senators demand probe into ‘appalling’ attack on girls’ school in Iran Top Democrats say Minab school bombing that killed at le",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773102603.0891619,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Turkiye says Iranian ballistic missile intercepted by NATO air defences Ministry of National Defence says no casualties or damage ",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773102603.0891619,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773102603.0891619,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "NATO intercepts another Iranian ballistic missile entering Turkish airspace  \n                       Ankara previously warned that",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773102603.0891619,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 1 killed, 12 injured in Russian attacks on Ukraine over the past day  \n                       161 of the drones were shot",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773102603.0891619,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Oil prices surpass $100 a barrel for first time since Russia's 2022 invasion of Ukraine  \n                       Brent futures, th",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
   }
 ]
