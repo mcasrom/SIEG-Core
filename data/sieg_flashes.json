@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773219603.453753,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "After Khamenei and Maduro, Putin knows he could be next  \n                       On Jan",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773219603.453753,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Exclusive: Saudi Arabia prepping 'huge deal' for Ukrainian weapons amid Iranian drone threat  \n                       A Saudi Arab",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773221403.0007102,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Targeting Iran's oil storage facilities a clear example of ecocide: DOE head  TEHRAN – Shina Ansari, the head the Department of En",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773221403.0007102,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "People line up for blood donation to show sympathy, solidarity TEHRAN – The people of Tehran from all walks of life refer in large",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773221403.0007102,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Al Jazeera reports from Israeli bombing of Beirut apartment block Al Jazeera’s Zeina Khodr reports from the site of an Israeli str",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773221403.0007102,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine sends experts to Qatar, Saudi Arabia, UAE amid Iranian drone strikes  \n                       Kyiv hopes to acquire PAC-2 ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773221403.0007102,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773225003.4639165,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "After Khamenei and Maduro, Putin knows he could be next  \n                       On Jan",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773226803.770302,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Targeting Iran's oil storage facilities a clear example of ecocide: DOE head  TEHRAN – Shina Ansari, the head the Department of En",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773226803.770302,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "People line up for blood donation to show sympathy, solidarity TEHRAN – The people of Tehran from all walks of life refer in large",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773226803.770302,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Al Jazeera reports from Israeli bombing of Beirut apartment block Al Jazeera’s Zeina Khodr reports from the site of an Israeli str",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773226803.770302,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Sensing US on cusp of pulling plug on Iran operation, Israel to ramp up attacks — media Primary targets include facilities related",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773226803.770302,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine sends experts to Qatar, Saudi Arabia, UAE amid Iranian drone strikes  \n                       Kyiv hopes to acquire PAC-2 ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773226803.770302,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "After Khamenei and Maduro, Putin knows he could be next  \n                       On Jan",
