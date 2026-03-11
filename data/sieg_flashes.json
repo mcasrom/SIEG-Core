@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773226803.770302,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine sends experts to Qatar, Saudi Arabia, UAE amid Iranian drone strikes  \n                       Kyiv hopes to acquire PAC-2 ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773226803.770302,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "After Khamenei and Maduro, Putin knows he could be next  \n                       On Jan",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773228603.5239527,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Targeting Iran's oil storage facilities a clear example of ecocide: DOE head  TEHRAN – Shina Ansari, the head the Department of En",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773228603.5239527,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Al Jazeera reports from Israeli bombing of Beirut apartment block Al Jazeera’s Zeina Khodr reports from the site of an Israeli str",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773228603.5239527,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires missiles, drones at Gulf nations as ship hit in Strait of Hormuz Tehran keeps up daily pressure as UNSC readies vote on",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773228603.5239527,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine sends experts to Qatar, Saudi Arabia, UAE amid Iranian drone strikes  \n                       Kyiv hopes to acquire PAC-2 ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773228603.5239527,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773232203.980288,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine sends experts to Qatar, Saudi Arabia, UAE amid Iranian drone strikes  \n                       Kyiv hopes to acquire PAC-2 ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773234003.820693,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Targeting Iran's oil storage facilities a clear example of ecocide: DOE head  TEHRAN – Shina Ansari, the head the Department of En",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773234003.820693,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "How much a day of war on Iran costs the US The US spent $3",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773234003.820693,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773234003.820693,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773234003.820693,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's Sochi under 'unprecedented' 24-hour mass Ukrainian drone attack, mayor says  \n                       The air raids have a",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773234003.820693,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine sends experts to Qatar, Saudi Arabia, UAE amid Iranian drone strikes  \n                       Kyiv hopes to acquire PAC-2 ",
