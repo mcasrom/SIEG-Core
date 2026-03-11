@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773185403.6016552,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "After Khamenei and Maduro, Putin knows he could be next  \n                       On Jan",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773185403.6016552,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Exclusive: Saudi Arabia prepping 'huge deal' for Ukrainian weapons amid Iranian drone threat  \n                       A Saudi Arab",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773187203.1153402,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Unexploded missile extracted from house in western Iran Rescue workers carefully extracted an unexploded missile from a house in K",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773187203.1153402,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773187203.1153402,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773187203.1153402,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773187203.1153402,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "After Khamenei and Maduro, Putin knows he could be next  \n                       On Jan",
     "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773192603.1188638,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran launches wave of heavy, multi-warhead missiles The Iranian military released footage of missile launches from what it describ",
+    "trigger": "iran launches",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773192603.1188638,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Unexploded missile extracted from house in western Iran Rescue workers carefully extracted an unexploded missile from a house in K",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773192603.1188638,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773192603.1188638,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine sends experts to Qatar, Saudi Arabia, UAE amid Iranian drone strikes  \n                       Kyiv hopes to acquire PAC-2 ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773192603.1188638,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "After Khamenei and Maduro, Putin knows he could be next  \n                       On Jan",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773192603.1188638,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Exclusive: Saudi Arabia prepping 'huge deal' for Ukrainian weapons amid Iranian drone threat  \n                       A Saudi Arab",
+    "trigger": "ballistic missile",
     "score": 62,
     "cf": 0.7
   }
