@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773244803.835222,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Russian barrels are in demand' — Oil price spike boosts Russia's economy  \n                       The Iran war could be a boon fo",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773244803.835222,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia's Sochi under 'unprecedented' 24-hour mass Ukrainian drone attack, mayor says  \n                       The air raids have a",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773246603.0344877,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Oil facilities in Oman’s Salalah port ablaze after drone strikes Drones struck oil storage facilities in Oman’s ⁠Salalah port, as ",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773246603.0344877,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Could the US deploy troops to Iran, and how could that play out? Experts say Iran’s vast, mountainous terrain would make invasion ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773246603.0344877,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773246603.0344877,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US bears responsibility for strike on school in Iranian city of Minab — NYT According to the publication, the Tomahawk missile str",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773246603.0344877,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russia's Sochi under 'unprecedented' 24-hour mass Ukrainian drone attack, mayor says  \n                       The air raids have a",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773252003.9727228,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Oil facilities in Oman’s Salalah port ablaze after drone strikes Drones struck oil storage facilities in Oman’s ⁠Salalah port, as ",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773252003.9727228,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Could the US deploy troops to Iran, and how could that play out? Experts say Iran’s vast, mountainous terrain would make invasion ",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773252003.9727228,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US condemns Iranian and militia attacks in Iraq amid unclaimed airstrikes on Tehran-backed militias  US Secretary of State Marco R",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773252003.9727228,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US bears responsibility for strike on school in Iranian city of Minab — NYT According to the publication, the Tomahawk missile str",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773252003.9727228,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Pipeline attacks during energy crisis expose essence of Kiev regime — Kremlin Such actions by the Kiev regime can be called especi",
+    "trigger": "pipeline attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773252003.9727228,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fact-check: Moscow internet outages spark coup rumors — experts say it's 'wishful thinking'  \n                       Speculations ",
+    "trigger": "coup",
     "score": 62,
     "cf": 0.7
   }
