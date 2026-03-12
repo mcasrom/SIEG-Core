@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773295203.5304368,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia blames UK for Storm Shadow strike on military plant, threatens 'new level' escalation  \n               ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773295203.5304368,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fact-check: Moscow internet outages spark coup rumors — experts say it's 'wishful thinking'  \n                       Speculations ",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773297003.4827552,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773297003.4827552,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773297003.4827552,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Students among 17 dead in RSF drone attack in Sudan’s White Nile State Sudanese Doctors Network says &#039;horrific crime represen",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773297003.4827552,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone attack injures over 40 police officers in Ukraine's Sumy Oblast  \n                       Over 40 officers were injur",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773297003.4827552,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773300603.5143588,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fact-check: Moscow internet outages spark coup rumors — experts say it's 'wishful thinking'  \n                       Speculations ",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773302403.7167556,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773302403.7167556,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
+    "trigger": "iran fires",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773302403.7167556,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Students among 17 dead in RSF drone attack in Sudan’s White Nile State Sudanese Doctors Network says &#039;horrific crime represen",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773302403.7167556,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone attack injures over 40 police officers in Ukraine's Sumy Oblast  \n                       Over 40 officers were injur",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773302403.7167556,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russia blames UK for Storm Shadow strike on military plant, threatens 'new level' escalation  \n               ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773302403.7167556,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Fact-check: Moscow internet outages spark coup rumors — experts say it's 'wishful thinking'  \n                       Speculations ",
