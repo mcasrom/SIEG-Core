@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773316803.3809478,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone attack injures over 40 police officers in Ukraine's Sumy Oblast  \n                       Over 40 officers were injur",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773316803.3809478,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia blames UK for Storm Shadow strike on military plant, threatens 'new level' escalation  \n               ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773318603.4501934,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773318603.4501934,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773318603.4501934,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US condemns Iranian and militia attacks in Iraq amid unclaimed airstrikes on Tehran-backed militias  US Secretary of State Marco R",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773318603.4501934,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai, SBU source says  \n              ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773318603.4501934,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russian drone attack injures over 40 police officers in Ukraine's Sumy Oblast  \n                       Over 40 officers were injur",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773324003.6338928,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773324003.6338928,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
+    "trigger": "iran fires",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773324003.6338928,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Al Jazeera reporter sees destruction in Tehran neighbourhood Al Jazeera’s Tohid Asadi shows the aftermath of US-Israeli airstrikes",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773324003.6338928,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Israel started war with Iran without clear regime change plan — Guardian According to the report, Israel hoped that the bombing of",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773324003.6338928,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine attacks Belgorod Region with more than 110 drones over past 24 hours A man was killed in a drone attack on a car near the ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773324003.6338928,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai, SBU source says  \n              ",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
