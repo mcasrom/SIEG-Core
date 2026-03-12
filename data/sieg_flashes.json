@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773266403.485702,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone attack injures 22 police officers in Ukraine's Sumy Oblast  \n                       A Russian drone struck the distr",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773266403.485702,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia blames UK for Storm Shadow strike on military plant, threatens 'new level' escalation  \n               ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773268203.3233535,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "How Trump has addressed the deadly Iran school bombing The US president denies knowledge of findings that the US military was behi",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773268203.3233535,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "UN’s failure to stop Iranian attacks sending ‘dangerous signal’: Qatar Qatar&#039;s envoy to UN condemns Iranian drone, missile st",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773268203.3233535,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Ship crew film drone strike on oil facility at Oman’s Salalah port Crew on-board a nearby vessel at Oman’s Salalah port filmed the",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773268203.3233535,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian aircraft used for Bryansk strikes may have taken off from Odessa region The Ukrainian military launched a missile strike",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773268203.3233535,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773271803.5665712,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russia blames UK for Storm Shadow strike on military plant, threatens 'new level' escalation  \n               ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773273603.404497,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "How Trump has addressed the deadly Iran school bombing The US president denies knowledge of findings that the US military was behi",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773273603.404497,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UN’s failure to stop Iranian attacks sending ‘dangerous signal’: Qatar Qatar&#039;s envoy to UN condemns Iranian drone, missile st",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773273603.404497,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Ship crew film drone strike on oil facility at Oman’s Salalah port Crew on-board a nearby vessel at Oman’s Salalah port filmed the",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773273603.404497,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773273603.404497,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone attack injures over 40 police officers in Ukraine's Sumy Oblast  \n                       Over 40 officers were injur",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773273603.404497,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: Russia blames UK for Storm Shadow strike on military plant, threatens 'new level' escalation  \n               ",
