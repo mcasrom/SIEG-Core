@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773388803.3903708,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Pakistan launches new airstrikes on Afghanistan, killing four Facilities in Kabul as well as in Kandahar, Paktia and Paktika provi",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773388803.3903708,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773390603.5630586,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Death of morality: appalling lie of Trump on Minab tragedy TEHRAN -- A missile strike that martyred at least 175 people at a girls",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773390603.5630586,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773390603.5630586,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773390603.5630586,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "​​'Hidden hand of Putin' behind Iranian drone attacks in Middle East, UK Defense Sec says  \n                       The \"hidden han",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773390603.5630586,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai, SBU source says  \n              ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773396003.6953926,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "French soldier killed and others wounded in attack in Iraq A drone attack on a joint French-Kurdish base in northern Iraq has kill",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773396003.6953926,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missile strikes residential area in northern Israel Video from northern Israel captured the moment an Iranian missile impa",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773396003.6953926,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US condemns Iranian and militia attacks in Iraq amid unclaimed airstrikes on Tehran-backed militias  US Secretary of State Marco R",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773396003.6953926,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 3 killed, 27 injured in Russian attacks on Ukraine over the past day  \n                       Russian troops launched an ",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773396003.6953926,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "​​'Hidden hand of Putin' behind Iranian drone attacks in Middle East, UK Defense Secretary says  \n                       British m",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773396003.6953926,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
