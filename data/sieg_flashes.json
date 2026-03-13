@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773390603.5630586,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773390603.5630586,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai, SBU source says  \n              ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773392403.051174,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Death of morality: appalling lie of Trump on Minab tragedy TEHRAN -- A missile strike that martyred at least 175 people at a girls",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773392403.051174,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773392403.051174,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773392403.051174,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "FACTBOX: Over 170 drones downed over Russian regions, Sevastopol drone attack aftermath Several homes sustained damage from drone ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773392403.051174,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
     "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773397803.829531,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Death of morality: appalling lie of Trump on Minab tragedy TEHRAN -- A missile strike that martyred at least 175 people at a girls",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773397803.829531,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773397803.829531,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
+    "trigger": "iran fires",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773397803.829531,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Neighborhoods in Tehran affected by US, Israeli airstrikes — news agency President of the Iranian Red Crescent Society Pirhossein ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773397803.829531,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 3 killed, 27 injured in Russian attacks on Ukraine over the past day  \n                       Russian troops launched an ",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773397803.829531,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "​​'Hidden hand of Putin' behind Iranian drone attacks in Middle East, UK Defense Secretary says  \n                       British m",
+    "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
   }
