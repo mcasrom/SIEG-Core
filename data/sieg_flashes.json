@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773369003.4488492,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Six French citizens wounded in drone attack in northern Iraq — TV The incident occurred during a strike on a base of a Kurdish mil",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773369003.4488492,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773370803.643857,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missile strikes residential area in northern Israel Video from northern Israel captured the moment an Iranian missile impa",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773370803.643857,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US condemns Iranian and militia attacks in Iraq amid unclaimed airstrikes on Tehran-backed militias  US Secretary of State Marco R",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773370803.643857,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773370803.643857,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773370803.643857,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Iranian missile strikes residential area in northern Israel Video from northern Israel captured the moment an Iranian missile impa",
     "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773376203.465714,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Death of morality: appalling lie of Trump on Minab tragedy TEHRAN -- A missile strike that martyred at least 175 people at a girls",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773376203.465714,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773376203.465714,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
+    "trigger": "iran fires",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773376203.465714,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Central Iranian city of Arak bombed — TV No information on damage or casualties is available so far",
+    "trigger": "bombed",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773376203.465714,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Six French citizens wounded in drone attack in northern Iraq — TV The incident occurred during a strike on a base of a Kurdish mil",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773376203.465714,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
