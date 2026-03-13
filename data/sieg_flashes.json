@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773385203.9831629,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai, SBU source says  \n              ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773385203.9831629,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iranian missile strikes residential area in northern Israel Video from northern Israel captured the moment an Iranian missile impa",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773387003.7306857,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Death of morality: appalling lie of Trump on Minab tragedy TEHRAN -- A missile strike that martyred at least 175 people at a girls",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773387003.7306857,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773387003.7306857,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773387003.7306857,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773387003.7306857,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1773392403.051174,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Death of morality: appalling lie of Trump on Minab tragedy TEHRAN -- A missile strike that martyred at least 175 people at a girls",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773392403.051174,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773392403.051174,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
+    "trigger": "iran fires",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773392403.051174,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "FACTBOX: Over 170 drones downed over Russian regions, Sevastopol drone attack aftermath Several homes sustained damage from drone ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773392403.051174,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Israeli airstrike destroys bridge across Litani River in southern Lebanon — media According to the media outlet, the attack, which",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773392403.051174,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Pakistan launches new airstrikes on Afghanistan, killing four Facilities in Kabul as well as in Kandahar, Paktia and Paktika provi",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
   }
 ]
