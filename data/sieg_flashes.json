@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773417603.2388089,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Those behind attack on Iran fail to achieve their goals, Lukashenko says The Belarusian president also recalled that Israel had pr",
-    "trigger": "bombed",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773417603.2388089,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Bus driver killed in Russian drone strike in Kharkiv Oblast  \n                       The bus was struck with a Lancet drone",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773419403.3937476,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US condemns Iranian and militia attacks in Iraq amid unclaimed airstrikes on Tehran-backed militias  US Secretary of State Marco R",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773419403.3937476,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773419403.3937476,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773419403.3937476,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ships in Russia to be protected against drone attacks — official Tour operators at present note higher interest in new routes on i",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773419403.3937476,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "At least 3 killed, 27 injured in Russian attacks on Ukraine over the past day  \n                       Russian troops launched an ",
     "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773424803.903517,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US condemns Iranian and militia attacks in Iraq amid unclaimed airstrikes on Tehran-backed militias  US Secretary of State Marco R",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773424803.903517,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Cypriot, Lebanese officials blame Hezbollah for drone attacks on UK base in Cyprus; IRGC responsibility also possible  On March 1,",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773424803.903517,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran and proxy militias strike energy infrastructure, US bases, and Gulf capitals on March 6  On March 6, Iran and its aligned mil",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773424803.903517,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ships in Russia to be protected against drone attacks — official Tour operators at present note higher interest in new routes on i",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773424803.903517,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "These Ukrainians bomb Russian positions",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773424803.903517,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Bus driver killed in Russian drone strike in Kharkiv Oblast  \n                       The bus was struck with a Lancet drone",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
