@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773376203.465714,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Six French citizens wounded in drone attack in northern Iraq — TV The incident occurred during a strike on a base of a Kurdish mil",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773376203.465714,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773378003.244205,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Death of morality: appalling lie of Trump on Minab tragedy TEHRAN -- A missile strike that martyred at least 175 people at a girls",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773378003.244205,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773378003.244205,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773378003.244205,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Central Iranian city of Arak bombed — TV No information on damage or casualties is available so far",
-    "trigger": "bombed",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773378003.244205,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773383403.1716318,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Death of morality: appalling lie of Trump on Minab tragedy TEHRAN -- A missile strike that martyred at least 175 people at a girls",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773383403.1716318,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Tehran’s Vanak neighborhood, where hospitals not safe under airstrikes TEHRAN – U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773383403.1716318,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran fires missiles at US and Israeli targets for three straight hours TEHRAN - Iran’s Islamic Revolution Guard Corps (IRGC) annou",
+    "trigger": "iran fires",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773383403.1716318,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773383403.1716318,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai  \n           ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773383403.1716318,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Fuel tanks are burning' — Major Russian oil hub hit in Ukrainian drone strike in Krasnodar Krai, SBU source says  \n              ",
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
