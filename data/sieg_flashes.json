@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773473403.5723565,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773473403.5723565,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773475203.168949,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bombed, but standing TEHRAN – She was a middle-aged woman residing in Tehran",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773475203.168949,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bombed Iranian girls school had yearslong online presence, raising questions over U",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773475203.168949,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump posts bombing video after saying US hit Kharg Island Donald Trump shared footage of US air strikes on Iran&#039;s Kharg Isla",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773475203.168949,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "North Korea launches about 10 ballistic missiles — Yonhap South Korean media note that the launch took place amid statements by th",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773475203.168949,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773478803.4751124,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773480603.6098206,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bombed, but standing TEHRAN – She was a middle-aged woman residing in Tehran",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773480603.6098206,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bombed Iranian girls school had yearslong online presence, raising questions over U",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773480603.6098206,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "North Korea fires ballistic missiles as US-South Korea hold military drills Seoul&#039;s Joint Chiefs of Staff say approximately 1",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773480603.6098206,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "North Korea launches about 10 ballistic missiles — Yonhap South Korean media note that the launch took place amid statements by th",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773480603.6098206,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773480603.6098206,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
