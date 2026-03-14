@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773509403.6989198,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine loses around 1,135 troops in special op zone in one day Russian air defenses shot down 10 guided bombs and 285 fixed-wing ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773509403.6989198,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "North Korea launches about 10 ballistic missiles — Yonhap South Korean media note that the launch took place amid statements by th",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773511203.4640415,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel bombs Basij checkpoints in Tehran as US, Iran trade fire and jabs Drone strikes have hit the paramilitary&#039;s heavily ar",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773511203.4640415,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773511203.4640415,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran-backed Iraqi militias claim downing of US aircraft, US says not due to ‘hostile fire’  The Islamic Resistance in Iraq, a fron",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773511203.4640415,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US rebuffs efforts by Middle East monarchies toward ceasefire talks with Iran — Reuters In its turn, Iran is not ready to discuss ",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773511203.4640415,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1773516603.3327146,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump says ‘many countries’ will send warships to Hormuz amid Iran blockade US president urges naval coalition as Iran says Strait",
+    "trigger": "hormuz closed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773516603.3327146,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel bombs Basij checkpoints in Tehran as US, Iran trade fire and jabs Drone strikes have hit the paramilitary&#039;s heavily ar",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773516603.3327146,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773516603.3327146,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US rebuffs efforts by Middle East monarchies toward ceasefire talks with Iran — Reuters In its turn, Iran is not ready to discuss ",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773516603.3327146,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran announces new wave of missile strikes on Israel — public broadcaster Air raid sirens have been ringing out in Tel Aviv and ad",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773516603.3327146,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine loses around 1,135 troops in special op zone in one day Russian air defenses shot down 10 guided bombs and 285 fixed-wing ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
   }
 ]
