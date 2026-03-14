@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773500403.787636,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773500403.787636,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773502203.819747,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773502203.819747,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran-backed Iraqi militias claim downing of US aircraft, US says not due to ‘hostile fire’  The Islamic Resistance in Iraq, a fron",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773502203.819747,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US condemns Iranian and militia attacks in Iraq amid unclaimed airstrikes on Tehran-backed militias  US Secretary of State Marco R",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773502203.819747,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran announces new wave of missile strikes on Israel — public broadcaster Air raid sirens have been ringing out in Tel Aviv and ad",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773502203.819747,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "ballistic missile",
     "score": 62,
     "cf": 0.3
+  },
+  {
+    "ts": 1773507603.0673008,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel bombs Basij checkpoints in Tehran as US, Iran trade fire and jabs Drone strikes have hit the paramilitary&#039;s heavily ar",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773507603.0673008,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773507603.0673008,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran-backed Iraqi militias claim downing of US aircraft, US says not due to ‘hostile fire’  The Islamic Resistance in Iraq, a fron",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773507603.0673008,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine confirms drone strike on major southern Russian oil refinery, key port  \n                       The strike damaged the ref",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773507603.0673008,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773507603.0673008,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
   }
 ]
