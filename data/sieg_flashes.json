@@ -1,6 +1,6 @@
 [
   {
-    "ts": 1773453603.4714818,
+    "ts": 1773455403.5870855,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
@@ -9,7 +9,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1773453603.4714818,
+    "ts": 1773455403.5870855,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "These Ukrainians bomb Russian positions",
@@ -18,7 +18,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1773455403.5870855,
+    "ts": 1773457203.8969116,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next Intense strikes target central Tehran as US president says ",
@@ -27,7 +27,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1773455403.5870855,
+    "ts": 1773457203.8969116,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
@@ -36,7 +36,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1773455403.5870855,
+    "ts": 1773457203.8969116,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Iranian missile strike in central Israel sets building ablaze Smoke and flames rising beside a road in central Israel after an Ira",
@@ -45,7 +45,115 @@
     "cf": 0.7
   },
   {
-    "ts": 1773455403.5870855,
+    "ts": 1773457203.8969116,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773457203.8969116,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next Intense strikes target central Tehran as US president says ",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773457203.8969116,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773459003.3043554,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next Intense strikes target central Tehran as US president says ",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773459003.3043554,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773459003.3043554,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missile strike in central Israel sets building ablaze Smoke and flames rising beside a road in central Israel after an Ira",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773459003.3043554,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773459003.3043554,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773459003.3043554,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "These Ukrainians bomb Russian positions",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773460803.7931633,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next Intense strikes target central Tehran as US president says ",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773460803.7931633,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773460803.7931633,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missile strike in central Israel sets building ablaze Smoke and flames rising beside a road in central Israel after an Ira",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773460803.7931633,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
@@ -54,128 +162,20 @@
     "cf": 0.3
   },
   {
-    "ts": 1773455403.5870855,
+    "ts": 1773460803.7931633,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773460803.7931633,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
     "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773455403.5870855,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "These Ukrainians bomb Russian positions",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773457203.8969116,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next Intense strikes target central Tehran as US president says ",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773457203.8969116,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773457203.8969116,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missile strike in central Israel sets building ablaze Smoke and flames rising beside a road in central Israel after an Ira",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773457203.8969116,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773457203.8969116,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next Intense strikes target central Tehran as US president says ",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773457203.8969116,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773459003.3043554,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next Intense strikes target central Tehran as US president says ",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773459003.3043554,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773459003.3043554,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missile strike in central Israel sets building ablaze Smoke and flames rising beside a road in central Israel after an Ira",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773459003.3043554,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773459003.3043554,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773459003.3043554,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "These Ukrainians bomb Russian positions",
-    "trigger": "bombing",
     "score": 62,
     "cf": 0.7
   }
