@@ -1,6 +1,15 @@
 [
   {
-    "ts": 1773459003.3043554,
+    "ts": 1773460803.7931633,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773460803.7931633,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
@@ -9,173 +18,164 @@
     "cf": 0.7
   },
   {
-    "ts": 1773459003.3043554,
+    "ts": 1773462603.1764088,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bombed, but standing TEHRAN – She was a middle-aged woman residing in Tehran",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773462603.1764088,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bombed Iranian girls school had yearslong online presence, raising questions over U",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773462603.1764088,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iraqi anger boils over ‘cowardly’ American attacks TEHRAN – More than two dozen killed in the U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773462603.1764088,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773462603.1764088,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773462603.1764088,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773464403.2673566,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bombed, but standing TEHRAN – She was a middle-aged woman residing in Tehran",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773464403.2673566,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bombed Iranian girls school had yearslong online presence, raising questions over U",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773464403.2673566,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iraqi anger boils over ‘cowardly’ American attacks TEHRAN – More than two dozen killed in the U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773464403.2673566,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773464403.2673566,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773464403.2673566,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773466203.7033234,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bombed, but standing TEHRAN – She was a middle-aged woman residing in Tehran",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773466203.7033234,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bombed Iranian girls school had yearslong online presence, raising questions over U",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773466203.7033234,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iraqi anger boils over ‘cowardly’ American attacks TEHRAN – More than two dozen killed in the U",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773466203.7033234,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773466203.7033234,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773466203.7033234,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "These Ukrainians bomb Russian positions",
     "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773460803.7931633,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next Intense strikes target central Tehran as US president says ",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773460803.7931633,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773460803.7931633,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missile strike in central Israel sets building ablaze Smoke and flames rising beside a road in central Israel after an Ira",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773460803.7931633,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773460803.7931633,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773460803.7931633,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773462603.1764088,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bombed, but standing TEHRAN – She was a middle-aged woman residing in Tehran",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773462603.1764088,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bombed Iranian girls school had yearslong online presence, raising questions over U",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773462603.1764088,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iraqi anger boils over ‘cowardly’ American attacks TEHRAN – More than two dozen killed in the U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773462603.1764088,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773462603.1764088,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773462603.1764088,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773464403.2673566,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bombed, but standing TEHRAN – She was a middle-aged woman residing in Tehran",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773464403.2673566,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bombed Iranian girls school had yearslong online presence, raising questions over U",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773464403.2673566,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iraqi anger boils over ‘cowardly’ American attacks TEHRAN – More than two dozen killed in the U",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773464403.2673566,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773464403.2673566,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian overnight missile and drone attack across Ukraine kills 2, injures at least 5 in Kyiv Oblast  \n                       Russ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773464403.2673566,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
-    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
