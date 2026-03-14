@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773439203.7635171,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "These Ukrainians bomb Russian positions",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773439203.7635171,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Bus driver killed in Russian drone strike in Kharkiv Oblast  \n                       The bus was struck with a Lancet drone",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773441003.3259165,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773441003.3259165,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missile strike in central Israel sets building ablaze Smoke and flames rising beside a road in central Israel after an Ira",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773441003.3259165,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773441003.3259165,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773441003.3259165,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773444603.7081368,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "These Ukrainians bomb Russian positions",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773446403.0223677,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts More than 200 civilians killed in recent days as drone s",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773446403.0223677,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missile strike in central Israel sets building ablaze Smoke and flames rising beside a road in central Israel after an Ira",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773446403.0223677,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773446403.0223677,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran uses solid-fuel ballistic missiles to attack Israel — IRGC Among the targets were \"places of the deployment of American soldi",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773446403.0223677,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 'Murders for the sake of Russian propaganda' — Ukraine identifies 13 collaborators accused of war crimes in Iz",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773446403.0223677,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "These Ukrainians bomb Russian positions",
