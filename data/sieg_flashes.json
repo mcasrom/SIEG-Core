@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773514804.0555472,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Greek oil tanker in Russian waters hit in suspected drone strike  \n                       Greek Maritime Minister Vassilis Kikilia",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773514804.0555472,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine confirms drone strike on major southern Russian oil refinery, key port  \n                       The strike damaged the ref",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773516603.3327146,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump says ‘many countries’ will send warships to Hormuz amid Iran blockade US president urges naval coalition as Iran says Strait",
-    "trigger": "hormuz closed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773516603.3327146,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel bombs Basij checkpoints in Tehran as US, Iran trade fire and jabs Drone strikes have hit the paramilitary&#039;s heavily ar",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773516603.3327146,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773516603.3327146,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US rebuffs efforts by Middle East monarchies toward ceasefire talks with Iran — Reuters In its turn, Iran is not ready to discuss ",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773516603.3327146,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773520202.9913762,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine confirms drone strike on major southern Russian oil refinery, key port  \n                       The strike damaged the ref",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773522003.8834558,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How Secretary of Iran’s National Commission for UNESCO, conde",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773522003.8834558,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump says ‘many countries’ will send warships to Hormuz amid Iran blockade US president urges naval coalition as Iran says Strait",
+    "trigger": "hormuz closed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773522003.8834558,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel bombs Basij checkpoints in Tehran as US, Iran trade fire and jabs Drone strikes have hit the paramilitary&#039;s heavily ar",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773522003.8834558,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Moscow attacked by over 60 drones in single day, mayor says  \n                       The Russian Defense Ministry also claimed tha",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773522003.8834558,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Greek oil tanker in Russian waters hit in suspected drone strike  \n                       Greek Maritime Minister Vassilis Kikilia",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773522003.8834558,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine confirms drone strike on major southern Russian oil refinery, key port  \n                       The strike damaged the ref",
