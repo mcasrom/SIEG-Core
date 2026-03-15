@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773594003.646174,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine sanctions 10 Russian Paralympians, firms tied to Russian, Iranian arms industry  \n                       The sanctioned at",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773594003.646174,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian strikes on Ukraine kill 5, injure 47 over past day  \n                       Ukraine's Air Force reported that Russia launc",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773595803.6742995,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "France offers to broker Lebanon-Israel talks: What do we know? Diplomatic efforts come amid threat of an Israeli ground invasion i",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773595803.6742995,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘We killed dogs’: Israeli troops kill two children, parents in West Bank Each person shot in the head in the village of Tammun, wh",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773595803.6742995,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773595803.6742995,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How the war in Iran benefits Russia | Ukraine This Week  \n                        In the latest episode of Ukraine This Week, Anna",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773595803.6742995,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773599402.9123018,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian strikes on Ukraine kill 5, injure 47 over past day  \n                       Ukraine's Air Force reported that Russia launc",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773601203.6843078,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "France offers to broker Lebanon-Israel talks: What do we know? Diplomatic efforts come amid threat of an Israeli ground invasion i",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773601203.6843078,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘We killed dogs’: Israeli troops kill two children, parents in West Bank Each person shot in the head in the village of Tammun, wh",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773601203.6843078,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773601203.6843078,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How the war in Iran benefits Russia | Ukraine This Week  \n                        In the latest episode of Ukraine This Week, Anna",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773601203.6843078,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine sanctions 10 Russian Paralympians, firms tied to Russian, Iranian arms industry  \n                       The sanctioned at",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773601203.6843078,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian strikes on Ukraine kill 5, injure 47 over past day  \n                       Ukraine's Air Force reported that Russia launc",
