@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773543603.885623,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "One more drone downed en route to Moscow Saturday’s drone attack on the Moscow Region surrounding the Russian capital has become t",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773543603.885623,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone attack on Moscow becomes largest this year — TASS calculations On-duty air defenses destroyed 65 drones in less than 12 hour",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773545403.5326083,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "WSJ reveals Iranian strike on U",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773545403.5326083,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "French regional presence under scrutiny after death of officer  A drone strike on Thursday evening killed 42-year-old French offic",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773545403.5326083,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How Secretary of Iran’s National Commission for UNESCO, conde",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773545403.5326083,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Moscow attacked by over 60 drones in single day, mayor says  \n                       The Russian Defense Ministry also claimed tha",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773545403.5326083,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Greek oil tanker in Russian waters hit in suspected drone strike  \n                       Greek Maritime Minister Vassilis Kikilia",
     "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773550803.2405186,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "WSJ reveals Iranian strike on U",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773550803.2405186,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "French regional presence under scrutiny after death of officer  A drone strike on Thursday evening killed 42-year-old French offic",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773550803.2405186,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How Secretary of Iran’s National Commission for UNESCO, conde",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773550803.2405186,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine delivers missile strike on Belgorod Region, power facilities damaged According to preliminary information, there were no c",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773550803.2405186,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "One more drone downed en route to Moscow Saturday’s drone attack on the Moscow Region surrounding the Russian capital has become t",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773550803.2405186,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Moscow attacked by over 60 drones in single day, mayor says  \n                       The Russian Defense Ministry also claimed tha",
+    "trigger": "shot down",
     "score": 62,
     "cf": 0.7
   }
