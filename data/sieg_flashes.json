@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773649803.0141473,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How the war in Iran benefits Russia | Ukraine This Week  \n                        In the latest episode of Ukraine This Week, Anna",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773649803.0141473,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine sanctions 10 Russian Paralympians, firms tied to Russian, Iranian arms industry  \n                       The sanctioned at",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773651603.5579052,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone strike disrupts Dubai flights as Iran continues Gulf attacks Iran has sought to justify its attacks on Gulf countries, hitti",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773651603.5579052,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Fire erupts at Dubai airport following drone attack Footage shows fire near Dubai International Airport after a drone ignited a fu",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773651603.5579052,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran war live: Drone attacks spark fire near Dubai airport and Fujairah Iran&#039;s Foreign Minister Abbas Araghchi says Tehran ne",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773651603.5579052,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773651603.5579052,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773655204.0035708,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian forces strike Colombian mercenaries at a training range in Ukraine The missile strike caused casualties among both newly r",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773657002.9875772,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone attack disrupts Dubai flights as Iran continues Gulf attacks At least one person killed in Abu Dhabi",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773657002.9875772,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773657002.9875772,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran-backed Iraqi militias claim downing of US aircraft, US says not due to ‘hostile fire’  The Islamic Resistance in Iraq, a fron",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773657002.9875772,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Large-scale invasion of Iran almost impossible, but forays likely — US expert Trita Parsi said the United States is not capable of",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773657002.9875772,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Several countries working to enhance existing pathogens — Lavrov According to the Russian top diplomat, the excessive politicizati",
+    "trigger": "chemical weapon",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773657002.9875772,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian forces strike Colombian mercenaries at a training range in Ukraine The missile strike caused casualties among both newly r",
