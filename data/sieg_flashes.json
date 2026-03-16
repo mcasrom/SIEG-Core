@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773667802.9560015,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine strikes Russian radar systems, S-400 launcher in occupied Crimea, General Staff says  \n               ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773667802.9560015,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How the war in Iran benefits Russia | Ukraine This Week  \n                        In the latest episode of Ukraine This Week, Anna",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773669603.5260403,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Destruction in Beirut as bombing and mass displacement continue Neighbourhoods in Beirut’s southern suburbs have been left in ruin",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773669603.5260403,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Myanmar parliament dominated by pro-military party convenes after 5 years New parliament opens for the first time since the 2021 c",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773669603.5260403,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Monastery shelters families fleeing Israeli strikes in Lebanon Families displaced by Israeli airstrikes in Lebanon have found shel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773669603.5260403,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian strikes on Ukraine kill 2, injure at least 20 others over past day  \n                       A series of explosions were he",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773669603.5260403,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "How the war in Iran benefits Russia | Ukraine This Week  \n                        In the latest episode of Ukraine This Week, Anna",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773675003.822955,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Destruction in Beirut as bombing and mass displacement continue Neighbourhoods in Beirut’s southern suburbs have been left in ruin",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773675003.822955,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Myanmar parliament dominated by pro-military party convenes after 5 years New parliament opens for the first time since the 2021 c",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773675003.822955,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Monastery shelters families fleeing Israeli strikes in Lebanon Families displaced by Israeli airstrikes in Lebanon have found shel",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773675003.822955,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "12 years after Crimea annexation, Ukraine says nearly 300 still jailed on fabricated political charges  \n                       Ru",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773675003.822955,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian strikes on Ukraine kill 2, injure at least 20 others over past day  \n                       A series of explosions were he",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773675003.822955,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Ukraine strikes Russian radar systems, S-400 launcher in occupied Crimea, General Staff says  \n               ",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
