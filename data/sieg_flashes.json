@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773676803.8002512,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "12 years after Crimea annexation, Ukraine says nearly 300 still jailed on fabricated political charges  \n                       Ru",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773676803.8002512,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian strikes on Ukraine kill 2, injure at least 20 others over past day  \n                       A series of explosions were he",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773678603.4992461,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Destruction in Beirut as bombing and mass displacement continue Neighbourhoods in Beirut’s southern suburbs have been left in ruin",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773678603.4992461,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Myanmar parliament dominated by pro-military party convenes after 5 years New parliament opens for the first time since the 2021 c",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773678603.4992461,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773678603.4992461,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "12 years after Crimea annexation, Ukraine says nearly 300 still jailed on fabricated political charges  \n                       Ru",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773678603.4992461,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773682203.8606846,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian strikes on Ukraine kill 2, injure at least 20 others over past day  \n                       A series of explosions were he",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773684003.443716,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Destruction in Beirut as bombing and mass displacement continue Neighbourhoods in Beirut’s southern suburbs have been left in ruin",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773684003.443716,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773684003.443716,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773684003.443716,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Deputy PM urges faster progress on Russia-Namibia nuclear deal Yury Trutnev noted that Russian nuclear corporation Rosatom possess",
+    "trigger": "russian nuclear",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773684003.443716,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "12 years after Crimea annexation, Ukraine says nearly 300 still jailed on fabricated political charges  \n                       Ru",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773684003.443716,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian strikes on Ukraine kill 2, injure at least 20 others over past day  \n                       A series of explosions were he",
