@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773748803.949394,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia’s disinformation campaign tests Canada’s support for Ukraine  \n                       To the average Canadian, the moral li",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773748803.949394,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "12 years after Crimea annexation, Ukraine says nearly 300 still jailed on fabricated political charges  \n                       Ru",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773750603.1006677,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773750603.1006677,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773750603.1006677,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran-backed Iraqi militias claim downing of US aircraft, US says not due to ‘hostile fire’  The Islamic Resistance in Iraq, a fron",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773750603.1006677,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Martial law in Strait of Hormuz prevents US from supplying its bases — Iranian ambassador According to Kazem Jalali, Iran is takin",
-    "trigger": "martial law",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773750603.1006677,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773754203.7413292,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "As American Bombers Take Off From R",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1773756003.495628,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773756003.495628,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773756003.495628,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran-backed Iraqi militias claim downing of US aircraft, US says not due to ‘hostile fire’  The Islamic Resistance in Iraq, a fron",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773756003.495628,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia’s disinformation campaign tests Canada’s support for Ukraine  \n                       To the average Canadian, the moral li",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773756003.495628,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "12 years after Crimea annexation, Ukraine says nearly 300 still jailed on fabricated political charges  \n                       Ru",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773756003.495628,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "As American Bombers Take Off From R",
