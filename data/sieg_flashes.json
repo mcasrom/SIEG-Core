@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773820803.802028,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran's top security chief Ali Larijani killed in airstrike, state media says  \n                       The Islamic Republic's top s",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773820803.802028,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine targets Moscow with drones for 4th consecutive day  \n                       Key developments on March ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773822602.9861636,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Do Taliban’s drone attacks expose a chink in Pakistan’s armour? As the conflict intensifies, Taliban drones challenge Pakistan’s s",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773822602.9861636,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Aftermath of Iranian ‘revenge’ strikes on Israel leaves destruction, two ki Widespread damage was left across areas near Tel Aviv ",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773822602.9861636,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran launches ‘revenge’ missile attack on Israel after assassinations Attack kills two people in central Israel&#039;s Ramat Gan a",
-    "trigger": "iran launches",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773822602.9861636,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "FACTBOX: Drone attacks kill one in Krasnodar, leave two minors wounded in Adygea The attack also caused damage to three residentia",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773822602.9861636,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: Ukraine targets Moscow with drones for 4th consecutive day  \n                       Key developments on March ",
     "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773828003.385276,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Do Taliban’s drone attacks expose a chink in Pakistan’s armour? As the conflict intensifies, Taliban drones challenge Pakistan’s s",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773828003.385276,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Aftermath of Iranian ‘revenge’ strikes on Israel, two killed Widespread damage was left across areas near Tel Aviv after overnight",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773828003.385276,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran launches ‘revenge’ missile attack on Israel after assassinations Attack kills two people in central Israel&#039;s Ramat Gan a",
+    "trigger": "iran launches",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773828003.385276,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "FACTBOX: Drone attacks kill one in Krasnodar, leave two minors wounded in Adygea The attack also caused damage to three residentia",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773828003.385276,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine’s military attacks Russia’s Belgorod Region with over 80 UAVs in past day A man who stayed close to the car at the time of",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773828003.385276,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack on Russia's Krasnodar kills 1 and damages multiple apartment buildings, mayor says  \n                       An overni",
+    "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
   }
