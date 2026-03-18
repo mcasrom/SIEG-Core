@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773862203.808139,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone attack on Russia's Krasnodar kills 1 and damages multiple apartment buildings, mayor says  \n                       An overni",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773862203.808139,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran's top security chief Ali Larijani killed in airstrike, state media says  \n                       The Islamic Republic's top s",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773864003.5970957,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "How Dubai and UAE are being affected by Iran attacks and US-Israeli war How Dubai and UAE are being affected by Iran attacks and U",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773864003.5970957,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773864003.5970957,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773864003.5970957,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773864003.5970957,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773867603.9055054,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "As American Bombers Take Off From R",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1773869403.6093214,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773869403.6093214,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773869403.6093214,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran-backed Iraqi militias claim downing of US aircraft, US says not due to ‘hostile fire’  The Islamic Resistance in Iraq, a fron",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773869403.6093214,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773869403.6093214,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack on Russia's Krasnodar kills 1 and damages multiple apartment buildings, mayor says  \n                       An overni",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773869403.6093214,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "As American Bombers Take Off From R",
