@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773838803.5007975,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran's top security chief Ali Larijani killed in airstrike, state media says  \n                       The Islamic Republic's top s",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773838803.5007975,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine targets Moscow with drones for 4th consecutive day  \n                       Key developments on March ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773840603.567376,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘US and Israel have taken majority of Iran’s ballistic missile capability’ ‘US and Israel have taken the vast majority of Iran’s b",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773840603.567376,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773840603.567376,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773840603.567376,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire erupts at South Pars field in Iran after airstrikes Several development phases at the South Pars were put out of operation to",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1773840603.567376,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1773844203.1425576,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran's top security chief Ali Larijani killed in airstrike, state media says  \n                       The Islamic Republic's top s",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773846003.6294246,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "How Dubai and UAE are being affected by Iran attacks and US-Israeli war How Dubai and UAE are being affected by Iran attacks and U",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773846003.6294246,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773846003.6294246,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773846003.6294246,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire erupts at South Pars field in Iran after airstrikes Several development phases at the South Pars were put out of operation to",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773846003.6294246,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack on Russia's Krasnodar kills 1 and damages multiple apartment buildings, mayor says  \n                       An overni",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773846003.6294246,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Iran's top security chief Ali Larijani killed in airstrike, state media says  \n                       The Islamic Republic's top s",
