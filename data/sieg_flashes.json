@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1773819003.344271,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran's top security chief Ali Larijani killed in airstrike, state media says  \n                       The Islamic Republic's top s",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773819003.344271,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine targets Moscow with drones for 4th consecutive day  \n                       Key developments on March ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773820803.802028,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran launches ‘revenge’ missile attack on Israel after assassinations Attack kills two people in central Israel&#039;s Ramat Gan a",
-    "trigger": "iran launches",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773820803.802028,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran fires missiles, drones across Gulf, region remains in war crosshairs Qatar, UAE, Kuwait and Saudi Arabia report new blasts, i",
-    "trigger": "iran fires",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773820803.802028,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone attacks hit near US embassy in Baghdad Fires have broken out in Baghdad’s Green Zone after a drone swarm, purportedly launch",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773820803.802028,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone attack on Russia's Krasnodar kills 1 and damages multiple apartment buildings, mayor says  \n                       An overni",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773820803.802028,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Iran's top security chief Ali Larijani killed in airstrike, state media says  \n                       The Islamic Republic's top s",
     "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773826203.7357435,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Do Taliban’s drone attacks expose a chink in Pakistan’s armour? As the conflict intensifies, Taliban drones challenge Pakistan’s s",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773826203.7357435,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Aftermath of Iranian ‘revenge’ strikes on Israel leaves destruction, two ki Widespread damage was left across areas near Tel Aviv ",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773826203.7357435,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran launches ‘revenge’ missile attack on Israel after assassinations Attack kills two people in central Israel&#039;s Ramat Gan a",
+    "trigger": "iran launches",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773826203.7357435,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack on Russia's Krasnodar kills 1 and damages multiple apartment buildings, mayor says  \n                       An overni",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773826203.7357435,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran's top security chief Ali Larijani killed in airstrike, state media says  \n                       The Islamic Republic's top s",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773826203.7357435,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Ukraine targets Moscow with drones for 4th consecutive day  \n                       Key developments on March ",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
