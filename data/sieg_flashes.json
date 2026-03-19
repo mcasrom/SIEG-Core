@@ -1,50 +1,5 @@
 [
   {
-    "ts": 1773943203.7939167,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773943203.7939167,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone attack from Sudan kills 17 people in Chad as war spills over border Local resident says casualties include mourners at funer",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773945003.641882,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773945003.641882,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks cut 17% of Qatar’s LNG capacity for up to 5 years: QatarEnergy CEO Saad al-Kaabi says QatarEnergy may have to declare",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773945003.641882,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone attack from Sudan kills 17 people in Chad as war spills over border Local resident says casualties include mourners at funer",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
     "ts": 1773945003.641882,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +127,51 @@
   },
   {
     "ts": 1773948603.2559273,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack from Sudan kills 17 people in Chad as war spills over border Local resident says casualties include mourners at funer",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773950404.0538526,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Qatar PM on Iran attacks: ‘Wisdom seems to be lacking these days’ Qatar’s prime minister has said Iran’s claims that it is targeti",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773950404.0538526,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773950404.0538526,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks cut 17% of Qatar’s LNG capacity for up to 5 years: QatarEnergy CEO Saad al-Kaabi says QatarEnergy may have to declare",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773950404.0538526,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773950404.0538526,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Drone attack from Sudan kills 17 people in Chad as war spills over border Local resident says casualties include mourners at funer",
