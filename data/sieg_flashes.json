@@ -1,50 +1,5 @@
 [
   {
-    "ts": 1773950404.0538526,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks cut 17% of Qatar’s LNG capacity for up to 5 years: QatarEnergy CEO Saad al-Kaabi says QatarEnergy may have to declare",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773950404.0538526,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773950404.0538526,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone attack from Sudan kills 17 people in Chad as war spills over border Local resident says casualties include mourners at funer",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773952203.8434806,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Qatar PM on Iran attacks: ‘Wisdom seems to be lacking these days’ Qatar’s prime minister has said Iran’s claims that it is targeti",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773952203.8434806,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
     "ts": 1773952203.8434806,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
@@ -172,6 +127,51 @@
   },
   {
     "ts": 1773957603.58922,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773959403.2132404,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Qatar PM on Iran attacks: ‘Wisdom seems to be lacking these days’ Qatar’s prime minister has said Iran’s claims that it is targeti",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773959403.2132404,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773959403.2132404,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773959403.2132404,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1773959403.2132404,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
