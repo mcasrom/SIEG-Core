@@ -1,42 +1,6 @@
 [
   {
     "ts": 1773948603.2559273,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Qatar PM on Iran attacks: ‘Wisdom seems to be lacking these days’ Qatar’s prime minister has said Iran’s claims that it is targeti",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773948603.2559273,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773948603.2559273,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks cut 17% of Qatar’s LNG capacity for up to 5 years: QatarEnergy CEO Saad al-Kaabi says QatarEnergy may have to declare",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773948603.2559273,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773948603.2559273,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
@@ -172,6 +136,42 @@
   },
   {
     "ts": 1773954004.97395,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773955804.3667016,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Qatar PM on Iran attacks: ‘Wisdom seems to be lacking these days’ Qatar’s prime minister has said Iran’s claims that it is targeti",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773955804.3667016,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773955804.3667016,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks cut 17% of Qatar’s LNG capacity for up to 5 years: QatarEnergy CEO Saad al-Kaabi says QatarEnergy may have to declare",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773955804.3667016,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Missile strikes close to reporter during Israeli attacks in Lebanon A missile struck metres away from a Russia Today reporter as h",
