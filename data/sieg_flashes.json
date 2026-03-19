@@ -1,41 +1,5 @@
 [
   {
-    "ts": 1773912602.9538093,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "FACTBOX: Drone attack kills one in Sevastopol as Russia downs 138 Ukrainian UAVs overnight Two other people sustained moderate inj",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1773912602.9538093,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions rock occupied Crimea as Ukrainian drones reportedly target military site  \n                       Ukrainian forces repo",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773912602.9538093,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773914404.0513794,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Flying Turtle Award jury condemns Zionist-U",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
     "ts": 1773914404.0513794,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
@@ -172,6 +136,42 @@
   },
   {
     "ts": 1773919803.0613766,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773921603.0557947,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Flying Turtle Award jury condemns Zionist-U",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1773921603.0557947,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773921603.0557947,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773921603.0557947,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
