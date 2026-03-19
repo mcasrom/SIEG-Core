@@ -1,50 +1,5 @@
 [
   {
-    "ts": 1773923403.0981104,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1773925204.0210445,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Flying Turtle Award jury condemns Zionist-U",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1773925204.0210445,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773925204.0210445,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1773925204.0210445,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1773927003.2700465,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
@@ -172,6 +127,51 @@
   },
   {
     "ts": 1773930608.8933296,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack from Sudan kills 17 people in Chad as war spills over border Local resident says casualties include mourners at funer",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773932403.58993,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone attack from Sudan kills 17 people in Chad as war spills over border Local resident says casualties include mourners at funer",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773932403.58993,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773932403.58993,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1773932403.58993,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "The Russian opposition group helping find Ukrainian civilians captured by Russia  \n                       When Ukrainian citizens ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1773932403.58993,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Drone attack from Sudan kills 17 people in Chad as war spills over border Local resident says casualties include mourners at funer",
