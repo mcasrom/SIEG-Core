@@ -1,50 +1,5 @@
 [
   {
-    "ts": 1773999003.09529,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "China, Iran help Russia prop up economy in occupied Ukrainian territories, report says  \n                       The authoritarian ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774000803.189422,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "The lies that built a war: Deconstructing Washington’s shifting justifications for attacking Iran MADRID – One way to analyze the ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774000803.189422,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774000803.189422,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774000803.189422,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran has enough missiles, drones for at least 2-3 months — Chinese expert According to Hu Bo, Iran’s stock of ballistic missiles h",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774000803.189422,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +127,51 @@
   },
   {
     "ts": 1774006204.018359,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "China, Iran help Russia prop up economy in occupied Ukrainian territories, report says  \n                       The authoritarian ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774008003.926161,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "The lies that built a war: Deconstructing Washington’s shifting justifications for attacking Iran MADRID – One way to analyze the ",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774008003.926161,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774008003.926161,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774008003.926161,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "EU recognizes need to establish plan for mutual defense in face of attack — Greek PM Kyriakos Mitsotakis stated that he considered",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774008003.926161,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "China, Iran help Russia prop up economy in occupied Ukrainian territories, report says  \n                       The authoritarian ",
