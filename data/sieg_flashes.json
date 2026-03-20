@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774017003.5452933,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774017003.5452933,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia thwarted new Kiev’s attacks against Black Sea gas pipelines Attempts of drone strikes against three compressor stations wer",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774017003.5452933,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attack against Iran’s Bandar-e Anzali affected Russian economic interests The Iranian port of Anzali on the Caspian Sea was bombed",
-    "trigger": "bombed",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774017003.5452933,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "China, Iran help Russia prop up economy in occupied Ukrainian territories, report says  \n                       The authoritarian ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774018804.0095985,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "The lies that built a war: Deconstructing Washington’s shifting justifications for attacking Iran MADRID – One way to analyze the ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774018804.0095985,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
     "ts": 1774018804.0095985,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774022403.1731863,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "In Photos: The War in Ukraine, After 4 Years A photographic chronicle of Russia’s invasion",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1774024203.3609254,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774024203.3609254,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774024203.3609254,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran-backed Iraqi militias claim downing of US aircraft, US says not due to ‘hostile fire’  The Islamic Resistance in Iraq, a fron",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774024203.3609254,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian Ka-52 helicopter shot down by FPV drone in Donetsk Oblast, Ukraine releases footage  \n                       The latest st",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774024203.3609254,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "China, Iran help Russia prop up economy in occupied Ukrainian territories, report says  \n                       The authoritarian ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774024203.3609254,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "In Photos: The War in Ukraine, After 4 Years A photographic chronicle of Russia’s invasion",
