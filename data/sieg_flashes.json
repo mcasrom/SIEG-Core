@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774085403.1869051,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drones target Moscow again amid uptick in reported strikes on Russian capital  \n                       Nearly 30 drones were shot ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774085403.1869051,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russian Ka-52 helicopter shot down by Ukrainian FPV drone in Donetsk Oblast  \n                       Key devel",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774087204.0699232,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774087204.0699232,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774087204.0699232,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774087204.0699232,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drones target Moscow again amid uptick in reported strikes on Russian capital  \n                       Nearly 30 drones were shot ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774087204.0699232,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russian Ka-52 helicopter shot down by FPV drone in Donetsk Oblast, Ukraine releases footage  \n                       The latest st",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774092603.8053465,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone strike near Iraqi intelligence headquarters in Baghdad kills officer One police officer killed in strike by &#039;outlaw gro",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774092603.8053465,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774092603.8053465,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774092603.8053465,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Headquarters of Iraqi intelligence service in Baghdad hit by drone strike — TV According to their information, the drone was targe",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774092603.8053465,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran confirms attack on Diego Garcia island with ballistic missiles According to its information, this launch demonstrates a \"sign",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774092603.8053465,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drones target Moscow again amid uptick in reported strikes on Russian capital  \n                       Nearly 30 drones were shot ",
+    "trigger": "shot down",
     "score": 62,
     "cf": 0.7
   }
