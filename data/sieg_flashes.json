@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774072804.2297723,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drones target Moscow again amid uptick in reported strikes on Russian capital  \n                       Nearly 30 drones were shot ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774072804.2297723,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russian Ka-52 helicopter shot down by Ukrainian FPV drone in Donetsk Oblast  \n                       Key devel",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774074604.0847373,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774074604.0847373,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774074604.0847373,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774074604.0847373,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "IRGC announces 70th wave of missile strikes on Israel, US bases in region The attack was aimed at more than 55 targets, according ",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774074604.0847373,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774078203.4529562,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russian Ka-52 helicopter shot down by Ukrainian FPV drone in Donetsk Oblast  \n                       Key devel",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774080004.364601,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774080004.364601,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774080004.364601,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Dozens of airstrikes target Iran-backed militias across Iraq  The unclaimed airstrikes, likely conducted by the United States as p",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774080004.364601,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "IRGC announces 70th wave of missile strikes on Israel, US bases in region The attack was aimed at more than 55 targets, according ",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774080004.364601,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drones target Moscow again amid uptick in reported strikes on Russian capital  \n                       Nearly 30 drones were shot ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774080004.364601,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: Russian Ka-52 helicopter shot down by Ukrainian FPV drone in Donetsk Oblast  \n                       Key devel",
