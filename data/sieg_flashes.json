@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774132203.3083184,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "What Russia’s internet blackouts reveal about Putin’s endgame  \n                       Russia has intensified internet censorship ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774132203.3083184,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drones target Moscow again amid uptick in reported strikes on Russian capital  \n                       Nearly 30 drones were shot ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774134004.5355802,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "State of emergency declared as Iranian missile hits Arad in southern Israel A state of emergency has been declared in Arad, southe",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774134004.5355802,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "UK says Iran missile attack on Diego Garcia failed The UK says Iran launched ballistic missiles at the joint US-UK Diego Garcia ba",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774134004.5355802,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774134004.5355802,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian drone strike kills civilian in Russia’s borderline Bryansk Region The attack also damaged a household building and a tra",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774134004.5355802,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774137604.0996048,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drones target Moscow again amid uptick in reported strikes on Russian capital  \n                       Nearly 30 drones were shot ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774139403.5796018,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "State of emergency declared as Iranian missile hits Arad in southern Israel A state of emergency has been declared in Arad, southe",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774139403.5796018,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UK says Iran missile attack on Diego Garcia failed The UK says Iran launched ballistic missiles at the joint US-UK Diego Garcia ba",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774139403.5796018,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774139403.5796018,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukrainian drone strike kills civilian in Russia’s borderline Bryansk Region The attack also damaged a household building and a tra",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774139403.5796018,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "What Russia’s internet blackouts reveal about Putin’s endgame  \n                       Russia has intensified internet censorship ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774139403.5796018,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Drones target Moscow again amid uptick in reported strikes on Russian capital  \n                       Nearly 30 drones were shot ",
