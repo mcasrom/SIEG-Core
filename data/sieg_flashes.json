@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774182603.6614065,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine’s military shells Russia’s borderline Kursk Region over 50 times in past day Ukrainian drone attacks on Kursk damaged five",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774182603.6614065,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774184403.742146,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "London erupts in protest against the US-Israeli war on Iran TEHRAN — ​Tens of thousands of protesters flooded the streets of centr",
-    "trigger": "mobilization",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774184403.742146,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Army carries out large-scale drone attack Israeli aircraft facilities and fuel depots TEHRAN- The Iranian Army (Artesh) said it ca",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774184403.742146,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Aftermath of Iranian missile strikes near Israel’s nuclear facility It was the first time Iranian missiles had penetrated Israeli ",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774184403.742146,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774184403.742146,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774188003.754424,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774189803.4150493,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Aftermath of Iranian missile strikes near Israel’s nuclear facility It was the first time Iranian missiles had penetrated Israeli ",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774189803.4150493,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Woman confronts Ben-Gvir at site of Iranian missile strike Israeli woman confronts National Security Minister Itamar Ben-Gvir at t",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774189803.4150493,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missiles injure 160 in towns near Israeli nuclear site Israel is investigating how ballistic missiles got through the coun",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1774189803.4150493,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iranian army delivers drone strike on Israel’s Ben Gurion airport — media The Iranian attack largely involved Arash-2 drones that ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774189803.4150493,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine’s military shells Russia’s borderline Kursk Region over 50 times in past day Ukrainian drone attacks on Kursk damaged five",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774189803.4150493,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
