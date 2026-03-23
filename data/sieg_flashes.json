@@ -1,6 +1,123 @@
 [
   {
-    "ts": 1774234803.8431818,
+    "ts": 1774236603.765828,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774236603.765828,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774238404.0414464,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bases serving as launchpad for attacks on Iranian islands ‘crushed’, says IRGC Navy commander TEHRAN- The commander of the Islamic",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774238404.0414464,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran intercepts another enemy fighter jet TEHRAN- Iran’s air defense units have announced that they shot down another enemy fighte",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774238404.0414464,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774238404.0414464,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US military denies downing of F-15 fighter jet by Iran The Iranian army said earlier in the day that an F-15 fighter jet had been ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774238404.0414464,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774238404.0414464,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774240203.1935456,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bases serving as launchpad for attacks on Iranian islands ‘crushed’, says IRGC Navy commander TEHRAN- The commander of the Islamic",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774240203.1935456,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran intercepts another enemy fighter jet TEHRAN- Iran’s air defense units have announced that they shot down another enemy fighte",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774240203.1935456,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774240203.1935456,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774240203.1935456,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774240203.1935456,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
@@ -9,16 +126,7 @@
     "cf": 0.9
   },
   {
-    "ts": 1774234803.8431818,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia's school propaganda was  highlighted by Oscar-winning film - but does it work? The messages are clear: the full-scale invas",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1774236603.765828,
+    "ts": 1774242004.623199,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Bases serving as launchpad for attacks on Iranian islands ‘crushed’, says IRGC Navy commander TEHRAN- The commander of the Islamic",
@@ -27,7 +135,7 @@
     "cf": 0.4
   },
   {
-    "ts": 1774236603.765828,
+    "ts": 1774242004.623199,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Iran intercepts another enemy fighter jet TEHRAN- Iran’s air defense units have announced that they shot down another enemy fighte",
@@ -36,7 +144,7 @@
     "cf": 0.4
   },
   {
-    "ts": 1774236603.765828,
+    "ts": 1774242004.623199,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
@@ -45,16 +153,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1774236603.765828,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US military denies downing of F-15 fighter jet by Iran The Iranian army said earlier in the day that an F-15 fighter jet had been ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774236603.765828,
+    "ts": 1774242004.623199,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
@@ -63,7 +162,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1774236603.765828,
+    "ts": 1774242004.623199,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
@@ -72,106 +171,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1774238404.0414464,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bases serving as launchpad for attacks on Iranian islands ‘crushed’, says IRGC Navy commander TEHRAN- The commander of the Islamic",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774238404.0414464,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran intercepts another enemy fighter jet TEHRAN- Iran’s air defense units have announced that they shot down another enemy fighte",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774238404.0414464,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774238404.0414464,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US military denies downing of F-15 fighter jet by Iran The Iranian army said earlier in the day that an F-15 fighter jet had been ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774238404.0414464,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774238404.0414464,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774240203.1935456,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bases serving as launchpad for attacks on Iranian islands ‘crushed’, says IRGC Navy commander TEHRAN- The commander of the Islamic",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774240203.1935456,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran intercepts another enemy fighter jet TEHRAN- Iran’s air defense units have announced that they shot down another enemy fighte",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774240203.1935456,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774240203.1935456,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774240203.1935456,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774240203.1935456,
+    "ts": 1774242004.623199,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
