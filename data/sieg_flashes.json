@@ -1,6 +1,6 @@
 [
   {
-    "ts": 1774225803.6801553,
+    "ts": 1774227603.6740222,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
@@ -9,7 +9,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1774225803.6801553,
+    "ts": 1774227603.6740222,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
@@ -18,7 +18,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1774227603.6740222,
+    "ts": 1774229403.6852376,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
@@ -27,7 +27,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1774227603.6740222,
+    "ts": 1774229403.6852376,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
@@ -36,7 +36,7 @@
     "cf": 1.0
   },
   {
-    "ts": 1774227603.6740222,
+    "ts": 1774229403.6852376,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
@@ -45,7 +45,115 @@
     "cf": 1.0
   },
   {
-    "ts": 1774227603.6740222,
+    "ts": 1774229403.6852376,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774229403.6852376,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774229403.6852376,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
+    "trigger": "bombed",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1774231204.0637493,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774231204.0637493,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774231204.0637493,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774231204.0637493,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774231204.0637493,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774231204.0637493,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
+    "trigger": "bombed",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1774233003.4978235,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774233003.4978235,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774233003.4978235,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774233003.4978235,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "US military denies downing of F-15 fighter jet by Iran The Iranian army said earlier in the day that an F-15 fighter jet had been ",
@@ -54,7 +162,7 @@
     "cf": 0.3
   },
   {
-    "ts": 1774227603.6740222,
+    "ts": 1774233003.4978235,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
@@ -63,120 +171,12 @@
     "cf": 0.7
   },
   {
-    "ts": 1774227603.6740222,
+    "ts": 1774233003.4978235,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
-  },
-  {
-    "ts": 1774229403.6852376,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774229403.6852376,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774229403.6852376,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774229403.6852376,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774229403.6852376,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774229403.6852376,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
-    "trigger": "bombed",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1774231204.0637493,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon’s Aoun warns Israeli attack on bridge ‘prelude to ground invasion’ Israeli army chief says the operation against Hezbollah",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774231204.0637493,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774231204.0637493,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel conducts 7,600+ strikes on Iran in 13 days, Iran fires hundreds of missiles and drones at Israel  Israel executed more than",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774231204.0637493,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "1 killed, 4 injured, including child, in Russian drone attack on Donetsk Oblast  \n                       According to prosecutors,",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774231204.0637493,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire, damage reported in Kyiv Oblast following Russian drone attack  \n                       Russian forces launched a drone attac",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774231204.0637493,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
-    "trigger": "bombed",
-    "score": 62,
-    "cf": 0.9
   }
 ]
