@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774254604.028315,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Mass drone attack strikes across Russia, fire breaks out at major oil port  \n                       In the Leningrad region, a fir",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774254604.028315,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
-    "trigger": "bombed",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1774256403.7725356,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bases serving as launchpad for attacks on Iranian islands ‘crushed’, says IRGC Navy commander TEHRAN- The commander of the Islamic",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774256403.7725356,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran intercepts another enemy fighter jet TEHRAN- Iran’s air defense units have announced that they shot down another enemy fighte",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774256403.7725356,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774256403.7725356,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine’s deep strikes make Russians feel the war  \n                       Ukraine has increasingly pursued a strategy of \"bringin",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774256403.7725356,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1774261804.1480758,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bases serving as launchpad for attacks on Iranian islands ‘crushed’, says IRGC Navy commander TEHRAN- The commander of the Islamic",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774261804.1480758,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran intercepts another enemy fighter jet TEHRAN- Iran’s air defense units have announced that they shot down another enemy fighte",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774261804.1480758,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774261804.1480758,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine’s deep strikes make Russians feel the war  \n                       Ukraine has increasingly pursued a strategy of \"bringin",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774261804.1480758,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Mass drone attack strikes across Russia, fire breaks out at major oil port  \n                       In the Leningrad region, a fir",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774261804.1480758,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
+    "trigger": "bombed",
+    "score": 62,
+    "cf": 0.9
   }
 ]
