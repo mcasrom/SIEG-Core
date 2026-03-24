@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774364403.4545293,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia launches rare daytime mass drone attack on Ukraine, around 200 already reportedly shot down  \n                       \"I sup",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774364403.4545293,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774366204.035876,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Keir Starmer’s policy on the Iran war is a recipe for catastrophe The British government has learned no lessons from the disaster ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774366204.035876,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Mothers of the Plaza de Mayo reflect on 50th anniversary of Argentina coup One of Argentina&#039;s most prominent activist groups,",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774366204.035876,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774366204.035876,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774366204.035876,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774371603.804852,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Keir Starmer’s policy on the Iran war is a recipe for catastrophe The British government has learned no lessons from the disaster ",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774371603.804852,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Mothers of the Plaza de Mayo reflect on 50th anniversary of Argentina coup One of Argentina&#039;s most prominent activist groups,",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774371603.804852,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774371603.804852,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "About 3,500 Russians injured or killed by Ukrainian drone attacks in 2025 — diplomat The number includes about 200 children",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774371603.804852,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Bosnian Serb leader calls NATO bombings with uranium criminal Milorad Dodik pointed to the devastating health consequences, noting",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774371603.804852,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "From Tehran to Kyiv: Ukraine’s Iranian diaspora live through war while watching another  \n                       With air raid sir",
+    "trigger": "missile strike",
     "score": 62,
     "cf": 0.7
   }
