@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774306804.4666235,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774306804.4666235,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine’s deep strikes make Russians feel the war  \n                       Ukraine has increasingly pursued a strategy of \"bringin",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774308603.1717668,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Moment missile strikes shortly after Israeli president’s visit Israel&#039;s president was forced to take cover as a missile struc",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774308603.1717668,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israeli strike on Lebanon bridge raises fears of ground invasion Lebanon fears that Israel’s attack on Qasmiyeh Bridge could be a ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774308603.1717668,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774308603.1717668,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran’s IRGC confirms delivering missile strikes on Dimona, Eilat in Israel, US army bases The names of the military bases affected",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774308603.1717668,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774312203.7787986,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine’s deep strikes make Russians feel the war  \n                       Ukraine has increasingly pursued a strategy of \"bringin",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774314003.515281,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Moment missile strikes shortly after Israeli president’s visit Shortly after a news conference, Israel&#039;s president was forced",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774314003.515281,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774314003.515281,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774314003.515281,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran’s IRGC confirms delivering missile strikes on Dimona, Eilat in Israel, US army bases The names of the military bases affected",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774314003.515281,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774314003.515281,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine’s deep strikes make Russians feel the war  \n                       Ukraine has increasingly pursued a strategy of \"bringin",
