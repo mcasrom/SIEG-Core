@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774373403.2379003,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774373403.2379003,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia large-scale missile, drone attack on Ukrainian cities, strikes on apartment buildings kill 4, injure 24  \n                 ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774375204.0988963,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Keir Starmer’s policy on the Iran war is a recipe for catastrophe The British government has learned no lessons from the disaster ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774375204.0988963,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Mothers of the Plaza de Mayo reflect on 50th anniversary of Argentina coup One of Argentina&#039;s most prominent activist groups,",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774375204.0988963,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774375204.0988963,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774375204.0988963,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774380603.5914562,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Keir Starmer’s policy on the Iran war is a recipe for catastrophe The British government has learned no lessons from the disaster ",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774380603.5914562,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774380603.5914562,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774380603.5914562,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Kyiv’s Iranian diaspora living through nightmare of war in both homes  \n                       With air raid sirens and missile st",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774380603.5914562,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774380603.5914562,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia large-scale missile, drone attack on Ukrainian cities, strikes on apartment buildings kill 4, injure 24  \n                 ",
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
