@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774353603.9964066,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia large-scale missile, drone attack on Ukrainian cities, strikes on apartment buildings kill 4, injure 21  \n                 ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774353603.9964066,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774355403.264067,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump walks back threat of strikes on Iran’s power plants in apparent move to calm oil markets TEHRAN — U",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774355403.264067,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "How does the current global oil crisis compare with the 1973 oil embargo? The 1973 oil embargo removed 4",
-    "trigger": "oil embargo",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774355403.264067,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran launches waves of missiles towards Israel Israel’s Magen David Adom emergency medical service said &#039;six people were ligh",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774355403.264067,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774355403.264067,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774360803.801208,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump walks back threat of strikes on Iran’s power plants in apparent move to calm oil markets TEHRAN — U",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774360803.801208,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "How does the current global oil crisis compare with the 1973 oil embargo? The 1973 oil embargo removed 4",
+    "trigger": "oil embargo",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774360803.801208,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774360803.801208,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia launches rare daytime mass drone attack on Ukraine, around 200 already reportedly shot down  \n                       \"I sup",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774360803.801208,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774360803.801208,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia large-scale missile, drone attack on Ukrainian cities, strikes on apartment buildings kill 4, injure 21  \n                 ",
+    "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
   }
