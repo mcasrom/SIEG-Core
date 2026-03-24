@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774337404.041545,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia large-scale missile, drone attack on Ukrainian cities, strikes on apartment buildings kill 4, injure 16  \n                 ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774337404.041545,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774339203.6976635,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump walks back threat of strikes on Iran’s power plants in apparent move to calm oil markets TEHRAN — U",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774339203.6976635,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774339203.6976635,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774339203.6976635,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia large-scale missile, drone attack on Ukrainian cities, strikes on apartment buildings kill 4, injure 16  \n                 ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774339203.6976635,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774342803.8613358,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774344603.5874295,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump walks back threat of strikes on Iran’s power plants in apparent move to calm oil markets TEHRAN — U",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774344603.5874295,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Deadly air attack hits pro-Iran Popular Mobilisation Forces in Iraq Video shows the aftermath of an airstrike in Iraq’s Anbar prov",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774344603.5874295,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774344603.5874295,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukrainian drone strike hits hospital ICU ward in Zapozorhye Region Governor Yevgeny Balitsky said that emergency personnel were wo",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774344603.5874295,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia large-scale missile, drone attack on Ukrainian cities, strikes on apartment buildings kill 4, injure 21  \n                 ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774344603.5874295,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
