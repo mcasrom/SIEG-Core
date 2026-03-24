@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774326603.5585456,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774326603.5585456,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine’s deep strikes make Russians feel the war  \n                       Ukraine has increasingly pursued a strategy of \"bringin",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774328404.1242287,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump walks back threat of strikes on Iran’s power plants in apparent move to calm oil markets TEHRAN — U",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774328404.1242287,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Moment missile strikes shortly after Israeli president’s visit Shortly after a news conference, Israel&#039;s president was forced",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774328404.1242287,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774328404.1242287,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran’s IRGC confirms delivering missile strikes on Dimona, Eilat in Israel, US army bases The names of the military bases affected",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774328404.1242287,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774332004.1388607,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774333803.863026,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump walks back threat of strikes on Iran’s power plants in apparent move to calm oil markets TEHRAN — U",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774333803.863026,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Moment missile strikes shortly after Israeli president’s visit Shortly after a news conference, Israel&#039;s president was forced",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774333803.863026,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774333803.863026,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran’s IRGC confirms delivering missile strikes on Dimona, Eilat in Israel, US army bases The names of the military bases affected",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774333803.863026,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia large-scale missile, drone attack on Ukrainian cities, strikes on apartment buildings kill 4, injure 16  \n                 ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774333803.863026,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Western-made parts keep ending up in Russian and Iranian weapons  \n                       On the morning of March 16, a Russian La",
