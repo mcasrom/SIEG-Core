@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774468803.9392073,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine preparing 'key changes' to mobilization, AWOL policy, defense minister says after meeting infantrymen  \n                  ",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774468803.9392073,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian military icebreaker damaged in unprecedented Baltic Sea drone strike, Ukraine claims  \n                       The ship, id",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774470603.5282397,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Is war turning Tehran’s air into a chemical weapon? Black rain follows Tehran oil strikes, spreading toxic fallout into air, soil ",
-    "trigger": "chemical weapon",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774470603.5282397,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774470603.5282397,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774470603.5282397,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "CENTCOM denies IRGC claim of downing F-18 fighter jet over Iran Earlier, the Iranian armed forces announced that an F-18 fighter j",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774470603.5282397,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Worst oil supply disruption in modern Russian history halts about 40% of export capacity, Reuters reports  \n                      ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774476003.48002,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774476003.48002,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774476003.48002,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774476003.48002,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Worst oil supply disruption in modern Russian history halts about 40% of export capacity, Reuters reports  \n                      ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774476003.48002,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine preparing 'key changes' to mobilization, AWOL policy, defense minister says after meeting infantrymen  \n                  ",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774476003.48002,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian military icebreaker damaged in unprecedented Baltic Sea drone strike, Ukraine claims  \n                       The ship, id",
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
