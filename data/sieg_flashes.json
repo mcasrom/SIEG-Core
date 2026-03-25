@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774378804.0013914,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Kyiv’s Iranian diaspora living through nightmare of war in both homes  \n                       With air raid sirens and missile st",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774378804.0013914,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774380603.5914562,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Keir Starmer’s policy on the Iran war is a recipe for catastrophe The British government has learned no lessons from the disaster ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774380603.5914562,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774380603.5914562,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774380603.5914562,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Kyiv’s Iranian diaspora living through nightmare of war in both homes  \n                       With air raid sirens and missile st",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774380603.5914562,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774422026.6516778,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Thousands march to mark 50th anniversary of Argentina’s bloody coup Thousands of people took to the streets in Buenos Aires to mar",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774422026.6516778,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Canada tells Israel that Lebanon’s sovereignty ‘must not be violated’ Canada and France call on Israel to halt plans to occupy sou",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774422026.6516778,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone attack ignites fuel tank at Kuwait airport A drone has sparked a fire at a fuel tank at Kuwait International Airport",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774422026.6516778,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Kiev intensifies drone attacks on Moscow, St",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774422026.6516778,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack hits Russia’s Leningrad region, fire reported at Ust-Luga port  \n                       Russian authorities claimed t",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774422026.6516778,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russia launches nearly 1,000 drones in one of war's largest assaults, killing 7 and injuring at least 50  \n   ",
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
