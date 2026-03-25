@@ -2,7 +2,7 @@
   "score": 18,
   "disonancia": false,
   "conflict": false,
-  "timestamp": 1774431003.9990776,
+  "timestamp": 1774432803.9118183,
   "noticias_procesadas": 79,
   "version": "V9.3",
   "calidad_nivel": "AZUL",
@@ -10,5 +10,5 @@
   "calidad_css": "blue",
   "fuentes_activas": 5,
   "uso_fallback": true,
-  "uso_web": false
+  "uso_web": true
 }

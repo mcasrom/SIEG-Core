@@ -4,5 +4,8 @@
   ],
   "Brasil": [
     "https://news.google.com/rss/search?q=brazil+crisis+political+military&hl=en&gl=US&ceid=US:en"
+  ],
+  "Argentina": [
+    "https://news.google.com/rss/search?q=argentina+crisis+political&hl=en&gl=US&ceid=US:en"
   ]
 }
