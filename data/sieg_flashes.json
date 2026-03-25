@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774382405.129629,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Kyiv’s Iranian diaspora living through nightmare of war in both homes  \n                       With air raid sirens and missile st",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774382405.129629,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Train passenger killed after 'refusing to evacuate' during Russian drone attack in Kharkiv Oblast  \n                       The 61-",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774384204.103453,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774384204.103453,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | The regime falls when the people rise  The bombs are falling",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774384204.103453,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Strikes continue hitting Iran-backed Iraqi militias, Kataib Hezbollah declares temporary US embassy ceasefire  Unclaimed but likel",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774384204.103453,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia launches nearly 1,000 drones in one of war's largest assaults, killing 7 and injuring 55  \n            ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774384204.103453,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1774425604.4493551,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran turns to IRGC veteran to lead top security body TEHRAN — Iran has appointed Mohammad Baqer Zolqadr, a veteran commander of th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774425604.4493551,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump sending “bloodstained” help for Iranian people TEHRAN – The latest report by the health ministry shows that almost four week",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774425604.4493551,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Thousands march to mark 50th anniversary of Argentina’s bloody coup Thousands of people took to the streets in Buenos Aires to mar",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774425604.4493551,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "AI-based anti-drone systems reduce effectiveness of Kiev’s drone strikes — expert Andrey Marochko said that problems within the Uk",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774425604.4493551,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "IN BRIEF: Russian regions face most massive drone attack as air defenses down 389 UAVs Several residential buildings and cars were",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774425604.4493551,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Kiev intensifies drone attacks on Moscow, St",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
   }
 ]
