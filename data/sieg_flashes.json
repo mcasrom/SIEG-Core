@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774501204.5843055,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine's air defense downs 97% of Russian kamikaze drones in rare mass daytime strike  \n                     ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774501204.5843055,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Worst oil supply disruption in modern Russian history halts about 40% of export capacity, Reuters reports  \n                      ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774503003.9189117,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Foreign Ministry: Kiarostami’s home bombed in 'war of whims' against culture TEHRAN – Iran’s Foreign Ministry spokesman, Esmaeil B",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774503003.9189117,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774503003.9189117,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774503003.9189117,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian drones attack major oil and gas facilities in Russia's Leningrad Oblast for second night in row  \n                      ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774503003.9189117,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1774508403.4108014,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Foreign Ministry: Kiarostami’s home bombed in 'war of whims' against culture TEHRAN – Iran’s Foreign Ministry spokesman, Esmaeil B",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774508403.4108014,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774508403.4108014,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774508403.4108014,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Could Iranian missiles reach London and Paris? Some experts say Iran may be able to launch missiles to hit London, but they would ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1774508403.4108014,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's school propaganda was  highlighted by Oscar-winning film - but does it work? The messages are clear: the full-scale invas",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1774508403.4108014,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine-Hungary oil pipeline row threatens EU loan Kyiv and Budapest disagree on how badly damaged a hub in western Ukraine bombed",
+    "trigger": "bombed",
+    "score": 62,
+    "cf": 0.9
   }
 ]
