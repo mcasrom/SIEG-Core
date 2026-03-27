@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774602003.4140503,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Israeli army carries out new series of strikes against Iran overnight — press service According to the military, the Israeli Air F",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774602003.4140503,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The trade-off Ukraine won't make  \n                       U",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774603803.7746463,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Simultaneous Strikes from Iran and Hezbollah Trigger Widespread Sirens Across Israel TEHRAN- A wave of rocket and drone attacks fr",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774603803.7746463,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774603803.7746463,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774603803.7746463,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The trade-off Ukraine won't make  \n                       U",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774603803.7746463,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "invasion",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1774609203.7089481,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Simultaneous Strikes from Iran and Hezbollah Trigger Widespread Sirens Across Israel TEHRAN- A wave of rocket and drone attacks fr",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774609203.7089481,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774609203.7089481,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774609203.7089481,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "The trade-off Ukraine won't make  \n                       U",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774609203.7089481,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How a London-listed fund could open global capital to Ukrainian companies  \n                       A new investment fund launched ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774609203.7089481,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Could Iranian missiles reach London and Paris? Some experts say Iran may be able to launch missiles to hit London, but they would ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.9
   }
 ]
