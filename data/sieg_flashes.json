@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774607403.1812625,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine’s military attacks Russia’s Belgorod Region with about 160 UAVs in past day The regional crisis response center reported t",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774607403.1812625,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The trade-off Ukraine won't make  \n                       U",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774609203.7089481,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Simultaneous Strikes from Iran and Hezbollah Trigger Widespread Sirens Across Israel TEHRAN- A wave of rocket and drone attacks fr",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774609203.7089481,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774609203.7089481,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774609203.7089481,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The trade-off Ukraine won't make  \n                       U",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774609203.7089481,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774612803.4875605,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Could Iranian missiles reach London and Paris? Some experts say Iran may be able to launch missiles to hit London, but they would ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1774614603.3448594,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Simultaneous Strikes from Iran and Hezbollah Trigger Widespread Sirens Across Israel TEHRAN- A wave of rocket and drone attacks fr",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774614603.3448594,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774614603.3448594,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774614603.3448594,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "The trade-off Ukraine won't make  \n                       U",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774614603.3448594,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How a London-listed fund could open global capital to Ukrainian companies  \n                       A new investment fund launched ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774614603.3448594,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Could Iranian missiles reach London and Paris? Some experts say Iran may be able to launch missiles to hit London, but they would ",
