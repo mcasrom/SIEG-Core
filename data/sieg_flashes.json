@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774639803.714251,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Sense of normality' — War-torn Mykolaiv welcomes McDonald's long-awaited return  \n                       The reopening of McDonal",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774639803.714251,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The trade-off Ukraine won't make  \n                       U",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774641604.441211,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Smoke rises over Beirut suburbs after massive Israeli airstrike Smoke rose over the skyline of Beirut following airstrikes as Isra",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774641604.441211,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran’s football team honours children killed in Minab school airstrike Iranian football players laid backpacks on a football pitch",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774641604.441211,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774641604.441211,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia successfully tests swarm drone attack tactics, developer says Three drones, each capable of carrying a warhead weighing up ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774641604.441211,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Smoke rises over Beirut suburbs after massive Israeli airstrike Smoke rose over the skyline of Beirut following airstrikes as Isra",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774647003.4737134,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Smoke rises over Beirut suburbs after massive Israeli airstrike Smoke rose over the skyline of Beirut following airstrikes as Isra",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774647003.4737134,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran’s football team honours children killed in Minab school airstrike Iranian football players laid backpacks on a football pitch",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774647003.4737134,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774647003.4737134,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Sense of normality' — War-torn Mykolaiv welcomes McDonald's long-awaited return  \n                       The reopening of McDonal",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774647003.4737134,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Smoke rises over Beirut suburbs after massive Israeli airstrike Smoke rose over the skyline of Beirut following airstrikes as Isra",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774647003.4737134,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran’s football team honours children killed in Minab school airstrike Iranian football players laid backpacks on a football pitch",
     "trigger": "airstrike",
     "score": 62,
     "cf": 0.7
