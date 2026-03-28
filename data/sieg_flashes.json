@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774719003.7194638,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774719003.7194638,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "As Russian oil profits soar, so do Ukraine's drone attacks on refineries  \n                       The U",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774720803.6702588,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774720803.6702588,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774720803.6702588,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774720803.6702588,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Three people killed, 7 injured in airstrike on Shiite militia headquarters in Iraq — TV According to the source, the strike was ca",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774720803.6702588,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774724403.7201924,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774726203.423826,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774726203.423826,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774726203.423826,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "6 Kurdistan Regional Government soldiers killed in Iranian attack on northern Iraq  Six Peshmerga fighters were killed, and more t",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774726203.423826,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Three people killed, 7 injured in airstrike on Shiite militia headquarters in Iraq — TV According to the source, the strike was ca",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774726203.423826,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian air defenses intercept 385 Ukrainian UAVs, four Flamingo cruise missiles Air defense capabilities shot down eight guided a",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774726203.423826,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
