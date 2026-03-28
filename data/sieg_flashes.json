@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774688404.087573,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone attack kills child in Russia’s Yaroslavl Region, governor says His parents were taken to the hospital in serious condition",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774688404.087573,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia strikes maternity hospital, educational institutions in Odesa, injures 10  \n                       Russian forces launched ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774690203.9770381,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran’s strategic calculus and the changing balance of power LONDON - Ayatollah Seyed Ali, the leader of the Islamic Revolution who",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774690203.9770381,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli ground attack on Iran: Prelude to a global economic earthquake TEHRAN- With a coordinated US-Israeli military strike on",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774690203.9770381,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Sources reveal details of US-Israeli ‘Haman’ ground invasion plan TEHRAN – Informed security sources have revealed to the Tehran T",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774690203.9770381,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Air defenses down 155 Ukrainian drones over Russian regions last night — Defense Ministry The drones were shot down over the Bryan",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774690203.9770381,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Night of 'pure terror' targets maternity hospital in Odesa as 5 killed, 13 injured in Russian strikes across Ukraine  \n           ",
     "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774695604.1205957,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Ansarullah fires missiles at Israel in support of Iran TEHRAN- The Yemeni Ansarullah movement announced that it had launch",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774695604.1205957,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran’s strategic calculus and the changing balance of power LONDON - Ayatollah Seyed Ali, the leader of the Islamic Revolution who",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774695604.1205957,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli ground attack on Iran: Prelude to a global economic earthquake TEHRAN- With a coordinated US-Israeli military strike on",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774695604.1205957,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Air defenses down 155 Ukrainian drones over Russian regions last night — Defense Ministry The drones were shot down over the Bryan",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774695604.1205957,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack kills child in Russia’s Yaroslavl Region, governor says His parents were taken to the hospital in serious condition",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774695604.1205957,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "As Russian oil profits soar, so do Ukraine's drone attacks on refineries  \n                       The U",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
