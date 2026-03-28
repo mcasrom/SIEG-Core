@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774679403.4441557,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Sense of normality' — War-torn Mykolaiv welcomes McDonald's long-awaited return  \n                       The reopening of McDonal",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774679403.4441557,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Could Iranian missiles reach London and Paris? Some experts say Iran may be able to launch missiles to hit London, but they would ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1774681203.984123,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran’s strategic calculus and the changing balance of power LONDON - Ayatollah Seyed Ali, the leader of the Islamic Revolution who",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774681203.984123,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli ground attack on Iran: Prelude to a global economic earthquake TEHRAN- With a coordinated US-Israeli military strike on",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774681203.984123,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Sources reveal details of US-Israeli ‘Haman’ ground invasion plan TEHRAN – Informed security sources have revealed to the Tehran T",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1774681203.984123,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774681203.984123,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "invasion",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1774686603.161604,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran’s strategic calculus and the changing balance of power LONDON - Ayatollah Seyed Ali, the leader of the Islamic Revolution who",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774686603.161604,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli ground attack on Iran: Prelude to a global economic earthquake TEHRAN- With a coordinated US-Israeli military strike on",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774686603.161604,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Sources reveal details of US-Israeli ‘Haman’ ground invasion plan TEHRAN – Informed security sources have revealed to the Tehran T",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1774686603.161604,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia strikes maternity hospital, educational institutions in Odesa, injures 10  \n                       Russian forces launched ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774686603.161604,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Sense of normality' — War-torn Mykolaiv welcomes McDonald's long-awaited return  \n                       The reopening of McDonal",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774686603.161604,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Could Iranian missiles reach London and Paris? Some experts say Iran may be able to launch missiles to hit London, but they would ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.9
   }
 ]
