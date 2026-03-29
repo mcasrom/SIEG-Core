@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774791003.3327696,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774791003.3327696,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "As Russian oil profits soar, so do Ukraine's drone attacks on refineries  \n                       The U",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774792804.0020149,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Trump has to open the Strait of Hormuz’ with ground forces Kenneth Katzman says US war objectives in Iran that cannot be met with",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774792804.0020149,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774792804.0020149,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774792804.0020149,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774792804.0020149,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
     "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774798203.9903185,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774798203.9903185,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774798203.9903185,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon declares Iranian ambassador-designate ‘persona non grata’ before Iranian missile explodes over Lebanese airspace  An Irani",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774798203.9903185,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia wishes the US good luck in settlement with Iran — Kremlin aide The continuation of bombing is just terrific, Russian presid",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774798203.9903185,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Twenty-seven Ukrainian drones shot down in regions — Russian Defense Ministry They were intercepted and destroyed in Bryansk, Kurs",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774798203.9903185,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
+    "trigger": "ballistic missile",
     "score": 62,
     "cf": 0.7
   }
