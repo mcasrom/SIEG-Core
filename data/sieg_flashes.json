@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774816203.1829696,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Israeli PM orders expansion of security zone in southern Lebanon I have just issued orders to further expand the existing security",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774816203.1829696,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Israel carries out 140 strikes on targets in western, central Iran in past day — army According to the Israeli military, ballistic",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774818003.3127263,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Netanyahu orders military to expand invasion of southern Lebanon As troops push towards Litani River, mourners gather for the fune",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774818003.3127263,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774818003.3127263,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774818003.3127263,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions reported, air defense engaged in Russian city of Taganrog  \n                       Explosions were heard in the souther",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774818003.3127263,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "missile strike",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1774823403.8075929,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Netanyahu orders military to expand invasion of southern Lebanon As troops push towards Litani River, mourners gather for the fune",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774823403.8075929,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774823403.8075929,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774823403.8075929,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "One person killed in drone attack on southern Russian city of Taganrog According to the Governor Yury Slyusar, local residents hav",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774823403.8075929,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Israeli PM orders expansion of security zone in southern Lebanon I have just issued orders to further expand the existing security",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774823403.8075929,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Israel carries out 140 strikes on targets in western, central Iran in past day — army According to the Israeli military, ballistic",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
   }
 ]
