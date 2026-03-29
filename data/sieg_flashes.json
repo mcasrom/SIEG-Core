@@ -1,6 +1,6 @@
 [
   {
-    "ts": 1774767603.8866289,
+    "ts": 1774769403.515449,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian Battlegroup West downed 68 Ukrainian drones over day Air defense crews and mobile firing teams shot down 15 fixed-wing typ",
@@ -9,7 +9,7 @@
     "cf": 0.3
   },
   {
-    "ts": 1774767603.8866289,
+    "ts": 1774769403.515449,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Iran launches another missile strike on Israeli territory — IDF Defense systems are operating to intercept the threat",
@@ -18,7 +18,16 @@
     "cf": 0.3
   },
   {
-    "ts": 1774769403.515449,
+    "ts": 1774771203.6467245,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Trump has to open the Strait of Hormuz’ with ground forces Kenneth Katzman says US war objectives in Iran that cannot be met with",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774771203.6467245,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Kuwait airport hit by Iranian drone strikes Thick, black smoke rose from Kuwait International Airport Saturday after suspected Ira",
@@ -27,7 +36,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1774769403.515449,
+    "ts": 1774771203.6467245,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
@@ -36,7 +45,106 @@
     "cf": 1.0
   },
   {
-    "ts": 1774769403.515449,
+    "ts": 1774771203.6467245,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774771203.6467245,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774771203.6467245,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774773004.0330217,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Trump has to open the Strait of Hormuz’ with ground forces Kenneth Katzman says US war objectives in Iran that cannot be met with",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774773004.0330217,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Kuwait airport hit by Iranian drone strikes Thick, black smoke rose from Kuwait International Airport Saturday after suspected Ira",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774773004.0330217,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774773004.0330217,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774773004.0330217,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774773004.0330217,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774774803.6812844,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Trump has to open the Strait of Hormuz’ with ground forces Kenneth Katzman says US war objectives in Iran that cannot be met with",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774774803.6812844,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774774803.6812844,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
@@ -45,7 +153,7 @@
     "cf": 1.0
   },
   {
-    "ts": 1774769403.515449,
+    "ts": 1774774803.6812844,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Five people killed in bombing of Iranian port — TV Two ships caught fire during the attack, Al Hadath television reported",
@@ -54,7 +162,7 @@
     "cf": 0.3
   },
   {
-    "ts": 1774769403.515449,
+    "ts": 1774774803.6812844,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian Battlegroup West downed 68 Ukrainian drones over day Air defense crews and mobile firing teams shot down 15 fixed-wing typ",
@@ -63,120 +171,12 @@
     "cf": 0.3
   },
   {
-    "ts": 1774769403.515449,
+    "ts": 1774774803.6812844,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Iran launches another missile strike on Israeli territory — IDF Defense systems are operating to intercept the threat",
     "trigger": "missile strike",
     "score": 62,
     "cf": 0.3
-  },
-  {
-    "ts": 1774771203.6467245,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Trump has to open the Strait of Hormuz’ with ground forces Kenneth Katzman says US war objectives in Iran that cannot be met with",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774771203.6467245,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Kuwait airport hit by Iranian drone strikes Thick, black smoke rose from Kuwait International Airport Saturday after suspected Ira",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774771203.6467245,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774771203.6467245,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774771203.6467245,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774771203.6467245,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774773004.0330217,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Trump has to open the Strait of Hormuz’ with ground forces Kenneth Katzman says US war objectives in Iran that cannot be met with",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774773004.0330217,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Kuwait airport hit by Iranian drone strikes Thick, black smoke rose from Kuwait International Airport Saturday after suspected Ira",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774773004.0330217,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774773004.0330217,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774773004.0330217,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774773004.0330217,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Disinformation' — Kyiv denies report that Iran destroyed Ukrainian drone depot in Dubai  \n                       Ukraine's Foreig",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
   }
 ]
