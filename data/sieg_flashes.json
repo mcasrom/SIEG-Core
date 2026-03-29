@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774782003.2391376,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian Battlegroup West downed 68 Ukrainian drones over day Air defense crews and mobile firing teams shot down 15 fixed-wing typ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774782003.2391376,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran launches another missile strike on Israeli territory — IDF Defense systems are operating to intercept the threat",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774783803.6897912,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Trump has to open the Strait of Hormuz’ with ground forces Kenneth Katzman says US war objectives in Iran that cannot be met with",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774783803.6897912,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774783803.6897912,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774783803.6897912,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian drone strike causes fresh damage to Ust-Luga port, Russian governor says  \n                       Leningrad Oblast Gover",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774783803.6897912,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "missile strike",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1774789203.3125374,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Trump has to open the Strait of Hormuz’ with ground forces Kenneth Katzman says US war objectives in Iran that cannot be met with",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774789203.3125374,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774789203.3125374,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774789203.3125374,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia wishes the US good luck in settlement with Iran — Kremlin aide The continuation of bombing is just terrific, Russian presid",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774789203.3125374,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Twenty-seven Ukrainian drones shot down in regions — Russian Defense Ministry They were intercepted and destroyed in Bryansk, Kurs",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774789203.3125374,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Five people killed in bombing of Iranian port — TV Two ships caught fire during the attack, Al Hadath television reported",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
   }
 ]
