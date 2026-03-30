@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774857603.8557594,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions reported, air defense engaged in Russian city of Taganrog  \n                       Explosions were heard in the souther",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774857603.8557594,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774859404.1036167,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israel war on Iran: What’s happening on day 31 of attacks While Trump has talked about diplomacy, fears of a ground invasion in",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774859404.1036167,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Netanyahu orders deeper Israeli invasion into Lebanon Israeli Prime Minister Benjamin Netanyahu has ordered the military to expand",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774859404.1036167,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Oil tops $116 a barrel as Iran accuses US of preparing invasion Crude prices continue to climb as world faces its biggest energy c",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774859404.1036167,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions reported, air defense engaged in Russian city of Taganrog  \n                       Explosions were heard in the souther",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774859404.1036167,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Explosions reported, air defense engaged in Russian city of Taganrog  \n                       Explosions were heard in the souther",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774864804.0626624,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UN peacekeeper killed in southern Lebanon as Israeli invasion intensifies Indonesian peacekeeper has been confirmed killed in arti",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774864804.0626624,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israel war on Iran: What’s happening on day 31 of attacks While Trump has talked about diplomacy, fears of a ground invasion in",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774864804.0626624,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774864804.0626624,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774864804.0626624,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Explosions reported, air defense engaged in Russian city of Taganrog  \n                       Explosions were heard in the souther",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774864804.0626624,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
+    "trigger": "ballistic missile",
     "score": 62,
     "cf": 0.7
   }
