@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774886404.6884606,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 4 killed, 36 injured in Russian attacks on Ukraine over past day  \n                       Russia launched an Iskander bal",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774886404.6884606,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions reported, air defense engaged in Russian city of Taganrog  \n                       Explosions were heard in the souther",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774888204.0302122,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Why have the US and Israel bombed more than 75 Iranian police facilities? An Al Jazeera investigation finds internal security faci",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774888204.0302122,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774888204.0302122,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774888204.0302122,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Opening up air defense market' —  Defense Minister Fedorov reports 1st drone shootdown by 'private sector' air defense units  \n  ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1774888204.0302122,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774891803.4384806,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 4 killed, 36 injured in Russian attacks on Ukraine over past day  \n                       Russia launched an Iskander bal",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774899003.8441763,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Two more UN peacekeepers killed in southern Lebanon: UNIFIL At least three UN peacekeepers killed this week as violence surges ami",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774899003.8441763,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774899003.8441763,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli strikes continue as talks over Strait of Hormuz stall and Iran intensifies internal crackdown  The US and Israel contin",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774899003.8441763,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774899003.8441763,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Opening up air defense market' —  Defense Minister Fedorov reports 1st drone shootdown by 'private sector' air defense units  \n  ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774899003.8441763,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "At least 4 killed, 36 injured in Russian attacks on Ukraine over past day  \n                       Russia launched an Iskander bal",
