@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774861203.874323,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iranian parliament calls for withdrawal from NPT in response to US, Israeli aggression \"Iran not seeking to build a nuclear bomb, ",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1774861203.874323,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions reported, air defense engaged in Russian city of Taganrog  \n                       Explosions were heard in the souther",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774863003.2987018,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "UN peacekeeper killed in southern Lebanon as Israeli invasion intensifies Indonesian peacekeeper has been confirmed killed in arti",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774863003.2987018,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israel war on Iran: What’s happening on day 31 of attacks While Trump has talked about diplomacy, fears of a ground invasion in",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774863003.2987018,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1774863003.2987018,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "One person killed, 11 others injured: aftermath of Kiev’s night attack on Russia’s south Overnight, air defenses shot down Ukraini",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1774863003.2987018,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "UN peacekeeper killed in southern Lebanon as Israeli invasion intensifies Indonesian peacekeeper has been confirmed killed in arti",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774868404.160634,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "UN peacekeeper killed in southern Lebanon as Israeli invasion intensifies Indonesian peacekeeper has been confirmed killed in arti",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774868404.160634,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israel war on Iran: What’s happening on day 31 of attacks While Trump has talked about diplomacy, fears of a ground invasion in",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774868404.160634,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774868404.160634,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Press review: US nears Iran ground invasion as Ukraine hits Russia with Flamingo missiles Top stories from the Russian press on Mo",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1774868404.160634,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Explosions reported, air defense engaged in Russian city of Taganrog  \n                       Explosions were heard in the souther",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774868404.160634,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian attacks kill 3, injure 20 civilians in Ukraine over past day  \n                       Russian troops launched a Kinzhal ae",
+    "trigger": "ballistic missile",
     "score": 62,
     "cf": 0.7
   }
