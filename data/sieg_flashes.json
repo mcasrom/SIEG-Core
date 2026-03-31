@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1774958404.3682134,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'Opening up air defense market' —  Defense Minister Fedorov reports 1st drone shootdown by 'private sector' air defense units  \n  ",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774958404.3682134,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 4 killed, 36 injured in Russian attacks on Ukraine over past day  \n                       Russia launched an Iskander bal",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774958404.3682134,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drones strike Russia’s Ust-Luga port again as EU officials visit Ukraine Attacks come as Ukraine says its air defences shot down 2",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774960204.0721593,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drones strike Russia’s Ust-Luga port again as EU officials visit Ukraine Attacks come as Ukraine says its air defences shot down 2",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774960204.0721593,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel says four soldiers killed as army pushes deeper into south Lebanon Hezbollah attempts to make Lebanon ground invasion &#039",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1774960204.0721593,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
     "ts": 1774960204.0721593,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1774963803.9754434,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drones strike Russia’s Ust-Luga port again as EU officials visit Ukraine Attacks come as Ukraine says its air defences shot down 2",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774967403.9044938,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drones strike Russia’s Ust-Luga port again as EU officials visit Ukraine Attacks come as Ukraine says its air defences shot down 2",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774967403.9044938,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774967403.9044938,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1774967403.9044938,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Why investigations against lawmakers do not threaten democracy in Ukraine  \n                       Ukraine is fighting two battles",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774967403.9044938,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Opening up air defense market' —  Defense Minister Fedorov reports 1st drone shootdown by 'private sector' air defense units  \n  ",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1774967403.9044938,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Drones strike Russia’s Ust-Luga port again as EU officials visit Ukraine Attacks come as Ukraine says its air defences shot down 2",

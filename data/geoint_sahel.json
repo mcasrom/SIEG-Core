@@ -2,13 +2,13 @@
   "score": 32,
   "disonancia": false,
   "conflict": false,
-  "timestamp": 1774963803.9754434,
-  "noticias_procesadas": 110,
+  "timestamp": 1774967403.9044938,
+  "noticias_procesadas": 130,
   "version": "V9.3",
   "calidad_nivel": "VERDE",
   "calidad_emoji": "\ud83d\udfe2",
   "calidad_css": "green",
-  "fuentes_activas": 6,
+  "fuentes_activas": 7,
   "uso_fallback": true,
   "uso_web": false
 }
