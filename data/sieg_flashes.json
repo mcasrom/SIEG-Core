@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775017803.914293,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Why investigations against lawmakers do not threaten democracy in Ukraine  \n                       Ukraine is fighting two battles",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775017803.914293,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Emergency workers search for victims of Israeli airstrikes on Beirut Emergency workers searched through rubble in Beirut after Isr",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775019604.4426458,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Emergency workers search for victims of Israeli airstrikes on Beirut Emergency workers searched through rubble in Beirut after Isr",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775019604.4426458,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775019604.4426458,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775019604.4426458,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Finland developing Ukraine-style drone alert app  \n                       The mobile app would be integrated with the current emer",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775019604.4426458,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775023204.0451872,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Why investigations against lawmakers do not threaten democracy in Ukraine  \n                       Ukraine is fighting two battles",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775025004.1832397,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Emergency workers search for victims of Israeli airstrikes on Beirut Emergency workers searched through rubble in Beirut after Isr",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775025004.1832397,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775025004.1832397,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775025004.1832397,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone attack repelled in 10 municipalities in Rostov Region, 15 private homes damaged There were no casualties",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775025004.1832397,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Finland developing Ukraine-style drone alert app  \n                       The mobile app would be integrated with the current emer",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775025004.1832397,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Why investigations against lawmakers do not threaten democracy in Ukraine  \n                       Ukraine is fighting two battles",
