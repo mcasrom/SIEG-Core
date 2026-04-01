@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775050203.8256488,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran ready for any US-Israeli ground operation scenario — envoy to Russia Kazem Jalali said that the armed forces of the Islamic R",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775050203.8256488,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Mass daytime Russian drone attack on western, central Ukraine kills 4, thousands without power  \n                       Telegram c",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775052004.3006003,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel kills 7 people in Beirut, Hezbollah fights invasion in south Lebanon The Israeli military says it aimed to kill a senior He",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775052004.3006003,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775052004.3006003,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775052004.3006003,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "No Israeli troops to be sent to Iran if US commences ground operation — Al Monitor Israel is prepared to provide all kinds of supp",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775052004.3006003,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775055604.3526182,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Israel kills 7 people in Beirut, Hezbollah fights invasion in south Lebanon The Israeli military says it aimed to kill a senior He",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775057404.0777378,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel kills 7 people in Beirut, Hezbollah fights invasion in south Lebanon The Israeli military says it aimed to kill a senior He",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775057404.0777378,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775057404.0777378,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775057404.0777378,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Mass daytime Russian drone attack on western, central Ukraine kills 4, thousands without power  \n                       Telegram c",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775057404.0777378,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Finland developing Ukraine-style drone alert app  \n                       The mobile app would be integrated with the current emer",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775057404.0777378,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Israel kills 7 people in Beirut, Hezbollah fights invasion in south Lebanon The Israeli military says it aimed to kill a senior He",
