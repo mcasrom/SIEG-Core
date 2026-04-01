@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775075404.0886467,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Mass daytime Russian drone attack on western, central Ukraine kills 4, thousands without power  \n                       Telegram c",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775075404.0886467,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran authorities await war ‘victory’ as supporters mark 1979 anniversary Officials, government supporters take to streets to mark ",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775077203.6169167,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran authorities await war ‘victory’ as supporters mark 1979 anniversary Officials, government supporters take to streets to mark ",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775077203.6169167,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775077203.6169167,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775077203.6169167,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia launches mass daytime drone attack on western, central Ukraine  \n                       Key development",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775077203.6169167,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775080804.958251,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran authorities await war ‘victory’ as supporters mark 1979 anniversary Officials, government supporters take to streets to mark ",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775082603.6150744,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran authorities await war ‘victory’ as supporters mark 1979 anniversary Officials, government supporters take to streets to mark ",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775082603.6150744,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775082603.6150744,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775082603.6150744,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russia launches mass daytime drone attack on western, central Ukraine  \n                       Key development",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775082603.6150744,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Mass daytime Russian drone attack on western, central Ukraine kills 4, thousands without power  \n                       Telegram c",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775082603.6150744,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Iran authorities await war ‘victory’ as supporters mark 1979 anniversary Officials, government supporters take to streets to mark ",
