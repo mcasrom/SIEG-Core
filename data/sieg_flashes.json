@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775041204.1946445,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Finland developing Ukraine-style drone alert app  \n                       The mobile app would be integrated with the current emer",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775041204.1946445,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Israel kills 7 people in Beirut, Hezbollah fights invasion in south Lebanon The Israeli military says it aimed to kill a senior He",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775043003.355439,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel kills 7 people in Beirut, Hezbollah fights invasion in south Lebanon The Israeli military says it aimed to kill a senior He",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775043003.355439,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks cause fire in Kuwait, Bahrain; kill man in UAE Shrapnel from an Iranian drone interception kills a Bangladeshi nation",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775043003.355439,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775043003.355439,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Finland developing Ukraine-style drone alert app  \n                       The mobile app would be integrated with the current emer",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775043003.355439,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Israel kills 7 people in Beirut, Hezbollah fights invasion in south Lebanon The Israeli military says it aimed to kill a senior He",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775048403.6852794,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel kills 7 people in Beirut, Hezbollah fights invasion in south Lebanon The Israeli military says it aimed to kill a senior He",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775048403.6852794,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks cause fire in Kuwait, Bahrain; kill man in UAE Shrapnel from an Iranian drone interception kills a Bangladeshi nation",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775048403.6852794,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775048403.6852794,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran ready for any US-Israeli ground operation scenario — envoy to Russia Kazem Jalali said that the armed forces of the Islamic R",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775048403.6852794,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Mass Russian drone attack on western Ukraine underway, explosions reported in Ivano-Frankivsk, Chernivtsi oblasts  \n              ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775048403.6852794,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Finland developing Ukraine-style drone alert app  \n                       The mobile app would be integrated with the current emer",
+    "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
   }
