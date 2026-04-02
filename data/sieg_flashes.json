@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775140203.8700767,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Mass daytime Russian drone attack on western, central Ukraine kills 4, thousands without power  \n                       Telegram c",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775140203.8700767,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "‘Bomb back to the Stone Age’: US history of threats and carpet bombing Analysts say carpet bombing countries is a war crime",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775142003.7246246,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Bomb back to the Stone Age’: US history of threats and carpet bombing Analysts say carpet bombing countries is a war crime",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775142003.7246246,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775142003.7246246,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775142003.7246246,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775142003.7246246,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775145604.1223526,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Gazprom reports another drone attack on TurkStream pipeline station The attack was repelled by joint efforts of Russian Defense Mi",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775147403.684891,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Bomb back to the Stone Age’: US history of threats and carpet bombing Analysts say carpet bombing countries is a war crime",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775147403.684891,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775147403.684891,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775147403.684891,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strikes on Nakhichevan impact transportation along North-South corridor Alexey Overchuk said the strikes \"did not inspire co",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775147403.684891,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "FACTBOX: What is known about new drone attack on TurkStream compressor station The holding company clarified that the attack was c",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775147403.684891,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Gazprom reports another drone attack on TurkStream pipeline station The attack was repelled by joint efforts of Russian Defense Mi",
