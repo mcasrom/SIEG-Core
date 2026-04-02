@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775136603.8789399,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Mass daytime Russian drone attack on western, central Ukraine kills 4, thousands without power  \n                       Telegram c",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775136603.8789399,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "In a Muzzled Russia, He Still Speaks His Mind While hundreds of other journalists fled into exile after Moscow’s invasion of Ukrai",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1775138404.4379616,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Bomb back to the Stone Age’: US history of threats and carpet bombing Analysts say carpet bombing countries is a war crime",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775138404.4379616,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775138404.4379616,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775138404.4379616,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia launches mass daytime drone attack on western, central Ukraine  \n                       Key development",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775138404.4379616,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "‘Bomb back to the Stone Age’: US history of threats and carpet bombing Analysts say carpet bombing countries is a war crime",
     "trigger": "bombing",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775143803.1951208,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Bomb back to the Stone Age’: US history of threats and carpet bombing Analysts say carpet bombing countries is a war crime",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775143803.1951208,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775143803.1951208,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775143803.1951208,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "FACTBOX: What is known about new drone attack on TurkStream compressor station The holding company clarified that the attack was c",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775143803.1951208,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Gazprom reports another drone attack on TurkStream pipeline station The attack was repelled by joint efforts of Russian Defense Mi",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775143803.1951208,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
+    "trigger": "shot down",
     "score": 62,
     "cf": 0.7
   }
