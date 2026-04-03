@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775242805.0983858,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US fighter jet downed over Iran likely conducted strikes on ground targets — media According to CBS News national security analyst",
-    "trigger": "fighter jet downed",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775242805.0983858,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US Air Force fighter jet downed in Iran was F-15E — media This information was confirmed to CBS News by sources among US officials",
-    "trigger": "fighter jet downed",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775244603.9734926,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775244603.9734926,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "What we know about the US fighter jet shot down in Iran The White House has confirmed Donald Trump has been briefed on the shootin",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775244603.9734926,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran release videos of US aircraft searching for pilots shot down in Iran Iran&#039;s media is screening videos said to show US ai",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775244603.9734926,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US shifts focus from 'regime change' to search for pilots — Majlis speaker The Iranian Armed Forces General Staff said earlier tha",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775244603.9734926,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775248203.033618,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775250003.7990804,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775250003.7990804,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "What we know about the US fighter jet shot down in Iran The White House has confirmed Donald Trump has been briefed on the shootin",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775250003.7990804,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran release videos of US aircraft searching for pilots shot down in Iran Iran&#039;s media is screening videos said to show US ai",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775250003.7990804,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US shifts focus from 'regime change' to search for pilots — Majlis speaker The Iranian Armed Forces General Staff said earlier tha",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775250003.7990804,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US fighter jet downed over Iran likely conducted strikes on ground targets — media According to CBS News national security analyst",
+    "trigger": "fighter jet downed",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775250003.7990804,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
