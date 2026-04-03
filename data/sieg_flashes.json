@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775199604.6718814,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775199604.6718814,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing receives enough votes to pass the majority thre",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775201404.8765194,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing wins 429 out of the 584 votes cast by MPs to be",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775201404.8765194,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775201404.8765194,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775201404.8765194,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Oil refinery in Kuwait on fire after Iranian drone attack According to available information, there were no casualties",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775201404.8765194,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing wins 429 out of the 584 votes cast by MPs to be",
     "trigger": "coup",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775206803.9052017,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing wins 429 out of the 584 votes cast by MPs to be",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775206803.9052017,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775206803.9052017,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775206803.9052017,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775206803.9052017,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing wins 429 out of the 584 votes cast by MPs to be",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775206803.9052017,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
+    "trigger": "airstrike",
     "score": 62,
     "cf": 0.7
   }
