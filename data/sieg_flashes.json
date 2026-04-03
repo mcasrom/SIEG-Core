@@ -1,6 +1,15 @@
 [
   {
-    "ts": 1775185203.6089149,
+    "ts": 1775187003.3064568,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775187003.3064568,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
@@ -9,16 +18,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775185203.6089149,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Danish Warship Sunk by Britain’s Lord Nelson 225 Years Ago Is Found The ship sank during the Battle of Copenhagen, an important mo",
-    "trigger": "warship sunk",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1775187003.3064568,
+    "ts": 1775188804.8262758,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
@@ -27,7 +27,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775187003.3064568,
+    "ts": 1775188804.8262758,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
@@ -36,7 +36,7 @@
     "cf": 1.0
   },
   {
-    "ts": 1775187003.3064568,
+    "ts": 1775188804.8262758,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
@@ -45,7 +45,115 @@
     "cf": 1.0
   },
   {
-    "ts": 1775187003.3064568,
+    "ts": 1775188804.8262758,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775188804.8262758,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775188804.8262758,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Danish Warship Sunk by Britain’s Lord Nelson 225 Years Ago Is Found The ship sank during the Battle of Copenhagen, an important mo",
+    "trigger": "warship sunk",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1775190603.9504635,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775190603.9504635,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775190603.9504635,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775190603.9504635,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775190603.9504635,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775190603.9504635,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Danish Warship Sunk by Britain’s Lord Nelson 225 Years Ago Is Found The ship sank during the Battle of Copenhagen, an important mo",
+    "trigger": "warship sunk",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1775192404.6202452,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775192404.6202452,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775192404.6202452,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775192404.6202452,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
@@ -54,7 +162,7 @@
     "cf": 0.3
   },
   {
-    "ts": 1775187003.3064568,
+    "ts": 1775192404.6202452,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
@@ -63,120 +171,12 @@
     "cf": 0.7
   },
   {
-    "ts": 1775187003.3064568,
+    "ts": 1775192404.6202452,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
     "trigger": "airstrike",
     "score": 62,
     "cf": 0.7
-  },
-  {
-    "ts": 1775188804.8262758,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775188804.8262758,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775188804.8262758,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775188804.8262758,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775188804.8262758,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775188804.8262758,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Danish Warship Sunk by Britain’s Lord Nelson 225 Years Ago Is Found The ship sank during the Battle of Copenhagen, an important mo",
-    "trigger": "warship sunk",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1775190603.9504635,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775190603.9504635,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775190603.9504635,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775190603.9504635,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775190603.9504635,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775190603.9504635,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Danish Warship Sunk by Britain’s Lord Nelson 225 Years Ago Is Found The ship sank during the Battle of Copenhagen, an important mo",
-    "trigger": "warship sunk",
-    "score": 62,
-    "cf": 0.9
   }
 ]
