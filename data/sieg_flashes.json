@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775219403.6398752,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Kuwait desalination plant, oil refinery hit by missile and drone strikes Meanwhile in UAE, 12 people were injured by debris fall a",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775219403.6398752,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing wins 429 out of the 584 votes cast by MPs to be",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775221204.093585,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Kuwait desalination plant, oil refinery hit by missile and drone strikes Meanwhile in UAE, 12 people were injured by debris fall a",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775221204.093585,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775221204.093585,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775221204.093585,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US rescue mission for pilot of shot down F-35 fighter jet fails — agency According to the report, Black Hawk helicopters and a C-1",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775221204.093585,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "warship sunk",
     "score": 62,
     "cf": 0.9
+  },
+  {
+    "ts": 1775226604.025736,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Kuwait desalination plant, oil refinery hit by missile and drone strikes Twelve people were injured by falling debris in the UAE, ",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775226604.025736,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775226604.025736,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775226604.025736,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "FACTBOX: What we know about foiled bombing plot against senior security official in Moscow The SBU planned to remotely trigger an ",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775226604.025736,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia outraged by news that its church in Tehran was damaged in airstrike — diplomat Maria Zakharova pointed out that we are talk",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775226604.025736,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran offers reward for capture of US pilot whose plane was shot down Earlier, the NourNews agency reported that the pilot had alre",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
   }
 ]
