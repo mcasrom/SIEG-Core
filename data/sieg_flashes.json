@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775230203.561225,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Israel threatens to destroy more Lebanon bridges as crisis mounts Threat comes as Israeli invasion of southern Lebanon expands, sp",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775230203.561225,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Kuwait desalination plant, oil refinery hit by missile and drone strikes Twelve people were injured by falling debris in the UAE, ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775232004.1901984,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran release videos of US aircraft searching for pilots shot down in Iran Iran&#039;s media is screening videos said to show US ai",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775232004.1901984,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel threatens to destroy more Lebanon bridges as crisis mounts Threat comes as Israeli invasion of southern Lebanon expands, sp",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775232004.1901984,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775232004.1901984,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US Air Force fighter jet downed in Iran was F-15E — media This information was confirmed to CBS News by sources among US officials",
-    "trigger": "fighter jet downed",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775232004.1901984,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Israel threatens to destroy more Lebanon bridges as crisis mounts Threat comes as Israeli invasion of southern Lebanon expands, sp",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775237403.636628,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran release videos of US aircraft searching for pilots shot down in Iran Iran&#039;s media is screening videos said to show US ai",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775237403.636628,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel threatens to destroy more Lebanon bridges as crisis mounts Threat comes as Israeli invasion of southern Lebanon expands, sp",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775237403.636628,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775237403.636628,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US fighter jet downed over Iran likely conducted strikes on ground targets — media According to CBS News national security analyst",
+    "trigger": "fighter jet downed",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775237403.636628,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US Air Force fighter jet downed in Iran was F-15E — media This information was confirmed to CBS News by sources among US officials",
+    "trigger": "fighter jet downed",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775237403.636628,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iran release videos of US aircraft searching for pilots shot down in Iran Iran&#039;s media is screening videos said to show US ai",
+    "trigger": "shot down",
     "score": 62,
     "cf": 0.7
   }
