@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775246404.0020623,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "What we know about the US fighter jet shot down in Iran The White House has confirmed Donald Trump has been briefed on the shootin",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775246404.0020623,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Iran release videos of US aircraft searching for pilots shot down in Iran Iran&#039;s media is screening videos said to show US ai",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775248203.033618,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775248203.033618,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "What we know about the US fighter jet shot down in Iran The White House has confirmed Donald Trump has been briefed on the shootin",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775248203.033618,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran release videos of US aircraft searching for pilots shot down in Iran Iran&#039;s media is screening videos said to show US ai",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775248203.033618,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "US shifts focus from 'regime change' to search for pilots — Majlis speaker The Iranian Armed Forces General Staff said earlier tha",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775248203.033618,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775251803.5988967,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775253604.823292,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775253604.823292,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "What we know about the US fighter jet shot down in Iran The White House has confirmed Donald Trump has been briefed on the shootin",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775253604.823292,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775253604.823292,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775253604.823292,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775253604.823292,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
