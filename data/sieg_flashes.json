@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775170804.1342034,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia launches mass daytime drone attack on western, central Ukraine  \n                       Key development",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775170804.1342034,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775172603.9588547,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775172603.9588547,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775172603.9588547,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775172603.9588547,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775172603.9588547,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775176204.3176572,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775178004.1538777,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775178004.1538777,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775178004.1538777,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775178004.1538777,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775178004.1538777,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russia launches mass daytime drone attack on western, central Ukraine  \n                       Key development",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775178004.1538777,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "9-year-old boy recounts airstrike in Lebanon that killed whole family Karim Al-Haj Hussein survived an Israeli strike on his home ",
