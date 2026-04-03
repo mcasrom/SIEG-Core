@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775214003.7301729,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Kuwait desalination plant, oil refinery hit by missile and drone strikes Elsewhere, Oracle and Amazon Web Services data centres we",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775214003.7301729,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing wins 429 out of the 584 votes cast by MPs to be",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775215803.5888686,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Kuwait desalination plant, oil refinery hit by missile and drone strikes Elsewhere, Oracle and Amazon Web Services data centres we",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775215803.5888686,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing wins 429 out of the 584 votes cast by MPs to be",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775215803.5888686,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775215803.5888686,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775215803.5888686,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Myanmar’s coup leader elected president by pro-military parliament Min Aung Hlaing wins 429 out of the 584 votes cast by MPs to be",
     "trigger": "coup",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775221204.093585,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Kuwait desalination plant, oil refinery hit by missile and drone strikes Meanwhile in UAE, 12 people were injured by debris fall a",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775221204.093585,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775221204.093585,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775221204.093585,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "US rescue mission for pilot of shot down F-35 fighter jet fails — agency According to the report, Black Hawk helicopters and a C-1",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775221204.093585,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "FSB says prevents Ukrainian bombing plot against prominent security official in Moscow According to the report, an electric scoote",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775221204.093585,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia's Gazprom claims Ukrainian strikes on TurkStream pipeline  \n                       According to Gazprom, the Russkaya compr",
+    "trigger": "shot down",
     "score": 62,
     "cf": 0.7
   }
