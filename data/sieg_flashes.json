@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775331003.6877017,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775331003.6877017,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire, damage reported in Kyiv following Russian drone attack  \n                       Russia launched a drone attack against Ukrai",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775332803.6803591,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Vehicle engulfed in flames after Israeli drone strike in central Gaza Palestinians in Gaza scrambled to extinguish a vehicle engul",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775332803.6803591,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances At least 11 people are injured as Israel strikes near ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775332803.6803591,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775332803.6803591,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Five killed in attack on petrochemical complex in Iran’s Mahshahr According to the agency, at least five people were killed in an ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775332803.6803591,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775336404.18094,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775338203.5596569,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Vehicle engulfed in flames after Israeli drone strike in central Gaza Palestinians in Gaza scrambled to extinguish a vehicle engul",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775338203.5596569,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775338203.5596569,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775338203.5596569,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Five killed in attack on petrochemical complex in Iran’s Mahshahr According to the agency, at least five people were killed in an ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775338203.5596569,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Death toll from Israeli strikes on Lebanon since March 2 exceeds 1,422 — Health Ministry Those killed in Israeli airstrikes includ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775338203.5596569,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
