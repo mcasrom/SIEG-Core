@@ -1,6 +1,6 @@
 [
   {
-    "ts": 1775313039.4770796,
+    "ts": 1775314803.636669,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Fire, damage reported in Kyiv following Russian drone attack  \n                       Russia launched a drone attack against Ukrai",
@@ -9,7 +9,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775313039.4770796,
+    "ts": 1775314803.636669,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
@@ -18,7 +18,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775314803.636669,
+    "ts": 1775316603.5886648,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances At least 11 people are injured as Israel strikes near ",
@@ -27,7 +27,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775314803.636669,
+    "ts": 1775316603.5886648,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
@@ -36,7 +36,7 @@
     "cf": 1.0
   },
   {
-    "ts": 1775314803.636669,
+    "ts": 1775316603.5886648,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
@@ -45,137 +45,137 @@
     "cf": 1.0
   },
   {
-    "ts": 1775314803.636669,
+    "ts": 1775316603.5886648,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
-    "titulo": "Israel reports carrying out new strikes on air defense systems, missile sites in Iran The military added that a facility storing b",
-    "trigger": "ballistic missile",
+    "titulo": "Fire, damage reported in Kyiv following Russian drone attack  \n                       Russia launched a drone attack against Ukrai",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775316603.5886648,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775316603.5886648,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775318403.688755,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances At least 11 people are injured as Israel strikes near ",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775318403.688755,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775318403.688755,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775318403.688755,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire, damage reported in Kyiv following Russian drone attack  \n                       Russia launched a drone attack against Ukrai",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775318403.688755,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775318403.688755,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775320203.3083234,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances At least 11 people are injured as Israel strikes near ",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775320203.3083234,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775320203.3083234,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775320203.3083234,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Death toll from Israeli strikes on Lebanon since March 2 exceeds 1,422 — Health Ministry Those killed in Israeli airstrikes includ",
+    "trigger": "airstrike",
     "score": 62,
     "cf": 0.3
   },
   {
-    "ts": 1775314803.636669,
+    "ts": 1775320203.3083234,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775320203.3083234,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Fire, damage reported in Kyiv following Russian drone attack  \n                       Russia launched a drone attack against Ukrai",
     "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775314803.636669,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775316603.5886648,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances At least 11 people are injured as Israel strikes near ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775316603.5886648,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775316603.5886648,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775316603.5886648,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire, damage reported in Kyiv following Russian drone attack  \n                       Russia launched a drone attack against Ukrai",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775316603.5886648,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775316603.5886648,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775318403.688755,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances At least 11 people are injured as Israel strikes near ",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775318403.688755,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775318403.688755,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775318403.688755,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Fire, damage reported in Kyiv following Russian drone attack  \n                       Russia launched a drone attack against Ukrai",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775318403.688755,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775318403.688755,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
-    "trigger": "airstrike",
     "score": 62,
     "cf": 0.7
   }
