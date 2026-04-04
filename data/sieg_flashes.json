@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775302203.555661,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775302203.555661,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775304004.3065634,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775304004.3065634,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775304004.3065634,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775304004.3065634,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Israel reports carrying out new strikes on air defense systems, missile sites in Iran The military added that a facility storing b",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775304004.3065634,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775307603.7619317,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775309403.3461397,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775309403.3461397,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775309403.3461397,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775309403.3461397,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Israel reports carrying out new strikes on air defense systems, missile sites in Iran The military added that a facility storing b",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775309403.3461397,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Fire, damage reported in Kyiv following Russian drone attack  \n                       Russia launched a drone attack against Ukrai",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775309403.3461397,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Explosions, fires reported in Russia’s Tolyatti, Taganrog after drone attacks  \n                       Ukrainian forces reportedly",
