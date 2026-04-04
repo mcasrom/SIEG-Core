@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775259003.424796,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775259003.424796,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775260803.8242517,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775260803.8242517,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "What we know about the US fighter jet shot down in Iran The White House has confirmed Donald Trump has been briefed on the shootin",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775260803.8242517,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775260803.8242517,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775260803.8242517,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
     "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775266203.9302945,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775266203.9302945,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "What we know about the US fighter jet shot down in Iran The White House has confirmed Donald Trump has been briefed on the shootin",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775266203.9302945,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775266203.9302945,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian airstrike in Kramatorsk kills 4, including 16-year-old boy  \n                       Russian forces dropped FAB-250 aerial ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775266203.9302945,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strike on Sudan hospital kills 10, medical charity MSF says Two strikes on Al Jabalain Hospital in White Nile State hit an o",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775266203.9302945,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "What we know about the US fighter jet shot down in Iran The White House has confirmed Donald Trump has been briefed on the shootin",
+    "trigger": "shot down",
     "score": 62,
     "cf": 0.7
   }
