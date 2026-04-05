@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775395803.676685,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775395803.676685,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices  \n                 ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775397603.248738,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US pilot from downed F-15E plane rescued in Iran: What we know The second pilot from the fighter jet shot down in Iran is rescued ",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775397603.248738,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran war: What is happening on day 37 of US-Israeli attacks? A US crew member who has been missing since Iran shot down a fighter ",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775397603.248738,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Miraculous’: US rescues second pilot downed in Iran, Trump confirms Iran claims another US aircraft involved in the rescue of the",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775397603.248738,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775397603.248738,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775401203.788332,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775403003.3315957,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US pilot from downed F-15E plane rescued in Iran: What we know The second pilot from the fighter jet shot down in Iran is rescued ",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775403003.3315957,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775403003.3315957,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775403003.3315957,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Two people dead in Ukrainian drone attack on cargo ship that sank in Sea of Azov The vessel sank 300 miles north of Kerch",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775403003.3315957,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Battlegroup West downed 99 Ukrainian drones Six loitering munitions of the enemy were also shot down",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775403003.3315957,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
