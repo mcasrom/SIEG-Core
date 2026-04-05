@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775343604.145627,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Death toll from Israeli strikes on Lebanon since March 2 exceeds 1,422 — Health Ministry Those killed in Israeli airstrikes includ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775343604.145627,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775345403.4294715,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Vehicle engulfed in flames after Israeli drone strike in central Gaza Palestinians in Gaza scrambled to extinguish a vehicle engul",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775345403.4294715,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775345403.4294715,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775345403.4294715,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Five killed in attack on petrochemical complex in Iran’s Mahshahr According to the agency, at least five people were killed in an ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775345403.4294715,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Ukraine reportedly strikes Russian Lukoil refinery, defying calls to ease attacks amid soaring fuel prices  \n                     ",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775350803.6898708,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Vehicle engulfed in flames after Israeli drone strike in central Gaza Palestinians in Gaza scrambled to extinguish a vehicle engul",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775350803.6898708,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775350803.6898708,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775350803.6898708,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775350803.6898708,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine reportedly strikes Russian Lukoil refinery, defying calls to ease attacks amid soaring fuel prices  \n                     ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775350803.6898708,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
+    "trigger": "mobilization",
     "score": 62,
     "cf": 0.7
   }
