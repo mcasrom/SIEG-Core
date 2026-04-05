@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775374203.7283897,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Five killed in attack on petrochemical complex in Iran’s Mahshahr According to the agency, at least five people were killed in an ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775374203.7283897,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775376003.6383417,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Miraculous’: US rescues second pilot downed in Iran, Trump confirms Iran claims another US aircraft involved in the rescue of the",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775376003.6383417,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Vehicle engulfed in flames after Israeli drone strike in central Gaza Palestinians in Gaza scrambled to extinguish a vehicle engul",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775376003.6383417,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775376003.6383417,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Battlegroup West downed 99 Ukrainian drones Six loitering munitions of the enemy were also shot down",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775376003.6383417,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
     "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775381403.513056,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran war: What is happening on day 37 of US-Israeli attacks? A US crew member who has been missing since Iran shot down a fighter ",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775381403.513056,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Miraculous’: US rescues second pilot downed in Iran, Trump confirms Iran claims another US aircraft involved in the rescue of the",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775381403.513056,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775381403.513056,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Battlegroup West downed 99 Ukrainian drones Six loitering munitions of the enemy were also shot down",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775381403.513056,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775381403.513056,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine reportedly strikes Russian Lukoil refinery, defying calls to ease attacks amid soaring fuel prices  \n                     ",
+    "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
   }
