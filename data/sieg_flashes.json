@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775356203.5415013,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine reportedly strikes Russian Lukoil refinery, defying calls to ease attacks amid soaring fuel prices  \n                     ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775356203.5415013,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775358003.6137853,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Vehicle engulfed in flames after Israeli drone strike in central Gaza Palestinians in Gaza scrambled to extinguish a vehicle engul",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775358003.6137853,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775358003.6137853,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775358003.6137853,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine reportedly strikes Russian Lukoil refinery, defying calls to ease attacks amid soaring fuel prices  \n                     ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775358003.6137853,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775361605.5299227,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775363403.3182156,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Vehicle engulfed in flames after Israeli drone strike in central Gaza Palestinians in Gaza scrambled to extinguish a vehicle engul",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775363403.3182156,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775363403.3182156,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775363403.3182156,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775363403.3182156,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine reportedly strikes Russian Lukoil refinery, defying calls to ease attacks amid soaring fuel prices  \n                     ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775363403.3182156,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "News from occupied Ukraine: Russian general killed in Crimea, 8 children brought back, millions of dollars in unpaid wages  \n     ",
