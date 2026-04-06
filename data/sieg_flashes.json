@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775480403.926806,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775480403.926806,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices  \n                 ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775482203.858362,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "How US operation to rescue air officer from Iran unfolded President Trump says US service member whose fighter jet was shot down o",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775482203.858362,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Families fleeing Israeli attacks take refuge in Lebanon’s mountains Over one million people displaced across Lebanon as Israel esc",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775482203.858362,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran’s top university bombed as US, Israel intensify attacks; 34 killed Tehran says it will respond &#039;in kind&#039; to attacks",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775482203.858362,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775482203.858362,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775487604.3066232,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775487604.3066232,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "How US operation to rescue air officer from Iran unfolded President Trump says US service member whose fighter jet was shot down o",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775487604.3066232,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Families fleeing Israeli attacks take refuge in Lebanon’s mountains Over one million people displaced across Lebanon as Israel esc",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775487604.3066232,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775487604.3066232,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775487604.3066232,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
+    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
