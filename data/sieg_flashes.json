@@ -1,6 +1,6 @@
 [
   {
-    "ts": 1775457003.4866598,
+    "ts": 1775458804.5835085,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukrainian drones reportedly strike major oil terminal in Russian city of Novorossiysk  \n                       Explosions were rep",
@@ -9,7 +9,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775457003.4866598,
+    "ts": 1775458804.5835085,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
@@ -18,7 +18,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775458804.5835085,
+    "ts": 1775460603.4597187,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
@@ -27,7 +27,7 @@
     "cf": 1.0
   },
   {
-    "ts": 1775458804.5835085,
+    "ts": 1775460603.4597187,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
@@ -36,7 +36,7 @@
     "cf": 1.0
   },
   {
-    "ts": 1775458804.5835085,
+    "ts": 1775460603.4597187,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
@@ -45,16 +45,124 @@
     "cf": 1.0
   },
   {
-    "ts": 1775458804.5835085,
+    "ts": 1775460603.4597187,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
-    "titulo": "Eight people, including two children, injured in a drone attack in Novorossiysk — mayor Six apartment buildings and two private ho",
+    "titulo": "Ukrainian drones reportedly strike major oil terminal in Russian city of Novorossiysk  \n                       Explosions were rep",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775460603.4597187,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775460603.4597187,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775462404.4909694,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775462404.4909694,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775462404.4909694,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775462404.4909694,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukrainian drones reportedly strike major oil terminal in Russian city of Novorossiysk  \n                       Explosions were rep",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775462404.4909694,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775462404.4909694,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775464203.3921535,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775464203.3921535,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775464203.3921535,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775464203.3921535,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "CIA runs deception campaign to aid rescue of F-15E crew member in Iran — TV The F-15E two-seat fighter jet was shot down over Iran",
+    "trigger": "shot down",
     "score": 62,
     "cf": 0.3
   },
   {
-    "ts": 1775458804.5835085,
+    "ts": 1775464203.3921535,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukrainian drones reportedly strike major oil terminal in Russian city of Novorossiysk  \n                       Explosions were rep",
@@ -63,119 +171,11 @@
     "cf": 0.7
   },
   {
-    "ts": 1775458804.5835085,
+    "ts": 1775464203.3921535,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
     "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775460603.4597187,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775460603.4597187,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775460603.4597187,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775460603.4597187,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian drones reportedly strike major oil terminal in Russian city of Novorossiysk  \n                       Explosions were rep",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775460603.4597187,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775460603.4597187,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775462404.4909694,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775462404.4909694,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Home of Kurdistan Region president targeted, American universities threatened as attacks escalate in Iraq  A drone attack targeted",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775462404.4909694,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Yemen’s Houthis enter Iran war with drone and missile attacks on Israel  The Houthis launched missile and drone attacks against Is",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775462404.4909694,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian drones reportedly strike major oil terminal in Russian city of Novorossiysk  \n                       Explosions were rep",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775462404.4909694,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775462404.4909694,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone strikes damage residential buildings in Odesa, injuring at least 3  \n                       Russian forces launched ",
-    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
