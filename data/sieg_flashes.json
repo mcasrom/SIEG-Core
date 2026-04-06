@@ -1,6 +1,6 @@
 [
   {
-    "ts": 1775491204.0447326,
+    "ts": 1775493003.5848696,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
@@ -9,7 +9,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775491204.0447326,
+    "ts": 1775493003.5848696,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
@@ -18,7 +18,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775493003.5848696,
+    "ts": 1775494804.2291842,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
@@ -27,7 +27,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1775493003.5848696,
+    "ts": 1775494804.2291842,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "How US operation to rescue air officer from Iran unfolded President Trump says US service member whose fighter jet was shot down o",
@@ -36,146 +36,146 @@
     "cf": 0.7
   },
   {
-    "ts": 1775493003.5848696,
+    "ts": 1775494804.2291842,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
-    "titulo": "Families fleeing Israeli attacks take refuge in Lebanon’s mountains Over one million people displaced across Lebanon as Israel esc",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775494804.2291842,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775494804.2291842,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775494804.2291842,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775496603.450435,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775496603.450435,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "How US operation to rescue air officer from Iran unfolded President Trump says US service member whose fighter jet was shot down o",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775496603.450435,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775496603.450435,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775496603.450435,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775496603.450435,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775498404.3158433,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775498404.3158433,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "How US operation to rescue air officer from Iran unfolded President Trump says US service member whose fighter jet was shot down o",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775498404.3158433,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775498404.3158433,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775498404.3158433,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
     "trigger": "invasion",
-    "score": 68,
+    "score": 62,
     "cf": 0.7
   },
   {
-    "ts": 1775493003.5848696,
+    "ts": 1775498404.3158433,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
     "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775493003.5848696,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775493003.5848696,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775494804.2291842,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775494804.2291842,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "How US operation to rescue air officer from Iran unfolded President Trump says US service member whose fighter jet was shot down o",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775494804.2291842,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775494804.2291842,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775494804.2291842,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775494804.2291842,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775496603.450435,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775496603.450435,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "How US operation to rescue air officer from Iran unfolded President Trump says US service member whose fighter jet was shot down o",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775496603.450435,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775496603.450435,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775496603.450435,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Ukraine confirms strikes on Russian oil infrastructure, defying calls to ease attacks amid soaring fuel prices",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775496603.450435,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "‘Smell’ of war comes to St Petersburg as Ukraine hammers Russian refineries Ukraine aims to drain Russia&#039;s war chest with dro",
-    "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
   }
