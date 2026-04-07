@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775572203.738429,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775572203.738429,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775574004.036722,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775574004.036722,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "How Israel’s invasion of southern Lebanon created a humanitarian crisis In the last month, 1",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775574004.036722,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775574004.036722,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775574004.036722,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
     "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775579403.8163495,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775579403.8163495,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "How Israel’s invasion of southern Lebanon created a humanitarian crisis In the last month, 1",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775579403.8163495,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian ballistic missile cluster munitions strike dozens of sites in Israeli cities  Iran’s increasing use of cluster munitions i",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775579403.8163495,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775579403.8163495,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775579403.8163495,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How Israel’s invasion of southern Lebanon created a humanitarian crisis In the last month, 1",
+    "trigger": "invasion",
     "score": 62,
     "cf": 0.7
   }
