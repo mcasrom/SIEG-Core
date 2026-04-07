@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775559603.975101,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775559603.975101,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775561403.982105,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775561403.982105,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
-    "trigger": "missile strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775561403.982105,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Ukraine, Russia kill three civilians each in tit-for-tat drone attacks Drone attacks killed civilians in Russia and Ukraine, a day",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775561403.982105,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775561403.982105,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775565003.6928463,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775566804.3404703,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775566804.3404703,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775566804.3404703,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli strikes destroy buildings in northern Iran Video shows widespread destruction in Pardis, northern Iran",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775566804.3404703,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775566804.3404703,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775566804.3404703,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
