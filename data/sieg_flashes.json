@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775523604.3620996,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775523604.3620996,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Trump claims Iranians begging US to keep bombing Iran Donald Trump claimed the US has “numerous intercepts” of Iranians pleading f",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775525403.5140674,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775525403.5140674,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump claims Iranians begging US to keep bombing Iran Donald Trump claimed the US has “numerous intercepts” of Iranians pleading f",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775525403.5140674,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775525403.5140674,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Israel says attacks IRGC headquarters in Tehran Israeli aircraft attacked a warehouse with ballistic missiles and launchers, the I",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775525403.5140674,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
     "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775530804.5014682,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775530804.5014682,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775530804.5014682,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump claims Iranians begging US to keep bombing Iran Donald Trump claimed the US has “numerous intercepts” of Iranians pleading f",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775530804.5014682,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Israel says attacks IRGC headquarters in Tehran Israeli aircraft attacked a warehouse with ballistic missiles and launchers, the I",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775530804.5014682,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775530804.5014682,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Trump claims Iranians begging US to keep bombing Iran Donald Trump claimed the US has “numerous intercepts” of Iranians pleading f",
+    "trigger": "bombing",
     "score": 62,
     "cf": 0.7
   }
