@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775552404.3969243,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775552404.3969243,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775554204.1140482,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775554204.1140482,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775554204.1140482,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775554204.1140482,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775554204.1140482,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775557803.235703,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775559603.975101,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775559603.975101,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775559603.975101,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Ukraine, Russia kill three civilians each in tit-for-tat drone attacks Drone attacks killed civilians in Russia and Ukraine, a day",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775559603.975101,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Seventeen residential areas in Iran come under airstrikes this morning — Red Crescent No information on casualties has been report",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775559603.975101,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775559603.975101,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
