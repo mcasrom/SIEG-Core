@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775530804.5014682,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775530804.5014682,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Trump claims Iranians begging US to keep bombing Iran Donald Trump claimed the US has “numerous intercepts” of Iranians pleading f",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775532603.335971,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775532603.335971,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775532603.335971,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump claims Iranians begging US to keep bombing Iran Donald Trump claimed the US has “numerous intercepts” of Iranians pleading f",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775532603.335971,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775532603.335971,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775536204.054685,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775538003.9834578,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775538003.9834578,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775538003.9834578,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump claims Iranians begging US to keep bombing Iran Donald Trump claimed the US has “numerous intercepts” of Iranians pleading f",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775538003.9834578,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775538003.9834578,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775538003.9834578,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
