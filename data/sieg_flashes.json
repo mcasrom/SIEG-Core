@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775548804.2583878,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "FACTBOX: Drone attack kills three in central Russia’s Vladimir Region The top brass reported that air defense alert capabilities s",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775548804.2583878,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775550603.56707,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775550603.56707,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775550603.56707,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775550603.56707,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian attacks kill 25 Russian civilians in past week, diplomat says According to Rodion Miroshnik, civilians in Russia are mos",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775550603.56707,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "invasion",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1775556004.9005837,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775556004.9005837,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775556004.9005837,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775556004.9005837,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Seventeen residential areas in Iran come under airstrikes this morning — Red Crescent No information on casualties has been report",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775556004.9005837,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Five children injured in Ukrainian drone attack on school in Zaporozhye Region — governor Yevgeny Balitsky said the kids had been ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775556004.9005837,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 18 civilians killed, 24 wounded in airstrikes on northern Iran Deputy Governor Qodratollah Seif said these actions would ",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
   }
 ]
