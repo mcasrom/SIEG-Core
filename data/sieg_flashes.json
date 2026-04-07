@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775556004.9005837,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Five children injured in Ukrainian drone attack on school in Zaporozhye Region — governor Yevgeny Balitsky said the kids had been ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775556004.9005837,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 18 civilians killed, 24 wounded in airstrikes on northern Iran Deputy Governor Qodratollah Seif said these actions would ",
-    "trigger": "airstrike",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775557803.235703,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775557803.235703,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli strikes destroy buildings in northern Iran Video shows widespread destruction in Pardis, northern Iran",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775557803.235703,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "‘They want to create a rift’: Israeli attacks deepen Lebanon fissures Lebanon grows increasingly divided as escalating Israeli bom",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775557803.235703,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775557803.235703,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775561403.982105,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775563204.3711452,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775563204.3711452,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
+    "trigger": "missile strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775563204.3711452,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Ukraine, Russia kill three civilians each in tit-for-tat drone attacks Drone attacks killed civilians in Russia and Ukraine, a day",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775563204.3711452,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775563204.3711452,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'There will be no popular solutions,' military ombudsman says of mobilization reform  \n                       \"You can't expect fi",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775563204.3711452,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Iranian missile strike damages cars and street in Israel Video shows damaged sidewalks and an overturned car following an Iranian ",
