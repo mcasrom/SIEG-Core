@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775615403.4314847,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775615403.4314847,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "French couple leave Iran after more than three years in jail Cecile Kohler and Jacques Paris are on their way home after being all",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1775617203.9556625,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775617203.9556625,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "White House confirms two-week suspension of strikes on Iran The White House has confirmed the US has agreed to suspend all bombing",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775617203.9556625,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian ballistic missile cluster munitions strike dozens of sites in Israeli cities  Iran’s increasing use of cluster munitions i",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775617203.9556625,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 9 killed, 49 injured in day of terror for Ukraine's south  \n                       Key developments on April 7",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1775617203.9556625,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775620804.183168,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775622603.5632987,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775622603.5632987,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "White House confirms two-week suspension of strikes on Iran The White House has confirmed the US has agreed to suspend all bombing",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775622603.5632987,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian ballistic missile cluster munitions strike dozens of sites in Israeli cities  Iran’s increasing use of cluster munitions i",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775622603.5632987,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "North Korea fires several ballistic missiles towards Sea of Japan — Yonhap It was North Korea’s fourth missile launch this year",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775622603.5632987,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 9 killed, 49 injured in day of terror for Ukraine's south  \n                       Key developments on April 7",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775622603.5632987,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "How oil jackpot and sanctions failure are funding Russia's war  \n                       As recently as this January and February, ",
