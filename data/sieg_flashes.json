@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775644203.8498142,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "EU leadership going crazy, seeking to acquire nukes: Russian SVR’s key statements German experts are capable of covertly obtaining",
-    "trigger": "nuclear device",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1775644203.8498142,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 9 killed, 49 injured in day of terror for Ukraine's south  \n                       Key developments on April 7",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775644203.8498142,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "French couple leave Iran after more than three years in jail Cecile Kohler and Jacques Paris are on their way home after being all",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1775646003.9410276,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775646003.9410276,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iranian ballistic missile cluster munitions strike dozens of sites in Israeli cities  Iran’s increasing use of cluster munitions i",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775646003.9410276,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
-    "trigger": "shot down",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
     "ts": 1775646003.9410276,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "coup",
     "score": 62,
     "cf": 0.9
+  },
+  {
+    "ts": 1775651403.286732,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775651403.286732,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian ballistic missile cluster munitions strike dozens of sites in Israeli cities  Iran’s increasing use of cluster munitions i",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775651403.286732,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775651403.286732,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775651403.286732,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia hits Kharkiv Oblast oil refinery, causing 'significant' damage  \n                       Russia has targeted the facility fo",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775651403.286732,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 9 killed, 49 injured in day of terror for Ukraine's south  \n                       Key developments on April 7",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
   }
 ]
