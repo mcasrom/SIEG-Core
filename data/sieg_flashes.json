@@ -1,50 +1,5 @@
 [
   {
-    "ts": 1775635204.5410142,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 9 killed, 49 injured in day of terror for Ukraine's south  \n                       Key developments on April 7",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775635204.5410142,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "French couple leave Iran after more than three years in jail Cecile Kohler and Jacques Paris are on their way home after being all",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1775635204.5410142,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "White House confirms two-week suspension of strikes on Iran The White House has confirmed the US has agreed to suspend all bombing",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775637004.1080365,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775637004.1080365,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "White House confirms two-week suspension of strikes on Iran The White House has confirmed the US has agreed to suspend all bombing",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
     "ts": 1775637004.1080365,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
@@ -172,6 +127,51 @@
   },
   {
     "ts": 1775640603.7275813,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "French couple leave Iran after more than three years in jail Cecile Kohler and Jacques Paris are on their way home after being all",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1775642404.2424538,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775642404.2424538,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iranian ballistic missile cluster munitions strike dozens of sites in Israeli cities  Iran’s increasing use of cluster munitions i",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775642404.2424538,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran downs US fighter jet, 1 crew member recovered, rescue operation ongoing for second  A pilot of an F-15E Strike Eagle reported",
+    "trigger": "shot down",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775642404.2424538,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 9 killed, 49 injured in day of terror for Ukraine's south  \n                       Key developments on April 7",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775642404.2424538,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "French couple leave Iran after more than three years in jail Cecile Kohler and Jacques Paris are on their way home after being all",
