@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775826003.4698403,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Myanmar’s coup leader Min Aung Hlaing sworn in as president Min Aung Hlaing seeks to &#039;enhance&#039; international relations a",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775826003.4698403,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Kuwait blames Iran for drone strike, Iran denies responsibility  Kuwait is blaming ‘Iran and its proxies’ for a drone attack on Th",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775827803.4254963,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775827803.4254963,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Gaza father searches for his children’s remains in the rubble for years A father in the Al Bureij camp in Gaza survived an Israeli",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775827803.4254963,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Myanmar’s coup leader Min Aung Hlaing sworn in as president Min Aung Hlaing seeks to &#039;enhance&#039; international relations a",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775827803.4254963,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine using scorched-earth tactics in Donbass, Novorossia — governor Ukrainian troops have intensified drone attacks on civilian",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775827803.4254963,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Gaza father searches for his children’s remains in the rubble for years A father in the Al Bureij camp in Gaza survived an Israeli",
     "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775833204.4766219,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775833204.4766219,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Gaza father searches for his children’s remains in the rubble for years A father in the Al Bureij camp in Gaza survived an Israeli",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775833204.4766219,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1775833204.4766219,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Middle East not in NATO's area of responsibility — Spanish Foreign Minister Jose Manuel Albares stated that the ongoing bombings o",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775833204.4766219,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine using scorched-earth tactics in Donbass, Novorossia — governor Ukrainian troops have intensified drone attacks on civilian",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775833204.4766219,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "'Wars are not won without people,' Budanov says of Ukraine's mobilization crisis  \n                       Budanov warned that wide",
+    "trigger": "mobilization",
     "score": 62,
     "cf": 0.7
   }
