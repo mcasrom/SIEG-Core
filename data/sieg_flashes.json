@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775811604.0126207,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Myanmar’s coup leader Min Aung Hlaing sworn in as president Min Aung Hlaing seeks to &#039;enhance&#039; international relations a",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775811604.0126207,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Kuwait blames Iran for drone strike, Iran denies responsibility  Kuwait is blaming ‘Iran and its proxies’ for a drone attack on Th",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775811604.0126207,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Myanmar’s coup leader Min Aung Hlaing sworn in as president Min Aung Hlaing seeks to &#039;enhance&#039; international relations a",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775811604.0126207,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Kuwait blames Iran for drone strike, Iran denies responsibility  Kuwait is blaming ‘Iran and its proxies’ for a drone attack on Th",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775813403.615279,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775813403.615279,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Myanmar’s coup leader Min Aung Hlaing sworn in as president Min Aung Hlaing seeks to &#039;enhance&#039; international relations a",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
     "ts": 1775813403.615279,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1775817003.5072877,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Kuwait blames Iran for drone strike, Iran denies responsibility  Kuwait is blaming ‘Iran and its proxies’ for a drone attack on Th",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775818803.7756474,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1775818803.7756474,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Myanmar’s coup leader Min Aung Hlaing sworn in as president Min Aung Hlaing seeks to &#039;enhance&#039; international relations a",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775818803.7756474,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Kuwait blames Iran for drone strike, Iran denies responsibility  Kuwait is blaming ‘Iran and its proxies’ for a drone attack on Th",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775818803.7756474,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Soldiers refute Pentagon chief’s claims about security of Kuwait base — TV According to CBS, the facility was not designed to prot",
+    "trigger": "airstrike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1775818803.7756474,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Myanmar’s coup leader Min Aung Hlaing sworn in as president Min Aung Hlaing seeks to &#039;enhance&#039; international relations a",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1775818803.7756474,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Kuwait blames Iran for drone strike, Iran denies responsibility  Kuwait is blaming ‘Iran and its proxies’ for a drone attack on Th",
