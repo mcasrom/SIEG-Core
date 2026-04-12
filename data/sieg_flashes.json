@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1775995203.93217,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "General Staff: Russia has lost 1,311,180 troops in Ukraine since Feb",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775995203.93217,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone strikes ambulance in northeastern Ukraine, injuring 3 paramedics despite Easter ceasefire  \n                       A",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1775997003.5010865,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1775997003.5010865,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775997003.5010865,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1775997003.5010865,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian army carries out 15 drone attacks on Russia’s Kursk Region in past day According to the regional governor Alexander Khin",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1775997003.5010865,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1776000603.827635,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone strikes ambulance in northeastern Ukraine, injuring 3 paramedics despite Easter ceasefire  \n                       A",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776002403.3855038,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776002403.3855038,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776002403.3855038,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776002403.3855038,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukrainian army carries out 15 drone attacks on Russia’s Kursk Region in past day According to the regional governor Alexander Khin",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1776002403.3855038,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "General Staff: Russia has lost 1,311,180 troops in Ukraine since Feb",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776002403.3855038,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian drone strikes ambulance in northeastern Ukraine, injuring 3 paramedics despite Easter ceasefire  \n                       A",
