@@ -1,6 +1,15 @@
 [
   {
-    "ts": 1776076203.7030873,
+    "ts": 1776078003.720328,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia violates Easter ceasefire almost 11,000 times, Ukraine says  \n                       Russian forces carried out 1,567 artil",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776078003.720328,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "General Staff: Russia has lost 1,311,180 troops in Ukraine since Feb",
@@ -9,7 +18,106 @@
     "cf": 0.7
   },
   {
-    "ts": 1776076203.7030873,
+    "ts": 1776079804.028029,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776079804.028029,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Refugee in my own city: Surviving Tehran’s bombing, with my cat for company Despite the relentless bombing, Sana refuses to flee T",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776079804.028029,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776079804.028029,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "De Gaulle’s grandson calls claim that Russia plans invasion of Europe absurd According to Pierre de Gaulle, Russia seeks balance, ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1776079804.028029,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia violates Easter ceasefire almost 11,000 times, Ukraine says  \n                       Russian forces carried out 1,567 artil",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776079804.028029,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "General Staff: Russia has lost 1,311,180 troops in Ukraine since Feb",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776081603.7921462,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776081603.7921462,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Refugee in my own city: Surviving Tehran’s bombing, with my cat for company Despite the relentless bombing, Sana refuses to flee T",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776081603.7921462,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776081603.7921462,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia violates Easter ceasefire almost 11,000 times, Ukraine says  \n                       Russian forces carried out 1,567 artil",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776081603.7921462,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "General Staff: Russia has lost 1,311,180 troops in Ukraine since Feb",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776081603.7921462,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian drone strikes ambulance in northeastern Ukraine, injuring 3 paramedics despite Easter ceasefire  \n                       A",
@@ -18,7 +126,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1776078003.720328,
+    "ts": 1776083403.4396176,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
@@ -27,7 +135,7 @@
     "cf": 0.4
   },
   {
-    "ts": 1776078003.720328,
+    "ts": 1776083403.4396176,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Refugee in my own city: Surviving Tehran’s bombing, with my cat for company Despite the relentless bombing, Sana refuses to flee T",
@@ -36,7 +144,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1776078003.720328,
+    "ts": 1776083403.4396176,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
     "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
@@ -45,16 +153,7 @@
     "cf": 1.0
   },
   {
-    "ts": 1776078003.720328,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "De Gaulle’s grandson calls claim that Russia plans invasion of Europe absurd According to Pierre de Gaulle, Russia seeks balance, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1776078003.720328,
+    "ts": 1776083403.4396176,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russia violates Easter ceasefire almost 11,000 times, Ukraine says  \n                       Russian forces carried out 1,567 artil",
@@ -63,7 +162,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1776078003.720328,
+    "ts": 1776083403.4396176,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "General Staff: Russia has lost 1,311,180 troops in Ukraine since Feb",
@@ -72,106 +171,7 @@
     "cf": 0.7
   },
   {
-    "ts": 1776079804.028029,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776079804.028029,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Refugee in my own city: Surviving Tehran’s bombing, with my cat for company Despite the relentless bombing, Sana refuses to flee T",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776079804.028029,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776079804.028029,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "De Gaulle’s grandson calls claim that Russia plans invasion of Europe absurd According to Pierre de Gaulle, Russia seeks balance, ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1776079804.028029,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia violates Easter ceasefire almost 11,000 times, Ukraine says  \n                       Russian forces carried out 1,567 artil",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776079804.028029,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "General Staff: Russia has lost 1,311,180 troops in Ukraine since Feb",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776081603.7921462,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776081603.7921462,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Refugee in my own city: Surviving Tehran’s bombing, with my cat for company Despite the relentless bombing, Sana refuses to flee T",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776081603.7921462,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776081603.7921462,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia violates Easter ceasefire almost 11,000 times, Ukraine says  \n                       Russian forces carried out 1,567 artil",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776081603.7921462,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "General Staff: Russia has lost 1,311,180 troops in Ukraine since Feb",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776081603.7921462,
+    "ts": 1776083403.4396176,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian drone strikes ambulance in northeastern Ukraine, injuring 3 paramedics despite Easter ceasefire  \n                       A",
