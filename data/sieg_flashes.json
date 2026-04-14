@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776198603.2476573,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russian missile strike on Dnipro kills 5, injures 27  \n                       Key developments on April 14:\n\n ",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776198603.2476573,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian missile strike on Dnipro kills 5, injures 27  \n                       As of 1:56 p",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776200403.4510136,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776200403.4510136,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israeli strike on Gaza police car kills child An Israeli airstrike on a police vehicle in Gaza City killed at least four people, i",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776200403.4510136,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Drones, Iran war escalating horror as Sudan war enters fourth year UN says hundreds killed by drone strikes over past three months",
-    "trigger": "drone strike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776200403.4510136,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russian missile strike on Dnipro kills 5, injures 27  \n                       Key developments on April 14:\n\n ",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1776200403.4510136,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1776204004.7171166,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian missile strike on Dnipro kills 5, injures 27  \n                       As of 1:56 p",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776205803.5186617,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776205803.5186617,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israeli strike on Gaza police car kills child An Israeli airstrike on a police vehicle in Gaza City killed at least four people, i",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776205803.5186617,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Drones, Iran war escalating horror as Sudan war enters fourth year UN says hundreds killed by drone strikes over past three months",
+    "trigger": "drone strike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776205803.5186617,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1776205803.5186617,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russian missile strike on Dnipro kills 5, injures 27  \n                       Key developments on April 14:\n\n ",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776205803.5186617,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian missile strike on Dnipro kills 5, injures 27  \n                       As of 1:56 p",
