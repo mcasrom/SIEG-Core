@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776155403.978209,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "FACTBOX: Aftermath of Ukrainian drone attack on Russian regions, one fatality Five people sustained injuries during a Ukrainian at",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1776155403.978209,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia violates Easter ceasefire almost 11,000 times, Ukraine says  \n                       Russian forces carried out 1,567 artil",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776155403.978209,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "The Sea of Azov: Ukraine’s loss but hardly Russia’s gain The colossal steel plants along Ukraine&#039;s side of the sea are unrest",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776157204.5378077,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776157204.5378077,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "The Sea of Azov: Ukraine’s loss but hardly Russia’s gain The colossal steel plants along Ukraine&#039;s side of the sea are unrest",
-    "trigger": "invasion",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776157204.5378077,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
     "ts": 1776157204.5378077,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1776160804.7658155,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "The Sea of Azov: Ukraine’s loss but hardly Russia’s gain The colossal steel plants along Ukraine&#039;s side of the sea are unrest",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776162604.0978603,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776162604.0978603,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "The Sea of Azov: Ukraine’s loss but hardly Russia’s gain The colossal steel plants along Ukraine&#039;s side of the sea are unrest",
+    "trigger": "invasion",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776162604.0978603,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776162604.0978603,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 2 killed, 18 injured in Russian strikes across Ukraine over past day  \n                       Russian forces launched 129",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776162604.0978603,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia violates Easter ceasefire almost 11,000 times, Ukraine says  \n                       Russian forces carried out 1,567 artil",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776162604.0978603,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "The Sea of Azov: Ukraine’s loss but hardly Russia’s gain The colossal steel plants along Ukraine&#039;s side of the sea are unrest",
