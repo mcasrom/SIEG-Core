@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776211203.8806238,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian missile strike on Dnipro kills 5, injures 27  \n                       As of 1:56 p",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776211203.8806238,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 2 killed, 18 injured in Russian strikes across Ukraine over past day  \n                       Russian forces launched 129",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776213003.5984674,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776213003.5984674,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israeli strike on Gaza police car kills child An Israeli airstrike on a police vehicle in Gaza City killed at least four people, i",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776213003.5984674,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776213003.5984674,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russian missile strike on Dnipro kills 5, injures 27  \n                       Key developments on April 14:\n\n ",
-    "trigger": "missile strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1776213003.5984674,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "At least 2 killed, 18 injured in Russian strikes across Ukraine over past day  \n                       Russian forces launched 129",
     "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776218403.890324,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776218403.890324,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israeli strike on Gaza police car kills child An Israeli airstrike on a police vehicle in Gaza City killed at least four people, i",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776218403.890324,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776218403.890324,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drones strike Cherkasy, killing child, injuring 9  \n                       At least one child has been killed and another ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776218403.890324,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russian missile strike on Dnipro kills 5, injures 27  \n                       Key developments on April 14:\n\n ",
+    "trigger": "missile strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776218403.890324,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian missile strike on Dnipro kills 5, injures 27  \n                       As of 1:56 p",
+    "trigger": "missile strike",
     "score": 62,
     "cf": 0.7
   }
