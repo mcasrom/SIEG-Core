@@ -1,50 +1,5 @@
 [
   {
-    "ts": 1776301203.636127,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia hits Kyiv with ballistic missiles in mass attack overnight  \n                       The attacks killed a 12-year-old child ",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776301203.636127,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Trump and Vance may have abandoned Ukraine — but polls show the American people remain deeply committed  \n                       I",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776303003.9316587,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776303003.9316587,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel bombs homes in southern Lebanon The Israeli army has bombed buildings in southern Lebanon’s Bint Jbeil district",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776303003.9316587,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
     "ts": 1776303003.9316587,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +131,51 @@
     "icono": "🇷🇺",
     "titulo": "Trump and Vance may have abandoned Ukraine — but polls show the American people remain deeply committed  \n                       I",
     "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776308404.4069557,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776308404.4069557,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Brazil’s fugitive ex-spy chief freed in the US after ICE detention Alexandre Ramagem, who fled Brazil following his conviction for",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776308404.4069557,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel bombs homes in southern Lebanon The Israeli army has bombed buildings in southern Lebanon’s Bint Jbeil district",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776308404.4069557,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Brazil’s fugitive ex-spy chief freed in the US after ICE detention Alexandre Ramagem, who fled Brazil following his conviction for",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776308404.4069557,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Israel bombs homes in southern Lebanon The Israeli army has bombed buildings in southern Lebanon’s Bint Jbeil district",
+    "trigger": "bombed",
     "score": 62,
     "cf": 0.7
   }
