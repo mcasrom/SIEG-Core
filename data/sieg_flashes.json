@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776313803.5694218,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia slams Kyiv, Dnipro in mass missile attack overnight — at least 7 dead, 48 injured  \n                       Russian missiles",
-    "trigger": "mass missile attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776313803.5694218,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Trump and Vance may have abandoned Ukraine — but polls show the American people remain deeply committed  \n                       I",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776315604.7703054,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776315604.7703054,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Brazil’s fugitive ex-spy chief freed in the US after ICE detention Alexandre Ramagem, who fled Brazil following his conviction for",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776315604.7703054,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Israel bombs homes in southern Lebanon The Israeli army has bombed buildings in southern Lebanon’s Bint Jbeil district",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776315604.7703054,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Two minor die, two adults get injured after Ukrainian drone attack on Tuapse Apart from that, falling drone fragments damaged one ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1776315604.7703054,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1776319204.730146,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Trump and Vance may have abandoned Ukraine — but polls show the American people remain deeply committed  \n                       I",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776321004.0589902,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776321004.0589902,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Brazil’s fugitive ex-spy chief freed in the US after ICE detention Alexandre Ramagem, who fled Brazil following his conviction for",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776321004.0589902,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Israel bombs homes in southern Lebanon The Israeli army has bombed buildings in southern Lebanon’s Bint Jbeil district",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776321004.0589902,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Two minor die, two adults get injured after Ukrainian drone attack on Tuapse Apart from that, falling drone fragments damaged one ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1776321004.0589902,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia slams Ukrainian cities in mass missile attack overnight — at least 14 dead, 91 injured  \n                       Russian mis",
+    "trigger": "mass missile attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776321004.0589902,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Trump and Vance may have abandoned Ukraine — but polls show the American people remain deeply committed  \n                       I",
