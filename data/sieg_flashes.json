@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776340804.4654064,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia slams Ukrainian cities in mass missile attack overnight — at least 17 dead, 98 injured  \n                       Russian mis",
-    "trigger": "mass missile attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776340804.4654064,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Trump and Vance may have abandoned Ukraine — but polls show the American people remain deeply committed  \n                       I",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776342603.768324,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776342603.768324,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776342603.768324,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776342603.768324,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone swarm batted away at Madagascar presidential palace — spokesman Harry Laurent Rahajason said that it could be \"an intimidati",
-    "trigger": "drone swarm",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1776342603.768324,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1776346204.1625068,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia slams Ukrainian cities in mass missile attack overnight — at least 17 dead, 98 injured  \n                       Russian mis",
+    "trigger": "mass missile attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776348004.278278,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776348004.278278,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Kyiv hit by deadly missile attack amid shortage of interceptors Al Jazeera’s Audrey Macalpine explains how Ukraine’s ballistic mis",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776348004.278278,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776348004.278278,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1776348004.278278,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 22 killed, 131 injured in Russian strikes across Ukraine over past day  \n                       A mass Russian missile an",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776348004.278278,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russia slams Ukrainian cities in mass missile attack overnight — at least 17 dead, 98 injured  \n                       Russian mis",
