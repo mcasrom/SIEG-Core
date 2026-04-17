@@ -1,6 +1,15 @@
 [
   {
-    "ts": 1776409204.6521888,
+    "ts": 1776411007.017005,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 22 killed, 131 injured in Russian strikes across Ukraine over past day  \n                       A mass Russian missile an",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776411007.017005,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
@@ -9,172 +18,163 @@
     "cf": 0.9
   },
   {
-    "ts": 1776409204.6521888,
+    "ts": 1776412805.4854808,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776412805.4854808,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776412805.4854808,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776412805.4854808,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Australia puts off hearing of espionage case against Russian-born couple to May — mission According to the diplomats, the court is",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1776412805.4854808,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 22 killed, 131 injured in Russian strikes across Ukraine over past day  \n                       A mass Russian missile an",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776412805.4854808,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1776414606.651359,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776414606.651359,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776414606.651359,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776414606.651359,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Australia puts off hearing of espionage case against Russian-born couple to May — mission According to the diplomats, the court is",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1776414606.651359,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 22 killed, 131 injured in Russian strikes across Ukraine over past day  \n                       A mass Russian missile an",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776414606.651359,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1776416405.8726594,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776416405.8726594,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776416405.8726594,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776416405.8726594,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 22 killed, 131 injured in Russian strikes across Ukraine over past day  \n                       A mass Russian missile an",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776416405.8726594,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1776416405.8726594,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian Strikes Kill at Least 15 in Ukraine in Biggest Attack in Months Moscow is again ramping up missile and drone attacks on ci",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776411007.017005,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776411007.017005,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776411007.017005,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776411007.017005,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Australia puts off hearing of espionage case against Russian-born couple to May — mission According to the diplomats, the court is",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1776411007.017005,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 22 killed, 131 injured in Russian strikes across Ukraine over past day  \n                       A mass Russian missile an",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776411007.017005,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776412805.4854808,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776412805.4854808,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776412805.4854808,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776412805.4854808,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Australia puts off hearing of espionage case against Russian-born couple to May — mission According to the diplomats, the court is",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1776412805.4854808,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 22 killed, 131 injured in Russian strikes across Ukraine over past day  \n                       A mass Russian missile an",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776412805.4854808,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776414606.651359,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776414606.651359,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776414606.651359,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776414606.651359,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Australia puts off hearing of espionage case against Russian-born couple to May — mission According to the diplomats, the court is",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1776414606.651359,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 22 killed, 131 injured in Russian strikes across Ukraine over past day  \n                       A mass Russian missile an",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776414606.651359,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
     "trigger": "drone attack",
     "score": 62,
     "cf": 0.9
