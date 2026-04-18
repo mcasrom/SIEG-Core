@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776425406.7867868,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776425406.7867868,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian Strikes Kill at Least 15 in Ukraine in Biggest Attack in Months Moscow is again ramping up missile and drone attacks on ci",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776513604.5888019,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776513604.5888019,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776513604.5888019,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776513604.5888019,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Trump’s post banning Israel from bombing Lebanon catches Netanyahu off guard — Axios According to sources cited by the news outlet",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1776513604.5888019,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Zelensky sanctions 121 Russian commanders responsible for missile attacks  \n                       Those sanctioned include comman",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776519004.8525531,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776519004.8525531,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776519004.8525531,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776519004.8525531,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 1 killed, 26 injured in Russian attacks across Ukraine over past day  \n                       Ukraine's Air Force said it",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776519004.8525531,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Zelensky sanctions 121 Russian commanders responsible for missile attacks  \n                       Those sanctioned include comman",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776519004.8525531,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Enlistment officers targeted in more than 600 attacks since start of full-scale invasion, officials say  \n                       T",
     "trigger": "invasion",
     "score": 62,
     "cf": 0.7
