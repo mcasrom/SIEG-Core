@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776573007.0635614,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Zelensky sanctions 121 Russian commanders responsible for missile attacks  \n                       Those sanctioned include comman",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776573007.0635614,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776574805.0001895,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776574805.0001895,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "North Korea launches ballistic missiles towards sea off its east coast Multiple ballistic missiles fired from eastern Sinpo area i",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776574805.0001895,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran war live: Tehran says no date set for US talks, Hormuz Strait closed IRGC says the Strait of Hormuz will remain closed until ",
-    "trigger": "strait closed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776574805.0001895,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 1 killed, 26 injured in Russian attacks across Ukraine over past day  \n                       Ukraine's Air Force said it",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1776574805.0001895,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine A Ukrainian drone attack killed two people in Russia, Mos",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1776580206.5624163,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776580206.5624163,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "North Korea launches ballistic missiles towards sea off its east coast Multiple ballistic missiles fired from eastern Sinpo area i",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776580206.5624163,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran war live: Tehran says no date set for US talks, Hormuz Strait closed IRGC says the Strait of Hormuz will remain closed until ",
+    "trigger": "strait closed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776580206.5624163,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 1 killed, 26 injured in Russian attacks across Ukraine over past day  \n                       Ukraine's Air Force said it",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776580206.5624163,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Zelensky sanctions 121 Russian commanders responsible for missile attacks  \n                       Those sanctioned include comman",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776580206.5624163,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
+    "trigger": "coup",
     "score": 62,
     "cf": 0.9
   }
