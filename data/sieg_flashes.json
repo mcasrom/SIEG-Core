@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776598206.5596268,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 1 killed, 26 injured in Russian attacks across Ukraine over past day  \n                       Ukraine's Air Force said it",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776598206.5596268,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776600004.7072494,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776600004.7072494,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran war: What is happening on day 51 of the US-Iran conflict? Tehran will keep the strategic Strait of Hormuz closed until Washin",
-    "trigger": "hormuz closed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776600004.7072494,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "North Korea launches ballistic missiles towards sea off its east coast Multiple ballistic missiles fired from eastern Sinpo area i",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776600004.7072494,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian air defense forces shoot down 274 Ukrainian UAVs over past day Six guided aerial bombs were shot down by air defense syste",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1776600004.7072494,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1776603604.6398797,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 1 killed, 26 injured in Russian attacks across Ukraine over past day  \n                       Ukraine's Air Force said it",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776605406.2899868,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776605406.2899868,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran war: What is happening on day 51 of the US-Israeli conflict? Tehran says it will keep the strategic Strait of Hormuz closed u",
+    "trigger": "hormuz closed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776605406.2899868,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776605406.2899868,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1776605406.2899868,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 3 killed, 26 injured in Russian attacks across Ukraine over past day  \n                       Ukraine's Air Force said it",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776605406.2899868,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "At least 1 killed, 26 injured in Russian attacks across Ukraine over past day  \n                       Ukraine's Air Force said it",
