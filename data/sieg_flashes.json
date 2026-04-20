@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776699006.405613,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Top Defense Ministry advisor injured in allegedly targeted Russian drone strike  \n                       Military communications e",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776699006.405613,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone attack on Kyiv Oblast damages homes, injures 1  \n                       Brovary has occasionally been the subject of",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776700807.0845861,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.4
-  },
-  {
-    "ts": 1776700807.0845861,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776700807.0845861,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
-    "trigger": "ballistic missile",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776700807.0845861,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Threat in nonproliferation, potential response to nuclear tests: senior diplomat’s remarks The Russian deputy foreign minister str",
-    "trigger": "nuclear test",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1776700807.0845861,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1776706206.8708258,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "US-Israeli attacks target 360 heath infrastructures  TEHRAN – Some 360 health infrastructures have been so far destroyed during th",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.4
+  },
+  {
+    "ts": 1776706206.8708258,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776706206.8708258,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Generation Jihad | Risky Raid Behind Enemy Lines  Bill Roggio and FDD Senior Analyst Cameron McMillan unravel the complex rescue o",
+    "trigger": "ballistic missile",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776706206.8708258,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Top Defense Ministry advisor injured in allegedly targeted Russian drone strike  \n                       Military communications e",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776706206.8708258,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone attack on Kyiv Oblast damages homes, injures 1  \n                       Brovary has occasionally been the subject of",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776706206.8708258,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.9
   }
 ]
