@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776954607.8707788,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776954607.8707788,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Makan Nasiri, the only child still missing from the school bombed in Iran After nearly seven weeks of searching for remains, autho",
-    "trigger": "bombed",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776956405.336103,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Makan Nasiri, the only child still missing from the school bombed in Iran After nearly seven weeks of searching for remains, autho",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776956405.336103,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776956405.336103,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776956405.336103,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drone attack on Dnipro kills 3, injures at least 10  \n                       Two people were killed and at least eight wer",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1776956405.336103,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1776960005.9582863,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1776961807.1265974,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Makan Nasiri, the only child still missing from the school bombed in Iran After nearly seven weeks of searching for remains, autho",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776961807.1265974,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776961807.1265974,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1776961807.1265974,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "12 Russian FSB officers killed in drone strike on command post in occupied Donetsk, Ukraine's military says  \n                    ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776961807.1265974,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drone attack on Dnipro kills 3, injures at least 10  \n                       Two people were killed and at least eight wer",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1776961807.1265974,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
