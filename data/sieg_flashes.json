@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1776994207.1083825,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 12 Russian FSB officers killed in Ukrainian drone strike on command post in occupied Donetsk  \n               ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776994207.1083825,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "12 Russian FSB officers killed in drone strike on command post in occupied Donetsk, Ukraine's military says  \n                    ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776994207.1083825,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1776996004.9129493,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump says he is keeping Strait of Hormuz closed, not Iran Donald Trump said he is the one keeping the Strait of Hormuz closed, no",
-    "trigger": "hormuz closed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1776996004.9129493,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1776996004.9129493,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
     "ts": 1776996004.9129493,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Rescue Effort for Russian Tanker Fails, in a New Era of Maritime Peril The ship, which carried fuel and natural gas, has been adri",
     "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1777001407.7110786,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump says he is keeping Strait of Hormuz closed, not Iran Donald Trump said he is the one keeping the Strait of Hormuz closed, no",
+    "trigger": "hormuz closed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777001407.7110786,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777001407.7110786,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777001407.7110786,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 12 Russian FSB officers killed in Ukrainian drone strike on command post in occupied Donetsk  \n               ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777001407.7110786,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "12 Russian FSB officers killed in drone strike on command post in occupied Donetsk, Ukraine's military says  \n                    ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777001407.7110786,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
+    "trigger": "coup",
     "score": 62,
     "cf": 0.9
   }
