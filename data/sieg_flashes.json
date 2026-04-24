@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777006805.0934637,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: 12 Russian FSB officers killed in Ukrainian drone strike on command post in occupied Donetsk  \n               ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777006805.0934637,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "12 Russian FSB officers killed in drone strike on command post in occupied Donetsk, Ukraine's military says  \n                    ",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777008607.203273,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Trump says he is keeping Strait of Hormuz closed, not Iran Donald Trump said he is the one keeping the Strait of Hormuz closed, no",
-    "trigger": "hormuz closed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777008607.203273,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777008607.203273,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777008607.203273,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian overnight strikes on Odesa residential buildings kill married couple, injure 15  \n                       A Russian drone a",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1777008607.203273,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -175,6 +121,60 @@
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "12 Russian FSB officers killed in drone strike on command post in occupied Donetsk, Ukraine's military says  \n                    ",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777014005.8909607,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Trump says he is keeping Strait of Hormuz closed, not Iran Donald Trump said he is the one keeping the Strait of Hormuz closed, no",
+    "trigger": "hormuz closed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777014005.8909607,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777014005.8909607,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777014005.8909607,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777014005.8909607,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight strikes on Odesa residential buildings kill married couple, injure 15  \n                       A Russian drone a",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777014005.8909607,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: 12 Russian FSB officers killed in Ukrainian drone strike on command post in occupied Donetsk  \n               ",
     "trigger": "drone strike",
     "score": 62,
     "cf": 0.7
