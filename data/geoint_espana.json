@@ -1,14 +1,14 @@
 {
-  "score": 22,
+  "score": 24,
   "disonancia": false,
   "conflict": false,
-  "timestamp": 1777114808.7279472,
-  "noticias_procesadas": 137,
+  "timestamp": 1777116784.4678915,
+  "noticias_procesadas": 60,
   "version": "V9.3",
-  "calidad_nivel": "VERDE",
-  "calidad_emoji": "\ud83d\udfe2",
-  "calidad_css": "green",
-  "fuentes_activas": 7,
-  "uso_fallback": true,
+  "calidad_nivel": "AZUL",
+  "calidad_emoji": "\ud83d\udd35",
+  "calidad_css": "blue",
+  "fuentes_activas": 3,
+  "uso_fallback": false,
   "uso_web": false
 }
