@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777073407.6491764,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "At least 6 killed, 40 injured in Russian attacks on Ukraine over past day  \n                       Russia launched two Iskander-M ",
-    "trigger": "ballistic missile",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777073407.6491764,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian overnight strikes on Odesa residential buildings kill married couple, injure 15  \n                       A Russian drone a",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777075208.6195128,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777075208.6195128,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777075208.6195128,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.9
-  },
-  {
-    "ts": 1777075208.6195128,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia, Ukraine trade 193 POWs each as commanders fired over starving soldiers scandal  \n                     ",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1777075208.6195128,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "At least 6 killed, 40 injured in Russian attacks on Ukraine over past day  \n                       Russia launched two Iskander-M ",
     "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777080607.577811,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777080607.577811,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777080607.577811,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1777080607.577811,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russia, Ukraine trade 193 POWs each as commanders fired over starving soldiers scandal  \n                     ",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777080607.577811,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "At least 6 killed, 40 injured in Russian attacks on Ukraine over past day  \n                       Russia launched two Iskander-M ",
+    "trigger": "ballistic missile",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777080607.577811,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian overnight strikes on Odesa residential buildings kill married couple, injure 15  \n                       A Russian drone a",
+    "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
   }
