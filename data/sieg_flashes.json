@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777104008.9265738,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Apartment building damaged in drone attack on Yekaterinburg — governor Denis Pasler says 50 people have been evacuated",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1777104008.9265738,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Zelensky makes first visit to Azerbaijan since Russia's full-scale invasion  \n                       President Volodymyr Zelensky ",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777105808.0500128,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777105808.0500128,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777105808.0500128,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.9
-  },
-  {
-    "ts": 1777105808.0500128,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Apartment building damaged in drone attack on Yekaterinburg — governor The governor said the entire region’s airspace was closed \"",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1777105808.0500128,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1777109407.8362072,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Zelensky makes first visit to Azerbaijan since Russia's full-scale invasion  \n                       President Volodymyr Zelensky ",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777111209.7331944,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777111209.7331944,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777111209.7331944,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1777111209.7331944,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Apartment building damaged in drone attack on Yekaterinburg — governor The governor said the entire region’s airspace was closed \"",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777111209.7331944,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Apartment building damaged in drone attack on Yekaterinburg — governor Denis Pasler says 50 people have been evacuated",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777111209.7331944,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Zelensky makes first visit to Azerbaijan since Russia's full-scale invasion  \n                       President Volodymyr Zelensky ",
