@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777167021.3518088,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Four people, including two children, injured near Belgorod in Ukrainian drone attack A separate drone attack targeted an apartment",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1777167021.3518088,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Reporter’s notebook: Inside Ukraine’s nuclear plants at war  \n                       Walking around a nuclear power plant in north",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777168814.8601034,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777168814.8601034,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777168814.8601034,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.9
-  },
-  {
-    "ts": 1777168814.8601034,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Reporter’s notebook: Inside Ukraine’s nuclear plants at war  \n                       Walking around a nuclear power plant in north",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1777168814.8601034,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1777172419.668606,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Reporter’s notebook: Inside Ukraine’s nuclear plants at war  \n                       Walking around a nuclear power plant in north",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777174203.8051038,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777174203.8051038,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777174203.8051038,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1777174203.8051038,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Air defenses down more than 40 drones over Sevastopol, two people injured — governor 43 drones were shot down over the sea and var",
+    "trigger": "shot down",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777174203.8051038,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Four people, including two children, injured near Belgorod in Ukrainian drone attack A separate drone attack targeted an apartment",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777174203.8051038,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Reporter’s notebook: Inside Ukraine’s nuclear plants at war  \n                       Walking around a nuclear power plant in north",
