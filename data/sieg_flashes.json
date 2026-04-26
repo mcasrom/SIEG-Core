@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777224616.2911048,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1777224616.2911048,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "New footage shows moment of deadly bus bombing in Colombia Newly released dashcam video shows the moment that a bomb-laden bus exp",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777226415.9157853,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "New footage shows moment of deadly bus bombing in Colombia Newly released dashcam video shows the moment that a bomb-laden bus exp",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777226415.9157853,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777226415.9157853,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777226415.9157853,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Reporter’s notebook: Inside Ukraine’s nuclear plants at war  \n                       Walking around a nuclear power plant in north",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1777226415.9157853,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1777230077.569133,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "New footage shows moment of deadly bus bombing in Colombia Newly released dashcam video shows the moment that a bomb-laden bus exp",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777231818.6126273,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "New footage shows moment of deadly bus bombing in Colombia Newly released dashcam video shows the moment that a bomb-laden bus exp",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777231818.6126273,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777231818.6126273,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777231818.6126273,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Reporter’s notebook: Inside Ukraine’s nuclear plants at war  \n                       Walking around a nuclear power plant in north",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777231818.6126273,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1777231818.6126273,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "New footage shows moment of deadly bus bombing in Colombia Newly released dashcam video shows the moment that a bomb-laden bus exp",
