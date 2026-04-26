@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777195817.882191,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Reporter’s notebook: Inside Ukraine’s nuclear plants at war  \n                       Walking around a nuclear power plant in north",
-    "trigger": "invasion",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777195817.882191,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukraine war latest: Russia, Ukraine trade 193 POWs each as commanders fired over starving soldiers scandal  \n                     ",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777197624.9763086,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777197624.9763086,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777197624.9763086,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.9
-  },
-  {
-    "ts": 1777197624.9763086,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Air defenses shot down 49 Ukrainian drones over Rusian regions in two hours It happened between 7:00 and 9:00 Moscow time",
-    "trigger": "shot down",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
     "ts": 1777197624.9763086,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -178,5 +124,59 @@
     "trigger": "invasion",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1777203020.727619,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777203020.727619,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777203020.727619,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1777203020.727619,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Reporter’s notebook: Inside Ukraine’s nuclear plants at war  \n                       Walking around a nuclear power plant in north",
+    "trigger": "invasion",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777203020.727619,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Ukraine war latest: Russia, Ukraine trade 193 POWs each as commanders fired over starving soldiers scandal  \n                     ",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777203020.727619,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.9
   }
 ]
