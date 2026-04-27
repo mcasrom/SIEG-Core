@@ -1,6 +1,15 @@
 [
   {
-    "ts": 1777303822.3566587,
+    "ts": 1777305622.407764,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777305622.407764,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
@@ -9,173 +18,164 @@
     "cf": 0.7
   },
   {
-    "ts": 1777303822.3566587,
+    "ts": 1777307418.2309105,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon Latest: Israel’s deadly attacks amid ceasefire breaches Israeli airstrikes hit southern Lebanon as ceasefire falters, kill",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777307418.2309105,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon cannot be bombed into sovereignty A sovereign Lebanon and a demilitarised Hezbollah cannot be achieved without a credible ",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777307418.2309105,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777307418.2309105,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777307418.2309105,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777307418.2309105,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777309217.0068688,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon Latest: Israel’s deadly attacks amid ceasefire breaches Israeli airstrikes hit southern Lebanon as ceasefire falters, kill",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777309217.0068688,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon cannot be bombed into sovereignty A sovereign Lebanon and a demilitarised Hezbollah cannot be achieved without a credible ",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777309217.0068688,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777309217.0068688,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777309217.0068688,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777309217.0068688,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777311022.3718367,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon Latest: Israel’s deadly attacks amid ceasefire breaches Israeli airstrikes hit southern Lebanon as ceasefire falters, kill",
+    "trigger": "airstrike",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777311022.3718367,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon cannot be bombed into sovereignty A sovereign Lebanon and a demilitarised Hezbollah cannot be achieved without a credible ",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777311022.3718367,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777311022.3718367,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777311022.3718367,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777311022.3718367,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Russian drones strike residential buildings, hotel in Odesa, injuring 14, including children  \n                       Russia launc",
     "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777305622.407764,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon Latest: Israel’s deadly attacks amid ceasefire breaches Israeli airstrikes hit southern Lebanon as ceasefire falters, kill",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777305622.407764,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon cannot be bombed into sovereignty A sovereign Lebanon and a demilitarised Hezbollah cannot be achieved without a credible ",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777305622.407764,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777305622.407764,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Guterres warns of number of nuclear warheads growing globally for first time in decades Some governments are openly mulling the ac",
-    "trigger": "nuclear warhead",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1777305622.407764,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777305622.407764,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777307418.2309105,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon Latest: Israel’s deadly attacks amid ceasefire breaches Israeli airstrikes hit southern Lebanon as ceasefire falters, kill",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777307418.2309105,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon cannot be bombed into sovereignty A sovereign Lebanon and a demilitarised Hezbollah cannot be achieved without a credible ",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777307418.2309105,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777307418.2309105,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1777307418.2309105,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777307418.2309105,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
-    "trigger": "mobilization",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777309217.0068688,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon Latest: Israel’s deadly attacks amid ceasefire breaches Israeli airstrikes hit southern Lebanon as ceasefire falters, kill",
-    "trigger": "airstrike",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777309217.0068688,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Lebanon cannot be bombed into sovereignty A sovereign Lebanon and a demilitarised Hezbollah cannot be achieved without a credible ",
-    "trigger": "bombed",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777309217.0068688,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777309217.0068688,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes On June 5, Ukrainian troops launched several ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1777309217.0068688,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777309217.0068688,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
-    "trigger": "mobilization",
     "score": 62,
     "cf": 0.7
   }
