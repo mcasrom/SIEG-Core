@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777291217.0684938,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Source of drone threat identified by special services — Kremlin The discussion arose in the context of drone attacks on the Urals",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1777291217.0684938,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "UAV attacks on Russian regions, Putin-Trump contacts: remarks by Kremlin spokesman As for reports that UAVs may have been launched",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1777293016.0784612,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777293016.0784612,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777293016.0784612,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.9
-  },
-  {
-    "ts": 1777293016.0784612,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
-    "trigger": "drone strike",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1777293016.0784612,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -176,6 +122,60 @@
     "icono": "🇷🇺",
     "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
     "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777298417.9483278,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Lebanon cannot be bombed into sovereignty A sovereign Lebanon and a demilitarised Hezbollah cannot be achieved without a credible ",
+    "trigger": "bombed",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777298417.9483278,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777298417.9483278,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777298417.9483278,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Drone strike kills driver near Zaporizhzhia nuclear plant, IAEA says  \n                       The U",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777298417.9483278,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Soldiers 'stop caring whether they survive' after 40 days on front line, Ukrainian study finds  \n                       The findin",
+    "trigger": "mobilization",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777298417.9483278,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drones strike residential buildings, hotel in Odesa, injuring 14, including children  \n                       Russia launc",
+    "trigger": "drone attack",
     "score": 62,
     "cf": 0.7
   }
