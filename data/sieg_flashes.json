@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777284029.0721395,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777284029.0721395,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
-    "trigger": "coup",
-    "score": 68,
-    "cf": 0.9
-  },
-  {
-    "ts": 1777284029.0721395,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Ukrainian drone attack on Zaporozhye nuke plant leaves driver killed The ZNPP called the incident an irreparable loss and a great ",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.3
-  },
-  {
-    "ts": 1777284029.0721395,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drones strike residential buildings, hotel in Odesa, injuring 14, including children  \n                       Russia launc",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777285820.699074,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777285820.699074,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
-    "trigger": "drone attack",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
     "ts": 1777285820.699074,
     "actor": "Iran_M_Oriente",
     "icono": "🇮🇷",
@@ -178,5 +124,59 @@
     "trigger": "mobilization",
     "score": 62,
     "cf": 0.7
+  },
+  {
+    "ts": 1777291217.0684938,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777291217.0684938,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777291217.0684938,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Couple discovers Lebanon home destroyed by Israel from satellite image Joe Elias contacted BBC Verify following reports that his v",
+    "trigger": "coup",
+    "score": 68,
+    "cf": 0.9
+  },
+  {
+    "ts": 1777291217.0684938,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "IN BRIEF: Staff member killed in Ukrainian drone strike on Zaporozhye nuke plant The ZNPP pledged full support and assistance to t",
+    "trigger": "drone strike",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777291217.0684938,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Source of drone threat identified by special services — Kremlin The discussion arose in the context of drone attacks on the Urals",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
+  },
+  {
+    "ts": 1777291217.0684938,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "UAV attacks on Russian regions, Putin-Trump contacts: remarks by Kremlin spokesman As for reports that UAVs may have been launched",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.3
   }
 ]
