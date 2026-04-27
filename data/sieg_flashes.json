@@ -1,59 +1,5 @@
 [
   {
-    "ts": 1777266012.8313787,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
-    "trigger": "coup",
-    "score": 62,
-    "cf": 0.9
-  },
-  {
-    "ts": 1777266012.8313787,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Bomb attack on Colombia highway kills 19 ahead of election Highway bombing in Colombia’s Cauca kills 19, injures dozens amid a sur",
-    "trigger": "bombing",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777267817.7023325,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Bomb attack on Colombia highway kills 19 ahead of election Highway bombing in Colombia’s Cauca kills 19, injures dozens amid a sur",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777267817.7023325,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "New footage shows moment of deadly bus bombing in Colombia Newly released dashcam video shows the moment that a bomb-laden bus exp",
-    "trigger": "bombing",
-    "score": 68,
-    "cf": 0.7
-  },
-  {
-    "ts": 1777267817.7023325,
-    "actor": "Iran_M_Oriente",
-    "icono": "🇮🇷",
-    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
-    "trigger": "iran attacks",
-    "score": 68,
-    "cf": 1.0
-  },
-  {
-    "ts": 1777267817.7023325,
-    "actor": "Rusia_Ucrania",
-    "icono": "🇷🇺",
-    "titulo": "Russian drones strike residential buildings, hotel in Odesa, injuring 10, including children  \n                       Russia launc",
-    "trigger": "drone attack",
-    "score": 62,
-    "cf": 0.7
-  },
-  {
     "ts": 1777267817.7023325,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
@@ -172,6 +118,60 @@
   },
   {
     "ts": 1777271416.750893,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Bomb attack on Colombia highway kills 19 ahead of election Highway bombing in Colombia’s Cauca kills 19, injures dozens amid a sur",
+    "trigger": "bombing",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777273219.8434675,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Bomb attack on Colombia highway kills 19 ahead of election Highway bombing in Colombia’s Cauca kills 19, injures dozens amid a sur",
+    "trigger": "bombing",
+    "score": 68,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777273219.8434675,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension  Tehran has refused to take an official position aft",
+    "trigger": "iran attacks",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777273219.8434675,
+    "actor": "Iran_M_Oriente",
+    "icono": "🇮🇷",
+    "titulo": "Syria focuses on diplomacy amid Iran war  Syria has sought to position itself as a diplomatic actor amid the regional conflict wit",
+    "trigger": "drone attack",
+    "score": 68,
+    "cf": 1.0
+  },
+  {
+    "ts": 1777273219.8434675,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Russian drones strike residential buildings, hotel in Odesa, injuring 11, including children  \n                       Russia launc",
+    "trigger": "drone attack",
+    "score": 62,
+    "cf": 0.7
+  },
+  {
+    "ts": 1777273219.8434675,
+    "actor": "Rusia_Ucrania",
+    "icono": "🇷🇺",
+    "titulo": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded Serhiy and Iryna married 40 years ago, unaware a n",
+    "trigger": "coup",
+    "score": 62,
+    "cf": 0.9
+  },
+  {
+    "ts": 1777273219.8434675,
     "actor": "Rusia_Ucrania",
     "icono": "🇷🇺",
     "titulo": "Bomb attack on Colombia highway kills 19 ahead of election Highway bombing in Colombia’s Cauca kills 19, injures dozens amid a sur",
